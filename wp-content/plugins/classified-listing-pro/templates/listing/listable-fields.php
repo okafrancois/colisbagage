@@ -21,7 +21,7 @@ if ( count( $fields ) ) :
 		$value = $field->getFormattedCustomFieldValue( $listing_id );
 		if ( $value ) :
 			?>
-            <div class='rtcl-listable-item <?php echo $field->getSlug() ?>'>
+            <div class='rtcl-listable-item <?php echo $field->getSlug(); Functions::print_html( $value )?>'>
                 <span class='listable-label'><?php echo esc_html( $field->getLabel() ) ?></span>
                 <span class='listable-value'><?php Functions::print_html( $value ); ?></span>
             </div>
