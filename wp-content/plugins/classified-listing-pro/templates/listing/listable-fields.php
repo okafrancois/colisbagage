@@ -23,6 +23,12 @@ if ( count( $fields ) ) :
 			?>
             <div class='rtcl-listable-item <?php echo $field->getSlug()?> <?php Functions::print_html( $value );?>'>
                 <span class='listable-label'><?php echo esc_html( $field->getLabel() ) ?></span>
+                <?php if ( $field->getLabel() === 'courrier' ) : ?>
+                    <?php $value .= ' g'; // append 'g' to the value ?>
+                <?php endif; ?>
+                <?php if ( $field->getLabel() === 'colis' ) : ?>
+                    <?php $value .= ' kg'; ?>
+                <?php endif; ?>
                 <span class='listable-value'><?php Functions::print_html( $value ); ?></span>
             </div>
 		<?php endif;
