@@ -32,7 +32,7 @@ if ( count( $fields ) ) :
                             echo $value . ' <span class="listable-value__unit">g max</span>';
                             break;
                         default:
-                            echo $value;
+                            echo $value . ' <span class="listable-value__unit">Kg</span>';
                     } ?>
                 </span>
             </div>
