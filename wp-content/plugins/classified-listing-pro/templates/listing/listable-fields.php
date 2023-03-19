@@ -25,7 +25,6 @@ if ( count( $fields ) ) :
                 <span class='listable-label'><?php echo esc_html( $field->getLabel() ) ?></span>
                 <span class='listable-value'>
                     <?php switch($field->getSlug()) {
-                        case 'quantite':
                         case 'quantite-en-kg':
                             echo $value . ' <span class="listable-value__unit">Kg</span>';
                             break;
@@ -33,7 +32,12 @@ if ( count( $fields ) ) :
                             echo $value . ' <span class="listable-value__unit">g max</span>';
                             break;
                         default:
-                            echo $value;
+                            // split the value to get the number and the unit
+                            $value = explode(' ', $value);
+                            // get the number
+                            $number = $value[0];
+                            // get the unit
+                            echo $number . ' <span class="listable-value__unit">Kg</span>';
                     } ?>
                 </span>
             </div>
