@@ -23,13 +23,18 @@ if ( count( $fields ) ) :
 			?>
             <div class='rtcl-listable-item <?php echo $field->getSlug()?> <?php Functions::print_html( $value );?>'>
                 <span class='listable-label'><?php echo esc_html( $field->getLabel() ) ?></span>
-                <?php if ( $field->getLabel() === 'courrier' ) : ?>
-                    <?php $value .= ' g'; // append 'g' to the value ?>
-                <?php endif; ?>
-                <?php if ( $field->getLabel() === 'colis' ) : ?>
-                    <?php $value .= ' kg'; ?>
-                <?php endif; ?>
-                <span class='listable-value'><?php Functions::print_html( $value ); ?></span>
+                <span class='listable-value'>
+                    <?php switch($field->getSlug()) {
+                        case 'quantite-en-kg':
+                            echo $value . ' <span class="listable-value__unit">Kg</span>';
+                            break;
+                        case 'quantite-gramme':
+                            echo $value . ' <span class="listable-value__unit">g max</span>';
+                            break;
+                        default:
+                            echo $value . ' <span class="listable-value__unit">Kg</span>';
+                    } ?>
+                </span>
             </div>
 		<?php endif;
 	endforeach;
