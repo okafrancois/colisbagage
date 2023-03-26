@@ -254,6 +254,3 @@ use RtclPro\Helpers\Fns;
 		<?php } ?>
 	</div>
 </div>
-
-
-
