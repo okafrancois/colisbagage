@@ -29,7 +29,7 @@ if ( count( $fields ) ) :
                             echo $value . ' <span class="listable-value__unit">Kg</span>';
                             break;
                         case 'quantite-courriel':
-                            echo $value . ' <span class="listable-value__unit">g max</span>';
+                            echo $value . ' <span class="listable-value__unit">g</span>';
                             break;
                         case 'quantite-bagage':
                             // split the value to get the number and the unit
