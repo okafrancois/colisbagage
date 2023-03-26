@@ -25,13 +25,13 @@ if ( count( $fields ) ) :
                 <span class='listable-label'><?php echo esc_html( $field->getLabel() ) ?></span>
                 <span class='listable-value'>
                     <?php switch($field->getSlug()) {
-                        case 'quantite-en-kg':
+                        case 'quantite-colis':
                             echo $value . ' <span class="listable-value__unit">Kg</span>';
                             break;
-                        case 'quantite-gramme':
+                        case 'quantite-courriel':
                             echo $value . ' <span class="listable-value__unit">g max</span>';
                             break;
-                        case 'quantite':
+                        case 'quantite-bagage':
                             // split the value to get the number and the unit
                             $value = explode(' ', $value);
                             // get the number
