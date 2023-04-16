@@ -47,6 +47,9 @@ $currency_symbol = Functions::get_currency_symbol($currency);
 					data-label="<?php esc_html_e("Description:", "classified-listing"); ?>">
 					<?php Functions::print_html($description, true); ?>
 				</td>
+				<td class="rtcl-pricing-price text-right">
+					<?php echo Functions::get_payment_formatted_price($price); echo $currency_symbol?>
+				</td>
 				<td class="rtcl-pricing-visibility"
 					data-label="<?php esc_html_e("Visibility:", "classified-listing"); ?>">
 					<?php
@@ -58,9 +61,6 @@ $currency_symbol = Functions::get_currency_symbol($currency);
 						}
 					}
 					?>
-				</td>
-				<td class="rtcl-pricing-price text-right">
-					<?php echo Functions::get_payment_formatted_price($price); echo $currency_symbol?>
 				</td>
 			</tr>
 		<?php endforeach;
