@@ -59,10 +59,9 @@ $currency_symbol = Functions::get_currency_symbol($currency);
 					}
 					?>
 				</td>
-				<td class="rtcl-pricing-price text-right"
-					data-label="<?php printf(__('Price [%s %s]:', 'classified-listing'),
-						$currency,
-						$currency_symbol); ?>"><?php echo Functions::get_payment_formatted_price($price); ?> </td>
+				<td class="rtcl-pricing-price text-right">
+					<?php echo Functions::get_payment_formatted_price($price); echo $currency_symbol?>
+				</td>
 			</tr>
 		<?php endforeach;
 	else: ?>
