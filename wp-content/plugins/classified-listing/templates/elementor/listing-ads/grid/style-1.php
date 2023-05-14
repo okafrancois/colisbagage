@@ -94,7 +94,7 @@ use RtclPro\Helpers\Fns;
 									$selected_class = ' selected';
 								}
 								?>
-								<a class="rtcl-compare <?php echo esc_attr( $selected_class ); ?>" href="#" title="<?php esc_attr_e( 'Compare', 'classified-listing-pro' ); ?>" data-listing_id="<?php echo absint( $_id ); ?>">
+								<a class="rtcl-compare <?php echo esc_attr( $selected_class ); ?>" href="#" title="<?php esc_attr_e( 'Compare', 'classified-listing' ); ?>" data-listing_id="<?php echo absint( $_id ); ?>">
 									<i class="rtcl-icon rtcl-icon-retweet"></i>
 								</a>
 							</div>
@@ -242,7 +242,7 @@ use RtclPro\Helpers\Fns;
 
 		</div>
 		<?php if ( ! empty( $instance['rtcl_listing_pagination'] ) ) { ?>
-			<?php Pagination::pagination( $the_loops ); ?>
+			<?php Pagination::pagination( $the_loops, true ); ?>
 		<?php } ?>
 	</div>
 </div>

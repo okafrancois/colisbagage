@@ -35,8 +35,9 @@ class MetaData implements JsonSerializable {
     /**
      * When converted to JSON.
      *
-     * @return object
+     * @return object|array
      */
+	#[\ReturnTypeWillChange]
     public function jsonSerialize() {
         return $this->get_data();
     }

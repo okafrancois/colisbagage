@@ -28,7 +28,7 @@ global $post;
             <form action="<?php echo esc_url( Link::get_account_endpoint_url("listings") ); ?>" class="form-inline">
                 <label class="sr-only" for="search-ml"><?php esc_html_e("Name", "classified-listing") ?></label>
                 <input type="text" id="search-ml" name="u" class="form-control mb-2 mr-sm-2"
-                       placeholder="<?php esc_html_e("Search by title", 'classified-listing'); ?>"
+                       placeholder="<?php esc_attr_e("Search by title", 'classified-listing'); ?>"
                        value="<?php echo isset($_GET['u']) ? esc_attr(wp_unslash($_GET['u'])) : ''; ?>">
                 <button type="submit"
                         class="btn btn-primary mb-2"><?php esc_html_e("Search", 'classified-listing'); ?></button>

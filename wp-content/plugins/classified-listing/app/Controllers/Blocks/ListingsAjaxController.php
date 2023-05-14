@@ -26,15 +26,15 @@ class ListingsAjaxController {
 		$data['locations']        = ! empty( $data['locations'] ) ? wp_list_pluck( $data['locations'], 'value' ) : [];
 		$data['promotion_in']     = ! empty( $data['promotion_in'] ) ? wp_list_pluck( $data['promotion_in'], 'value' ) : [];
 		$data['promotion_not_in'] = ! empty( $data['promotion_not_in'] ) ? wp_list_pluck( $data['promotion_not_in'], 'value' ) : [];
-		$listing_type             = ! empty( $data['listing_type'] ) ? $data['listing_type'] : 'all';
-		$orderby                  = ! empty( $data['orderby'] ) ? $data['orderby'] : 'date';
-		$order                    = ! empty( $data['sortby'] ) ? $data['sortby'] : 'desc';
-		$data['perPage']          = isset( $data['perPage'] ) ? $data['perPage'] : 8;
+		$listing_type             = ! empty( $data['listing_type'] ) ? sanitize_text_field($data['listing_type']) : 'all';
+		$orderby                  = ! empty( $data['orderby'] ) ? sanitize_text_field($data['orderby']) : 'date';
+		$order                    = ! empty( $data['sortby'] ) ? sanitize_text_field($data['sortby']) : 'desc';
+		$data['perPage']          = isset( $data['perPage'] ) ? intval($data['perPage']) : 8;
 
 		$args = [
 			'post_type'      => 'rtcl_listing',
 			'post_status'    => 'publish',
-			'posts_per_page' => $data['perPage'],
+			'posts_per_page' => intval($data['perPage']),
 			//'offset' => $offset,
 			'tax_query'      => [
 				'relation' => 'AND',
@@ -147,7 +147,7 @@ class ListingsAjaxController {
 
 			if ( rtcl()->has_pro() ) {
 				if ( $listing && Fns::is_enable_mark_as_sold() && Fns::is_mark_as_sold( $listing->get_id() ) ) {
-					$sold_item = '<span class="rtcl-sold-out">' . apply_filters( 'rtcl_sold_out_banner_text', esc_html__( "Sold Out", 'classified-listing-pro' ) ) . '</span>';
+					$sold_item = '<span class="rtcl-sold-out">' . apply_filters( 'rtcl_sold_out_banner_text', esc_html__( "Sold Out", 'classified-listing' ) ) . '</span>';
 				}
 			}
 

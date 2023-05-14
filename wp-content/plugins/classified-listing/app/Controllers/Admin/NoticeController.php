@@ -52,7 +52,7 @@ class NoticeController {
 			$rated        = add_query_arg( $args + [ 'rtcl_rated' => '1' ], $this->current_admin_url() );
 			$reviewUrl    = 'https://wordpress.org/support/plugin/classified-listing/reviews/?filter=5#new-post';
 
-			printf( __( '<div class="notice rtcl-review-notice rtcl-review-notice--extended">
+			printf( '<div class="notice rtcl-review-notice rtcl-review-notice--extended">
                 <div class="rtcl-review-notice_content">
                     <h3>Enjoying Classified Listing?</h3>
                     <p>Thank you for choosing The Classified Listing. If you have found our plugin useful and makes you smile, please consider giving us a 5-star rating on WordPress.org. It will help us to grow.</p>
@@ -63,7 +63,7 @@ class NoticeController {
                         <a href="%s" class="rtcl-review-button rtcl-review-button--cta rtcl-review-button--error rtcl-review-button--outline"><span>😐 No Thanks</span></a>
                     </div>
                 </div>
-            </div>' ), esc_url( $reviewUrl ), esc_url( $rated ), esc_url( $remind_me ), esc_url( $dont_disturb ) );
+            </div>', esc_url( $reviewUrl ), esc_url( $rated ), esc_url( $remind_me ), esc_url( $dont_disturb ) );
 
 			echo '<style> 
             .rtcl-review-button--cta {

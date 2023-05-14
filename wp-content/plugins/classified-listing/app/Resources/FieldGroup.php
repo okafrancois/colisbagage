@@ -19,7 +19,7 @@ class FieldGroup
                 <h2 class="hndle"><?php _e("Where to include this Field Group", 'classified-listing') ?></h2>
                 <div class="handle-actions hide-if-no-js">
                     <button type="button" class="handlediv" aria-expanded="true">
-                        <span class="screen-reader-text"><?php _e("Listing meta field category','classified-listing") ?></span>
+                        <span class="screen-reader-text"><?php _e('Listing meta field category','classified-listing') ?></span>
                         <span class="toggle-indicator" aria-hidden="false"><br></span>
                     </button>
                 </div>
@@ -44,8 +44,8 @@ class FieldGroup
             </div>
         </div>
         <div id="rtcl-cfg-wrapper">
-            <a class="rtcl-cf-add-new button" data-dialog-title="<?php esc_html_e("Add New Field", "classified-listing"); ?>"
-               data-message-loading="<?php esc_html_e("Please Wait, Loading…", "classified-listing"); ?>">
+            <a class="rtcl-cf-add-new button" data-dialog-title="<?php esc_attr_e("Add New Field", "classified-listing"); ?>"
+               data-message-loading="<?php esc_attr_e("Please Wait, Loading…", "classified-listing"); ?>">
                 <span class="dashicons dashicons-plus"></span> <?php _e("Add New Field", "classified-listing") ?>
             </a>
             <div id="rtcl-cfg">
@@ -59,8 +59,8 @@ class FieldGroup
                 }
                 ?>
             </div>
-            <a class="rtcl-cf-add-new button" data-dialog-title="<?php esc_html_e("Add New Field", "classified-listing"); ?>"
-               data-message-loading="<?php esc_html_e("Please Wait, Loading…", "classified-listing"); ?>">
+            <a class="rtcl-cf-add-new button" data-dialog-title="<?php esc_attr_e("Add New Field", "classified-listing"); ?>"
+               data-message-loading="<?php esc_attr_e("Please Wait, Loading…", "classified-listing"); ?>">
                 <span class="dashicons dashicons-plus"></span> <?php _e("Add New Field", "classified-listing") ?>
             </a>
         </div>

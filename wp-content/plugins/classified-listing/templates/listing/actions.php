@@ -37,13 +37,15 @@ if ( ! $can_add_favourites && ! $can_report_abuse && ! $social ) {
 				<?php endif; ?>
             </li>
 		<?php endif; ?>
+		<?php do_action( 'rtcl_single_action_after_list_item', $listing_id ); ?>
 		<?php if ( $social ): ?>
             <li class="list-group-item rtcl-sidebar-social">
 				<?php echo wp_kses_post( $social ); ?>
             </li>
 		<?php endif; ?>
-		<?php do_action( 'rtcl_single_action_after_list_item', $listing_id ); ?>
     </ul>
+
+<?php do_action( 'rtcl_single_listing_after_action', $listing_id ); ?>
 
 <?php if ( $can_report_abuse ) { ?>
     <div class="modal fade rtcl-bs-modal" id="rtcl-report-abuse-modal" tabindex="-1" role="dialog">

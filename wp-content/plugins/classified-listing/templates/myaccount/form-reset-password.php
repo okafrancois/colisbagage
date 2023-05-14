@@ -45,7 +45,7 @@ Functions::print_notices(); ?>
 
     <div class="form-group">
         <input type="submit" name="rtcl-reset-password" class="btn btn-primary"
-               value="<?php esc_html_e('Reset Password', 'classified-listing'); ?>"/>
+               value="<?php esc_attr_e('Reset Password', 'classified-listing'); ?>"/>
     </div>
     <?php wp_nonce_field('reset_password'); ?>
 

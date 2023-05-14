@@ -604,7 +604,7 @@ class AllLocationsSettings extends ElementorWidgetBase {
 			array(
 				'mode'  => 'tab_start',
 				'id'    => 'rtcl_child_list_tab_color',
-				'label' => esc_html__( 'Normal', 'elementor' ),
+				'label' => esc_html__( 'Normal', 'classified-listing' ),
 				'condition' => array(
 					'rtcl_location_grid_style' => 'style-2',
 				),
@@ -633,7 +633,7 @@ class AllLocationsSettings extends ElementorWidgetBase {
 			array(
 				'mode'  => 'tab_start',
 				'id'    => 'child_list_color_tab_hover',
-				'label' => esc_html__( 'Hover', 'elementor' ),
+				'label' => esc_html__( 'Hover', 'classified-listing' ),
 				'condition' => array(
 					'rtcl_location_grid_style' => 'style-2',
 				),

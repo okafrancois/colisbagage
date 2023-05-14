@@ -15,4 +15,4 @@ if (empty($listing)) return;
 //Make sure div has no empty space to hide it when empty
 
 ?>
-<div class='rtcl-listing-badge-wrap test'><?php do_action('rtcl_listing_badges', $listing); ?></div>
+<div class='rtcl-listing-badge-wrap'><?php do_action('rtcl_listing_badges', $listing); ?></div>

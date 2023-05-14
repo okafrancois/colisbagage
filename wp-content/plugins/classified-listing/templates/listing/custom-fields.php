@@ -18,7 +18,7 @@ if ( count( $fields ) ) :
 		$value = $field->getFormattedCustomFieldValue( $listing_id );
 
 		if ( ! empty( $value ) ) : ?>
-            <li class="list-group-item <?php echo esc_html( $field->getLabel() ) ?> rtcl-field-<?php echo esc_attr( $field->getType() ) ?>">
+            <li class="list-group-item rtcl-field-<?php echo esc_attr( $field->getType() ) ?>">
 				<?php if ( $field->getType() === 'url' ):
 					$nofollow = ! empty( $field->getNofollow() ) ? ' rel="nofollow"' : ''; ?>
                     <a href="<?php echo esc_url( $value ); ?>" target="<?php echo esc_attr( $field->getTarget() ) ?>"<?php echo esc_html( $nofollow ) ?>><?php echo esc_html( $field->getLabel() ) ?></a>

@@ -313,7 +313,10 @@ class Options {
 	}
 
 	static function get_listing_promotions() {
-		$promotions = [ 'featured' => esc_html__( 'Featured', 'classified-listing' ) ];
+		$featured_label = Functions::get_option_item( 'rtcl_moderation_settings', 'listing_featured_label' );
+		$featured_label = $featured_label ?: esc_html__( "Featured", "classified-listing" );
+		
+		$promotions = [ 'featured' => $featured_label ];
 
 		return apply_filters( 'rtcl_listing_promotions', $promotions );
 	}
@@ -1771,16 +1774,16 @@ class Options {
 				'short' => esc_html__( "per day", 'classified-listing' )
 			],
 			'hour'  => [
-				'title' => esc_html__( "Le bagage", 'classified-listing' ),
-				'short' => esc_html__( "par bagage", 'classified-listing' )
+				'title' => esc_html__( "Hour", 'classified-listing' ),
+				'short' => esc_html__( "per hour", 'classified-listing' )
 			],
 			'sqft'  => [
-				'title' => esc_html__( "Kilogramme", 'classified-listing' ),
-				'short' => esc_html__( "/ kg", 'classified-listing' )
+				'title' => esc_html__( "Square Feet", 'classified-listing' ),
+				'short' => esc_html__( "per sqft", 'classified-listing' )
 			],
 			'total' => [
-				'title' => esc_html__( "Total", 'classified-listing' ),
-				'short' => esc_html__( "Total", 'classified-listing' )
+				'title' => esc_html__( "Total Price", 'classified-listing' ),
+				'short' => esc_html__( "total price", 'classified-listing' )
 			]
 		];
 

@@ -51,7 +51,7 @@ if (isset($settings['className'])) {
 							<label for="rtc-geo-search"><?php esc_html_e('Location', 'classified-listing'); ?></label>
 						<?php } ?>
 						<div class="rtc-geo-search-wrapper">
-							<input id='rtc-geo-search' type="text" name="geo_address" autocomplete="off" value="<?php echo !empty($_GET['geo_address']) ? esc_attr($_GET['geo_address']) : ''; ?>" placeholder="<?php esc_html_e('Select a location', 'classified-listing'); ?>" class="form-control rtcl-geo-address-input" />
+							<input id='rtc-geo-search' type="text" name="geo_address" autocomplete="off" value="<?php echo !empty($_GET['geo_address']) ? esc_attr($_GET['geo_address']) : ''; ?>" placeholder="<?php esc_attr_e('Select a location', 'classified-listing'); ?>" class="form-control rtcl-geo-address-input" />
 							<i class="rtcl-get-location rtcl-icon rtcl-icon-target"></i>
 							<input type="hidden" class="latitude" name="center_lat" value="<?php echo !empty($_GET['center_lat']) ? esc_attr($_GET['center_lat']) : ''; ?>">
 							<input type="hidden" class="longitude" name="center_lng" value="<?php echo !empty($_GET['center_lng']) ? esc_attr($_GET['center_lng']) : ''; ?>">
@@ -207,14 +207,14 @@ if (isset($settings['className'])) {
 							<label for="rtcl-search-price-min"><?php esc_html_e('Min Price', 'classified-listing'); ?></label>
 						<?php } ?>
 						<?php $min_price = isset($_GET['filters']['price']['min']) ? $_GET['filters']['price']['min'] : ''; ?>
-						<input id='rtcl-search-price-min' type="text" name="filters[price][min]" class="form-control" placeholder="<?php esc_html_e('Min', 'classified-listing'); ?>" value="<?php echo esc_attr($min_price); ?>">
+						<input id='rtcl-search-price-min' type="text" name="filters[price][min]" class="form-control" placeholder="<?php esc_attr_e('Min', 'classified-listing'); ?>" value="<?php echo esc_attr($min_price); ?>">
 					</div>
 					<div class="form-group ws-item ws-price  price-field col-md-6 col-xs-6">
 						<?php if ($settings['fields_label']) { ?>
 							<label for="rtcl-search-price-max"><?php esc_html_e('Max Price', 'classified-listing'); ?></label>
 						<?php } ?>
 						<?php $max_price = isset($_GET['filters']['price']['max']) ? $_GET['filters']['price']['max'] : ''; ?>
-						<input id='rtcl-search-price-max' type="text" name="filters[price][max]" class="form-control" placeholder="<?php esc_html_e('Max', 'classified-listing'); ?>" value="<?php echo esc_attr($max_price); ?>">
+						<input id='rtcl-search-price-max' type="text" name="filters[price][max]" class="form-control" placeholder="<?php esc_attr_e('Max', 'classified-listing'); ?>" value="<?php echo esc_attr($max_price); ?>">
 					</div>
 				<?php endif; ?>
 				<?php if ($settings['keyword_field']) : ?>
@@ -228,7 +228,7 @@ if (isset($settings['className'])) {
 									<?php esc_html_e('Keyword', 'classified-listing'); ?></label>
 							<?php } ?>
 							<div class="keywords-field-wrapper">
-								<input type="text" name="q" data-type="listing" class="rtcl-autocomplete form-control" placeholder="<?php esc_html_e('Enter your keyword here ...', 'classified-listing'); ?>" value="<?php echo esc_html($keywords); ?>">
+								<input type="text" name="q" data-type="listing" class="rtcl-autocomplete form-control" placeholder="<?php esc_attr_e('Enter your keyword here ...', 'classified-listing'); ?>" value="<?php echo esc_html($keywords); ?>">
 							</div>
 						</div>
 					</div>

@@ -30,7 +30,7 @@ if ( apply_filters( 'rtcl_show_listing_terms_conditions', true ) && Functions::g
 					<?php Functions::terms_and_conditions_checkbox_text(); ?>
                 </label>
                 <div class="with-errors help-block"
-                     data-error="<?php esc_html_e( "This field is required", 'classified-listing' ) ?>"></div>
+                     data-error="<?php esc_attr_e( "This field is required", 'classified-listing' ) ?>"></div>
             </div>
         </div>
     </div>

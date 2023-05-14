@@ -47,7 +47,7 @@ class IconSettings {
 			],
 			
 			'icon_size'           => [
-				'label'      => esc_html__( 'Font Size', 'shopbuilder' ),
+				'label'      => esc_html__( 'Font Size', 'classified-listing' ),
 				'type'      => 'slider',
 				'size_units' => [ 'px' ],
 				'range'     => [
@@ -64,7 +64,7 @@ class IconSettings {
 			
 			
 			'icon_border_radius'           => [
-				'label'      => esc_html__( 'Border Radius', 'shopbuilder' ),
+				'label'      => esc_html__( 'Border Radius', 'classified-listing' ),
 				'size_units' => [ 'px' ],
 				'type'       => 'dimensions',
 				'selectors'  => [
@@ -80,7 +80,7 @@ class IconSettings {
 			// Tab For Normal view.
 			'icon_color_tab' => array(
 				'mode'  => 'tab_start',
-				'label' => esc_html__( 'Normal', 'elementor' ),
+				'label' => esc_html__( 'Normal', 'classified-listing' ),
 			),
 			'icon_bg_color' => array(
 				'type'      => 'color',
@@ -126,7 +126,7 @@ class IconSettings {
 			// Tab For Hover view.
 			'icon_color_tab_hover' => array(
 				'mode'  => 'tab_start',
-				'label' => esc_html__( 'Hover', 'elementor' ),
+				'label' => esc_html__( 'Hover', 'classified-listing' ),
 			),
 			'icon_bg_color_hover' => array(
 				'type'      => 'color',

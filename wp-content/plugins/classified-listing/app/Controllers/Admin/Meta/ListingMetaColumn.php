@@ -19,10 +19,13 @@ class ListingMetaColumn
 	}
 
 	function listing_get_columns($columns) {
+		$featured_label = Functions::get_option_item( 'rtcl_moderation_settings', 'listing_featured_label' );
+		$top_label  	= Functions::get_option_item( 'rtcl_moderation_settings', 'listing_top_label' );
+		
 		$new_columns = array(
 			'views'       => esc_html__('Views', 'classified-listing'),
-			'featured'    => esc_html__('Featured', 'classified-listing'),
-			'_top'        => esc_html__('Top', 'classified-listing'),
+			'featured'    => $featured_label ?: esc_html__( "Featured", "classified-listing" ),
+			'_top'        => $top_label ?: esc_html__( "Top", "classified-listing-pro" ),
 			'posted_date' => esc_html__('Posted Date', 'classified-listing'),
 			'expiry_date' => esc_html__('Expires on', 'classified-listing'),
 			'status'      => esc_html__('Status', 'classified-listing')

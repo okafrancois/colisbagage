@@ -421,7 +421,7 @@ trait UtilityTrait {
 					?>
 				</label>
 				<div class="with-errors help-block"
-					 data-error="<?php esc_html_e( 'This field is required', 'classified-listing' ); ?>"></div>
+					 data-error="<?php esc_attr_e( 'This field is required', 'classified-listing' ); ?>"></div>
 			</div>
 		</div>
 		<?php

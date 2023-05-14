@@ -55,7 +55,7 @@ class Text
 
     public static function string_translation($string) {
 
-        return apply_filters('rtcl_text_string_translation', __($string, "classified-listing"));
+        return apply_filters('rtcl_text_string_translation', $string);
     }
 
     public static function get_default_registration_privacy_policy_text() {

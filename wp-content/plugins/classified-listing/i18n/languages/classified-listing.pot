@@ -6,7 +6,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-03-01 07:13+0000\n"
+"POT-Creation-Date: 2023-04-28 10:04+0000\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -19,51 +19,51 @@ msgstr ""
 msgid "Generic add/update/get meta methods should not be used for internal meta data, including \"%s\". Use getters and setters."
 msgstr ""
 
-#: ../../app/Abstracts/ElementorWidgetBase.php:105, ../../app/Abstracts/ElementorWidgetBaseV2.php:51
+#: ../../app/Abstracts/ElementorWidgetBase.php:113, ../../app/Abstracts/ElementorWidgetBaseV2.php:51
 msgid "Go Premium for More Features"
 msgstr ""
 
-#: ../../app/Abstracts/ElementorWidgetBase.php:285, ../../app/Resources/Options.php:132, ../../app/Resources/Options.php:343
+#: ../../app/Abstracts/ElementorWidgetBase.php:293, ../../app/Resources/Options.php:132, ../../app/Resources/Options.php:346
 msgid "Left"
 msgstr ""
 
-#: ../../app/Abstracts/ElementorWidgetBase.php:289, ../../app/Controllers/Elementor/ELWidgetsTraits/ElSliderTrait.php:129
+#: ../../app/Abstracts/ElementorWidgetBase.php:297, ../../app/Controllers/Elementor/ELWidgetsTraits/ElSliderTrait.php:129
 msgid "Center"
 msgstr ""
 
-#: ../../app/Abstracts/ElementorWidgetBase.php:293, ../../app/Resources/Options.php:342
+#: ../../app/Abstracts/ElementorWidgetBase.php:301, ../../app/Resources/Options.php:345
 msgid "Right"
 msgstr ""
 
-#: ../../app/Abstracts/ElementorWidgetBase.php:388
+#: ../../app/Abstracts/ElementorWidgetBase.php:396
 msgid "Column 8"
 msgstr ""
 
-#: ../../app/Abstracts/ElementorWidgetBase.php:389
+#: ../../app/Abstracts/ElementorWidgetBase.php:397
 msgid "Column 7"
 msgstr ""
 
-#: ../../app/Abstracts/ElementorWidgetBase.php:390
+#: ../../app/Abstracts/ElementorWidgetBase.php:398
 msgid "Column 6"
 msgstr ""
 
-#: ../../app/Abstracts/ElementorWidgetBase.php:391
+#: ../../app/Abstracts/ElementorWidgetBase.php:399
 msgid "Column 5"
 msgstr ""
 
-#: ../../app/Abstracts/ElementorWidgetBase.php:392
+#: ../../app/Abstracts/ElementorWidgetBase.php:400
 msgid "Column 4"
 msgstr ""
 
-#: ../../app/Abstracts/ElementorWidgetBase.php:393
+#: ../../app/Abstracts/ElementorWidgetBase.php:401
 msgid "Column 3"
 msgstr ""
 
-#: ../../app/Abstracts/ElementorWidgetBase.php:394
+#: ../../app/Abstracts/ElementorWidgetBase.php:402
 msgid "Column 2"
 msgstr ""
 
-#: ../../app/Abstracts/ElementorWidgetBase.php:395
+#: ../../app/Abstracts/ElementorWidgetBase.php:403
 msgid "Column 1"
 msgstr ""
 
@@ -95,7 +95,7 @@ msgstr ""
 msgid "Data retrieve done"
 msgstr ""
 
-#: ../../app/Controllers/BlockController.php:295, ../../app/Controllers/BlockController.php:301, ../../app/Controllers/BlockController.php:306, ../../app/Controllers/BlockController.php:309, ../../app/Controllers/Elementor/ELWidgetsTraits/ElSliderTrait.php:152, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingStyleTrait.php:43, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingStyleTrait.php:60, ../../app/Controllers/Elementor/Widgets/SingleLocation.php:221, ../../app/Controllers/Elementor/WidgetSettings/AllLocationsSettings.php:35, ../../app/Controllers/Elementor/WidgetSettings/AllLocationsSettings.php:50
+#: ../../app/Controllers/BlockController.php:295, ../../app/Controllers/BlockController.php:301, ../../app/Controllers/BlockController.php:306, ../../app/Controllers/BlockController.php:309, ../../app/Controllers/Elementor/ELWidgetsTraits/ElSliderTrait.php:152, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingStyleTrait.php:43, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingStyleTrait.php:60, ../../app/Controllers/Elementor/Widgets/ListingCategoryBox.php:307, ../../app/Controllers/Elementor/Widgets/SingleLocation.php:221, ../../app/Controllers/Elementor/WidgetSettings/AllLocationsSettings.php:35, ../../app/Controllers/Elementor/WidgetSettings/AllLocationsSettings.php:50
 msgid "Style 1"
 msgstr ""
 
@@ -127,7 +127,7 @@ msgstr ""
 msgid "Clear"
 msgstr ""
 
-#: ../../app/Controllers/BusinessHoursController.php:484, ../../templates/listing-form/business-hours.php:43, ../../templates/listing-form/business-hours.php:207
+#: ../../app/Controllers/BusinessHoursController.php:484, ../../templates/listing-form/business-hours.php:43, ../../templates/listing-form/business-hours.php:133, ../../templates/listing-form/business-hours.php:207
 msgid "Open"
 msgstr ""
 
@@ -179,11 +179,11 @@ msgstr ""
 msgid "This password reset key is for a different user account. Please log out and try again."
 msgstr ""
 
-#: ../../app/Controllers/FormHandler.php:195, ../../app/Controllers/FormHandler.php:207, ../../app/Controllers/FormHandler.php:211, ../../app/Controllers/FormHandler.php:321, ../../app/Helpers/Functions.php:3183, ../../app/Helpers/Functions.php:3313
+#: ../../app/Controllers/FormHandler.php:195, ../../app/Controllers/FormHandler.php:207, ../../app/Controllers/FormHandler.php:211, ../../app/Controllers/FormHandler.php:327, ../../app/Helpers/Functions.php:3171, ../../app/Helpers/Functions.php:3301
 msgid "Error:"
 msgstr ""
 
-#: ../../app/Controllers/FormHandler.php:195, ../../app/Controllers/Ajax/PublicUser.php:495, ../../app/Controllers/Ajax/PublicUser.php:570, ../../app/Controllers/Ajax/PublicUser.php:643
+#: ../../app/Controllers/FormHandler.php:195, ../../app/Controllers/Ajax/PublicUser.php:501, ../../app/Controllers/Ajax/PublicUser.php:576, ../../app/Controllers/Ajax/PublicUser.php:649
 msgid "Invalid Captcha: Please try again."
 msgstr ""
 
@@ -191,63 +191,67 @@ msgstr ""
 msgid "Username is required."
 msgstr ""
 
-#: ../../app/Controllers/FormHandler.php:283, ../../app/Controllers/Ajax/PublicUser.php:346
+#: ../../app/Controllers/FormHandler.php:263, ../../app/Controllers/Ajax/PublicUser.php:211
+msgid "User registration is disabled"
+msgstr ""
+
+#: ../../app/Controllers/FormHandler.php:289, ../../app/Controllers/Ajax/PublicUser.php:352
 msgid "The two passwords you entered don't match."
 msgstr ""
 
-#: ../../app/Controllers/FormHandler.php:314, ../../app/Controllers/Ajax/PublicUser.php:254
+#: ../../app/Controllers/FormHandler.php:320, ../../app/Controllers/Ajax/PublicUser.php:260
 msgid "You have successfully registered on our website, Please check your email and click on the link, we sent a verification mail to verify your email address."
 msgstr ""
 
-#: ../../app/Controllers/FormHandler.php:312, ../../app/Controllers/Ajax/PublicUser.php:251
+#: ../../app/Controllers/FormHandler.php:318, ../../app/Controllers/Ajax/PublicUser.php:257
 msgid "You have successfully registered."
 msgstr ""
 
-#: ../../app/Controllers/FormHandler.php:370
+#: ../../app/Controllers/FormHandler.php:376
 msgid "Please enter your password."
 msgstr ""
 
-#: ../../app/Controllers/FormHandler.php:374
+#: ../../app/Controllers/FormHandler.php:380
 msgid "Passwords do not match."
 msgstr ""
 
-#: ../../app/Controllers/Query.php:755
+#: ../../app/Controllers/Query.php:813
 msgid "Promote your ad"
 msgstr ""
 
-#: ../../app/Controllers/Query.php:758
+#: ../../app/Controllers/Query.php:816
 msgid "Order received"
 msgstr ""
 
-#: ../../app/Controllers/Query.php:761
+#: ../../app/Controllers/Query.php:819
 msgid "Order failed"
 msgstr ""
 
-#: ../../app/Controllers/Query.php:764
+#: ../../app/Controllers/Query.php:822
 msgid "Payments Orders"
 msgstr ""
 
-#: ../../app/Controllers/Query.php:767, ../../app/Helpers/Functions.php:2638, ../../views/settings/advanced-settings.php:89
+#: ../../app/Controllers/Query.php:825, ../../app/Helpers/Functions.php:2634, ../../views/settings/advanced-settings.php:89
 msgid "My Listings"
 msgstr ""
 
-#: ../../app/Controllers/Query.php:770
+#: ../../app/Controllers/Query.php:828
 msgid "My Favourites Listings"
 msgstr ""
 
-#: ../../app/Controllers/Query.php:773, ../../templates/elementor/header-button/header-button.php:72
+#: ../../app/Controllers/Query.php:831, ../../templates/elementor/header-button/header-button.php:72
 msgid "Chat"
 msgstr ""
 
-#: ../../app/Controllers/Query.php:776, ../../app/Helpers/Functions.php:2641
+#: ../../app/Controllers/Query.php:834, ../../app/Helpers/Functions.php:2637
 msgid "Account details"
 msgstr ""
 
-#: ../../app/Controllers/Query.php:779
+#: ../../app/Controllers/Query.php:837
 msgid "Verify your account"
 msgstr ""
 
-#: ../../app/Controllers/Query.php:782
+#: ../../app/Controllers/Query.php:840
 msgid "Lost password"
 msgstr ""
 
@@ -283,7 +287,7 @@ msgstr ""
 msgid "Listing is expired"
 msgstr ""
 
-#: ../../app/Emails/ListingExpiredEmailToAdmin.php:63, ../../app/Emails/ListingExpiredEmailToOwner.php:66, ../../app/Emails/ListingRenewalEmailToOwner.php:70, ../../app/Emails/ListingRenewalReminderEmailToOwner.php:66, ../../app/Controllers/Ajax/PublicUser.php:126, ../../app/Controllers/Admin/Meta/ListingMetaColumn.php:63, ../../app/Controllers/Admin/Meta/ListingSubmitBoxMice.php:46, ../../templates/myaccount/my-listings.php:74
+#: ../../app/Emails/ListingExpiredEmailToAdmin.php:63, ../../app/Emails/ListingExpiredEmailToOwner.php:66, ../../app/Emails/ListingRenewalEmailToOwner.php:70, ../../app/Emails/ListingRenewalReminderEmailToOwner.php:66, ../../app/Controllers/Ajax/PublicUser.php:126, ../../app/Controllers/Admin/Meta/ListingMetaColumn.php:66, ../../app/Controllers/Admin/Meta/ListingSubmitBoxMice.php:46, ../../templates/myaccount/my-listings.php:74
 msgid "Never Expires"
 msgstr ""
 
@@ -458,165 +462,165 @@ msgstr ""
 msgid "%s ago"
 msgstr ""
 
-#: ../../app/Helpers/Functions.php:2637
+#: ../../app/Helpers/Functions.php:2633
 msgid "Dashboard"
 msgstr ""
 
-#: ../../app/Helpers/Functions.php:2639, ../../app/Controllers/Elementor/Widgets/HeaderButton.php:253, ../../templates/elementor/header-button/header-button.php:61, ../../views/settings/advanced-settings.php:94
+#: ../../app/Helpers/Functions.php:2635, ../../app/Controllers/Elementor/Widgets/HeaderButton.php:253, ../../templates/elementor/header-button/header-button.php:61, ../../views/settings/advanced-settings.php:94
 msgid "Favourites"
 msgstr ""
 
-#: ../../app/Helpers/Functions.php:2640, ../../app/Controllers/Admin/RegisterPostType.php:280, ../../views/settings/advanced-settings.php:104
+#: ../../app/Helpers/Functions.php:2636, ../../app/Controllers/Admin/RegisterPostType.php:280, ../../views/settings/advanced-settings.php:104
 msgid "Payments"
 msgstr ""
 
-#: ../../app/Helpers/Functions.php:2642, ../../views/settings/advanced-settings.php:114
+#: ../../app/Helpers/Functions.php:2638, ../../views/settings/advanced-settings.php:114
 msgid "Logout"
 msgstr ""
 
 #. translators: %s template
-#: ../../app/Helpers/Functions.php:2804
+#: ../../app/Helpers/Functions.php:2800
 msgid "%s does not exist."
 msgstr ""
 
-#: ../../app/Helpers/Functions.php:2995, ../../app/Helpers/Functions.php:3018, ../../app/Helpers/Functions.php:3030, ../../app/Helpers/Functions.php:3053, ../../app/Helpers/Functions.php:3068, ../../app/Helpers/Functions.php:3093
+#: ../../app/Helpers/Functions.php:2991, ../../app/Helpers/Functions.php:3014, ../../app/Helpers/Functions.php:3026, ../../app/Helpers/Functions.php:3049, ../../app/Helpers/Functions.php:3064, ../../app/Helpers/Functions.php:3089
 msgid "This function should not be called before rtcl_init."
 msgstr ""
 
-#: ../../app/Helpers/Functions.php:3234
+#: ../../app/Helpers/Functions.php:3222
 msgid "Please provide a valid email address."
 msgstr ""
 
-#: ../../app/Helpers/Functions.php:3238
+#: ../../app/Helpers/Functions.php:3226
 msgid "An account is already registered with your email address. Please log in."
 msgstr ""
 
-#: ../../app/Helpers/Functions.php:3248
+#: ../../app/Helpers/Functions.php:3236
 msgid "Please enter a valid account username."
 msgstr ""
 
-#: ../../app/Helpers/Functions.php:3252
+#: ../../app/Helpers/Functions.php:3240
 msgid "An account is already registered with that username. Please choose another."
 msgstr ""
 
-#: ../../app/Helpers/Functions.php:3257
+#: ../../app/Helpers/Functions.php:3245
 msgid "Please enter your first name."
 msgstr ""
 
-#: ../../app/Helpers/Functions.php:3260
+#: ../../app/Helpers/Functions.php:3248
 msgid "Please enter your last name."
 msgstr ""
 
-#: ../../app/Helpers/Functions.php:3265
+#: ../../app/Helpers/Functions.php:3253
 msgid "Please enter your phone."
 msgstr ""
 
-#: ../../app/Helpers/Functions.php:3268
+#: ../../app/Helpers/Functions.php:3256
 msgid "An account is already registered with your phone number. Please log in."
 msgstr ""
 
-#: ../../app/Helpers/Functions.php:3280
+#: ../../app/Helpers/Functions.php:3268
 msgid "Please enter an account password."
 msgstr ""
 
-#: ../../app/Helpers/Functions.php:3313
+#: ../../app/Helpers/Functions.php:3301
 msgid "Couldn&#8217;t register you&hellip; please contact us if you continue to have problems."
 msgstr ""
 
 #. translators: %s: rating
-#: ../../app/Helpers/Functions.php:3873
+#: ../../app/Helpers/Functions.php:3861
 msgid "Rated %s out of 5"
 msgstr ""
 
-#: ../../app/Helpers/Functions.php:3870, ../../app/Helpers/Functions.php:3893
+#: ../../app/Helpers/Functions.php:3858, ../../app/Helpers/Functions.php:3881
 msgid "Rated %1$s out of 5 based on %2$s customer rating"
 msgid_plural "Rated %1$s out of 5 based on %2$s customer ratings"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../../app/Helpers/Functions.php:4267
+#: ../../app/Helpers/Functions.php:4255
 msgid "M j, Y @ H:i"
 msgstr ""
 
-#: ../../app/Helpers/Functions.php:4283, ../../app/Resources/Options.php:1762, ../../support/custom_price_unit.php:27
+#: ../../app/Helpers/Functions.php:4271, ../../app/Resources/Options.php:1765, ../../support/custom_price_unit.php:27
 msgid "Month"
 msgstr ""
 
 #. translators: 1: month number (01, 02, etc.), 2: month abbreviation
-#: ../../app/Helpers/Functions.php:4289
+#: ../../app/Helpers/Functions.php:4277
 msgid "%1$s-%2$s"
 msgstr ""
 
-#: ../../app/Helpers/Functions.php:4293, ../../app/Resources/Options.php:1770
+#: ../../app/Helpers/Functions.php:4281, ../../app/Resources/Options.php:1773
 msgid "Day"
 msgstr ""
 
-#: ../../app/Helpers/Functions.php:4294, ../../app/Resources/Options.php:1758
+#: ../../app/Helpers/Functions.php:4282, ../../app/Resources/Options.php:1761
 msgid "Year"
 msgstr ""
 
-#: ../../app/Helpers/Functions.php:4295, ../../app/Resources/Options.php:1774
+#: ../../app/Helpers/Functions.php:4283, ../../app/Resources/Options.php:1777
 msgid "Hour"
 msgstr ""
 
-#: ../../app/Helpers/Functions.php:4296
+#: ../../app/Helpers/Functions.php:4284
 msgid "Minute"
 msgstr ""
 
-#: ../../app/Helpers/Functions.php:4299
+#: ../../app/Helpers/Functions.php:4287
 msgid "Expired on: <b>%1$s</b>"
 msgstr ""
 
-#: ../../app/Helpers/Functions.php:4304, ../../app/Controllers/Hooks/TemplateHooks.php:401, ../../views/settings/listing-type.php:38
+#: ../../app/Helpers/Functions.php:4292, ../../app/Controllers/Hooks/TemplateHooks.php:397, ../../views/settings/listing-type.php:38
 msgid "Edit"
 msgstr ""
 
-#: ../../app/Helpers/Functions.php:4305
+#: ../../app/Helpers/Functions.php:4293
 msgid "Edit date and time"
 msgstr ""
 
-#: ../../app/Helpers/Functions.php:4308
+#: ../../app/Helpers/Functions.php:4296
 msgid "Date and time"
 msgstr ""
 
 #. translators: 1: month, 2: day, 3: year, 4: hour, 5: minute
-#: ../../app/Helpers/Functions.php:4311, ../../app/Controllers/Admin/ScriptLoader.php:503
+#: ../../app/Helpers/Functions.php:4299, ../../app/Controllers/Admin/ScriptLoader.php:503
 msgid "%1$s %2$s, %3$s @ %4$s:%5$s"
 msgstr ""
 
-#: ../../app/Helpers/Functions.php:4334
+#: ../../app/Helpers/Functions.php:4322
 msgid "OK"
 msgstr ""
 
-#: ../../app/Helpers/Functions.php:4336, ../../app/Resources/Gallery.php:433, ../../app/Resources/Gallery.php:433
+#: ../../app/Helpers/Functions.php:4324, ../../app/Resources/Gallery.php:433, ../../app/Resources/Gallery.php:433
 msgid "Cancel"
 msgstr ""
 
-#: ../../app/Helpers/Functions.php:4383
+#: ../../app/Helpers/Functions.php:4371
 msgid "optional"
 msgstr ""
 
-#: ../../app/Helpers/Functions.php:4381
+#: ../../app/Helpers/Functions.php:4369
 msgid "required"
 msgstr ""
 
-#: ../../app/Helpers/Functions.php:4444, ../../app/Helpers/Functions.php:4444
+#: ../../app/Helpers/Functions.php:4432, ../../app/Helpers/Functions.php:4432
 msgid "Select a country / region&hellip;"
 msgstr ""
 
-#: ../../app/Helpers/Functions.php:4452, ../../app/Helpers/Functions.php:4452
+#: ../../app/Helpers/Functions.php:4440, ../../app/Helpers/Functions.php:4440
 msgid "Update country / region"
 msgstr ""
 
-#: ../../app/Helpers/Functions.php:4471, ../../app/Helpers/Functions.php:4472, ../../app/Controllers/Admin/ScriptLoader.php:169
+#: ../../app/Helpers/Functions.php:4459, ../../app/Helpers/Functions.php:4460, ../../app/Controllers/Admin/ScriptLoader.php:169
 msgid "Select an option&hellip;"
 msgstr ""
 
-#: ../../app/Helpers/Functions.php:4524
+#: ../../app/Helpers/Functions.php:4512
 msgid "Choose an option"
 msgstr ""
 
-#: ../../app/Helpers/Installer.php:126, ../../app/Models/Countries.php:1011, ../../app/Models/Countries.php:1315, ../../app/Models/Countries.php:1434, ../../app/Models/Countries.php:1629, ../../views/settings/general-settings.php:123
+#: ../../app/Helpers/Installer.php:126, ../../app/Models/Countries.php:1027, ../../app/Models/Countries.php:1331, ../../app/Models/Countries.php:1450, ../../app/Models/Countries.php:1645, ../../views/settings/general-settings.php:123
 msgid "State"
 msgstr ""
 
@@ -628,7 +632,7 @@ msgstr ""
 msgid "Town"
 msgstr ""
 
-#: ../../app/Helpers/Installer.php:137, ../../app/Controllers/Hooks/TemplateHooks.php:681, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingBadgeTrait.php:195, ../../views/settings/moderation-settings.php:34
+#: ../../app/Helpers/Installer.php:137, ../../app/Controllers/Hooks/TemplateHooks.php:677, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingBadgeTrait.php:195, ../../views/settings/moderation-settings.php:34
 msgid "New"
 msgstr ""
 
@@ -636,7 +640,7 @@ msgstr ""
 msgid "Popular"
 msgstr ""
 
-#: ../../app/Helpers/Installer.php:140, ../../app/Resources/Gallery.php:194, ../../app/Resources/Gallery.php:271, ../../app/Resources/Options.php:316, ../../app/Controllers/Hooks/TemplateHooks.php:661, ../../app/Controllers/Admin/Meta/ListingMetaColumn.php:24, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingBadgeTrait.php:167, ../../views/settings/moderation-settings.php:40
+#: ../../app/Helpers/Installer.php:140, ../../app/Resources/Gallery.php:194, ../../app/Resources/Gallery.php:271, ../../app/Resources/Options.php:317, ../../app/Controllers/Hooks/TemplateHooks.php:657, ../../app/Controllers/Admin/Meta/ListingMetaColumn.php:27, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingBadgeTrait.php:167, ../../views/settings/moderation-settings.php:40
 msgid "Featured"
 msgstr ""
 
@@ -694,7 +698,7 @@ msgstr ""
 msgid "Remove from Favourites"
 msgstr ""
 
-#: ../../app/Helpers/Text.php:53, ../../templates/listing/actions.php:55
+#: ../../app/Helpers/Text.php:53, ../../templates/listing/actions.php:57
 msgid "Report Abuse"
 msgstr ""
 
@@ -710,7 +714,7 @@ msgstr ""
 msgid "I have read and agree to the website %s."
 msgstr ""
 
-#: ../../app/Helpers/Text.php:94, ../../app/Widgets/Filter.php:323, ../../app/Controllers/Hooks/TemplateHooks.php:611, ../../templates/listing-form/contact.php:139, ../../templates/block/listing-search/search.php:54, ../../templates/widgets/search/vertical.php:71, ../../templates/widgets/search/vertical.php:81, ../../templates/elementor/search/fields/location-field.php:36
+#: ../../app/Helpers/Text.php:94, ../../app/Widgets/Filter.php:323, ../../app/Controllers/Hooks/TemplateHooks.php:607, ../../templates/listing-form/contact.php:139, ../../templates/block/listing-search/search.php:54, ../../templates/widgets/search/inline.php:32, ../../templates/widgets/search/vertical.php:38, ../../templates/widgets/search/vertical.php:71, ../../templates/widgets/search/vertical.php:81, ../../templates/elementor/search/fields/location-field.php:36
 msgid "Select a location"
 msgstr ""
 
@@ -726,182 +730,182 @@ msgstr ""
 msgid "Get cart should not be called before the wp_loaded action."
 msgstr ""
 
-#: ../../app/Models/Countries.php:570
+#: ../../app/Models/Countries.php:586
 msgid "to the"
 msgstr ""
 
-#: ../../app/Models/Countries.php:570
+#: ../../app/Models/Countries.php:586
 msgid "to"
 msgstr ""
 
-#: ../../app/Models/Countries.php:585
+#: ../../app/Models/Countries.php:601
 msgid "the"
 msgstr ""
 
-#: ../../app/Models/Countries.php:596
+#: ../../app/Models/Countries.php:612
 msgid "VAT"
 msgstr ""
 
-#: ../../app/Models/Countries.php:596
+#: ../../app/Models/Countries.php:612
 msgid "Tax"
 msgstr ""
 
-#: ../../app/Models/Countries.php:607
+#: ../../app/Models/Countries.php:623
 msgid "(incl. VAT)"
 msgstr ""
 
-#: ../../app/Models/Countries.php:607
+#: ../../app/Models/Countries.php:623
 msgid "(incl. tax)"
 msgstr ""
 
-#: ../../app/Models/Countries.php:618
+#: ../../app/Models/Countries.php:634
 msgid "(ex. VAT)"
 msgstr ""
 
-#: ../../app/Models/Countries.php:618
+#: ../../app/Models/Countries.php:634
 msgid "(ex. tax)"
 msgstr ""
 
 #. translators: 1: first name 2: last name
-#: ../../app/Models/Countries.php:766, ../../app/Models/Countries.php:782, ../../app/Models/Payment.php:361, ../../app/Models/Payment.php:365
+#: ../../app/Models/Countries.php:782, ../../app/Models/Countries.php:798, ../../app/Models/Payment.php:361, ../../app/Models/Payment.php:365
 msgctxt "full name"
 msgid "%1$s %2$s"
 msgstr ""
 
-#: ../../app/Models/Countries.php:836
+#: ../../app/Models/Countries.php:852
 msgid "Apartment, suite, unit, etc."
 msgstr ""
 
-#: ../../app/Models/Countries.php:841
+#: ../../app/Models/Countries.php:857
 msgid "Apartment, suite, unit, etc. (optional)"
 msgstr ""
 
-#: ../../app/Models/Countries.php:848
+#: ../../app/Models/Countries.php:864
 msgid "First name"
 msgstr ""
 
-#: ../../app/Models/Countries.php:855
+#: ../../app/Models/Countries.php:871
 msgid "Last name"
 msgstr ""
 
-#: ../../app/Models/Countries.php:862
+#: ../../app/Models/Countries.php:878
 msgid "Company name"
 msgstr ""
 
-#: ../../app/Models/Countries.php:870
+#: ../../app/Models/Countries.php:886
 msgid "Country / Region"
 msgstr ""
 
-#: ../../app/Models/Countries.php:877
+#: ../../app/Models/Countries.php:893
 msgid "Street address"
 msgstr ""
 
 #. translators: use local order of street name and house number.
-#: ../../app/Models/Countries.php:879
+#: ../../app/Models/Countries.php:895
 msgid "House number and street name"
 msgstr ""
 
-#: ../../app/Models/Countries.php:895
+#: ../../app/Models/Countries.php:911
 msgid "Town / City"
 msgstr ""
 
-#: ../../app/Models/Countries.php:903
+#: ../../app/Models/Countries.php:919
 msgid "State / County"
 msgstr ""
 
-#: ../../app/Models/Countries.php:912
+#: ../../app/Models/Countries.php:928
 msgid "Postcode / ZIP"
 msgstr ""
 
-#: ../../app/Models/Countries.php:982, ../../app/Models/Countries.php:1269, ../../app/Models/Countries.php:1283, ../../app/Models/Countries.php:1505, ../../app/Models/Countries.php:1642
+#: ../../app/Models/Countries.php:998, ../../app/Models/Countries.php:1285, ../../app/Models/Countries.php:1299, ../../app/Models/Countries.php:1521, ../../app/Models/Countries.php:1658
 msgid "County"
 msgstr ""
 
-#: ../../app/Models/Countries.php:991, ../../app/Models/Countries.php:1085, ../../app/Models/Countries.php:1110, ../../app/Models/Countries.php:1123, ../../app/Models/Countries.php:1161, ../../app/Models/Countries.php:1166, ../../app/Models/Countries.php:1274, ../../app/Models/Countries.php:1324, ../../app/Models/Countries.php:1410, ../../app/Models/Countries.php:1465, ../../app/Models/Countries.php:1564, ../../app/Models/Countries.php:1607, ../../app/Models/Countries.php:1684
+#: ../../app/Models/Countries.php:1007, ../../app/Models/Countries.php:1101, ../../app/Models/Countries.php:1126, ../../app/Models/Countries.php:1139, ../../app/Models/Countries.php:1177, ../../app/Models/Countries.php:1182, ../../app/Models/Countries.php:1290, ../../app/Models/Countries.php:1340, ../../app/Models/Countries.php:1426, ../../app/Models/Countries.php:1481, ../../app/Models/Countries.php:1580, ../../app/Models/Countries.php:1623, ../../app/Models/Countries.php:1700
 msgid "Province"
 msgstr ""
 
-#: ../../app/Models/Countries.php:1005
+#: ../../app/Models/Countries.php:1021
 msgid "Suburb"
 msgstr ""
 
-#: ../../app/Models/Countries.php:1008, ../../app/Models/Countries.php:1429, ../../app/Models/Countries.php:1439, ../../app/Models/Countries.php:1639
+#: ../../app/Models/Countries.php:1024, ../../app/Models/Countries.php:1445, ../../app/Models/Countries.php:1455, ../../app/Models/Countries.php:1655
 msgid "Postcode"
 msgstr ""
 
-#: ../../app/Models/Countries.php:1028, ../../app/Models/Countries.php:1093
+#: ../../app/Models/Countries.php:1044, ../../app/Models/Countries.php:1109
 msgid "Canton"
 msgstr ""
 
-#: ../../app/Models/Countries.php:1038, ../../app/Models/Countries.php:1517, ../../app/Models/Countries.php:1620, ../../app/Models/Countries.php:1652
+#: ../../app/Models/Countries.php:1054, ../../app/Models/Countries.php:1533, ../../app/Models/Countries.php:1636, ../../app/Models/Countries.php:1668
 msgid "District"
 msgstr ""
 
-#: ../../app/Models/Countries.php:1071, ../../app/Models/Countries.php:1118, ../../app/Models/Countries.php:1227, ../../app/Models/Countries.php:1243, ../../app/Models/Countries.php:1415, ../../app/Models/Countries.php:1494, ../../app/Models/Countries.php:1556, ../../app/Models/Countries.php:1634
+#: ../../app/Models/Countries.php:1087, ../../app/Models/Countries.php:1134, ../../app/Models/Countries.php:1243, ../../app/Models/Countries.php:1259, ../../app/Models/Countries.php:1431, ../../app/Models/Countries.php:1510, ../../app/Models/Countries.php:1572, ../../app/Models/Countries.php:1650
 msgid "Department"
 msgstr ""
 
-#: ../../app/Models/Countries.php:1082
+#: ../../app/Models/Countries.php:1098
 msgid "Postal code"
 msgstr ""
 
-#: ../../app/Models/Countries.php:1105, ../../app/Models/Countries.php:1201, ../../app/Models/Countries.php:1238, ../../app/Models/Countries.php:1443
+#: ../../app/Models/Countries.php:1121, ../../app/Models/Countries.php:1217, ../../app/Models/Countries.php:1254, ../../app/Models/Countries.php:1459
 msgid "Region"
 msgstr ""
 
-#: ../../app/Models/Countries.php:1235
+#: ../../app/Models/Countries.php:1251
 msgid "Town / District"
 msgstr ""
 
-#: ../../app/Models/Countries.php:1280
+#: ../../app/Models/Countries.php:1296
 msgid "Eircode"
 msgstr ""
 
-#: ../../app/Models/Countries.php:1312
+#: ../../app/Models/Countries.php:1328
 msgid "PIN"
 msgstr ""
 
-#: ../../app/Models/Countries.php:1329
+#: ../../app/Models/Countries.php:1345
 msgid "Town / City / Post Office"
 msgstr ""
 
-#: ../../app/Models/Countries.php:1333
+#: ../../app/Models/Countries.php:1349
 msgid "Postal Code"
 msgstr ""
 
-#: ../../app/Models/Countries.php:1337
+#: ../../app/Models/Countries.php:1353
 msgid "Parish"
 msgstr ""
 
-#: ../../app/Models/Countries.php:1354
+#: ../../app/Models/Countries.php:1370
 msgid "Prefecture"
 msgstr ""
 
-#: ../../app/Models/Countries.php:1382, ../../app/Models/Countries.php:1479, ../../app/Models/Countries.php:1572
+#: ../../app/Models/Countries.php:1398, ../../app/Models/Countries.php:1495, ../../app/Models/Countries.php:1588
 msgid "Municipality"
 msgstr ""
 
-#: ../../app/Models/Countries.php:1457
+#: ../../app/Models/Countries.php:1473
 msgid "State / Zone"
 msgstr ""
 
-#: ../../app/Models/Countries.php:1590
+#: ../../app/Models/Countries.php:1606
 msgid "Municipality / District"
 msgstr ""
 
-#: ../../app/Models/Countries.php:1616
+#: ../../app/Models/Countries.php:1632
 msgid "Town / Village"
 msgstr ""
 
-#: ../../app/Models/Countries.php:1626
+#: ../../app/Models/Countries.php:1642
 msgid "ZIP Code"
 msgstr ""
 
-#: ../../app/Models/Countries.php:1748, ../../app/Resources/Options.php:656, ../../app/Resources/Options.php:1902, ../../templates/listing-form/contact.php:150, ../../templates/myaccount/form-edit-account.php:141
+#: ../../app/Models/Countries.php:1764, ../../app/Resources/Options.php:659, ../../app/Resources/Options.php:1905, ../../templates/listing-form/contact.php:150, ../../templates/myaccount/form-edit-account.php:141
 msgid "Phone"
 msgstr ""
 
-#: ../../app/Models/Countries.php:1758, ../../templates/myaccount/form-login.php:97, ../../templates/myaccount/form-registration.php:43
+#: ../../app/Models/Countries.php:1774, ../../templates/myaccount/form-login.php:97, ../../templates/myaccount/form-registration.php:43
 msgid "Email address"
 msgstr ""
 
@@ -919,6 +923,10 @@ msgstr ""
 
 #: ../../app/Models/Payment.php:319
 msgid "Invalid currency code"
+msgstr ""
+
+#: ../../app/Models/Payment.php:465
+msgid "Invalid billing email address"
 msgstr ""
 
 #: ../../app/Models/Payment.php:713, ../../templates/checkout/pricing-info.php:22
@@ -1120,7 +1128,7 @@ msgstr ""
 msgid "Select none"
 msgstr ""
 
-#: ../../app/Models/SettingsAPI.php:1419, ../../app/Resources/Options.php:614, ../../app/Controllers/Admin/Meta/AddTermMetaField.php:377, ../../app/Controllers/Admin/Meta/AddTermMetaField.php:493
+#: ../../app/Models/SettingsAPI.php:1419, ../../app/Resources/Options.php:617, ../../app/Controllers/Admin/Meta/AddTermMetaField.php:377, ../../app/Controllers/Admin/Meta/AddTermMetaField.php:493
 msgid "Select one"
 msgstr ""
 
@@ -1134,6 +1142,10 @@ msgstr ""
 
 #: ../../app/Resources/FieldGroup.php:19
 msgid "Where to include this Field Group"
+msgstr ""
+
+#: ../../app/Resources/FieldGroup.php:22
+msgid "Listing meta field category"
 msgstr ""
 
 #: ../../app/Resources/FieldGroup.php:29
@@ -1212,7 +1224,7 @@ msgstr ""
 msgid "Title"
 msgstr ""
 
-#: ../../app/Resources/Gallery.php:286, ../../app/Resources/Options.php:1896, ../../app/Resources/PricingOptions.php:75, ../../app/Gateways/Offline/GatewayOffline.php:51, ../../app/Gateways/Paypal/GatewayPaypal.php:297, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingDescTrait.php:30, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingDescTrait.php:36, ../../app/Controllers/Elementor/WidgetSettings/AllLocationsSettings.php:692, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:250, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:256, ../../templates/checkout/promotions.php:22, ../../templates/listing-form/information.php:140
+#: ../../app/Resources/Gallery.php:286, ../../app/Resources/Options.php:1899, ../../app/Resources/PricingOptions.php:75, ../../app/Gateways/Offline/GatewayOffline.php:51, ../../app/Gateways/Paypal/GatewayPaypal.php:297, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingDescTrait.php:30, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingDescTrait.php:36, ../../app/Controllers/Elementor/WidgetSettings/AllLocationsSettings.php:692, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:250, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:256, ../../templates/checkout/promotions.php:22, ../../templates/listing-form/information.php:140
 msgid "Description"
 msgstr ""
 
@@ -1404,11 +1416,11 @@ msgstr ""
 msgid "Pricing:"
 msgstr ""
 
-#: ../../app/Resources/ListingDetails.php:144, ../../app/Resources/Options.php:1894, ../../templates/listing-form/information.php:84
+#: ../../app/Resources/ListingDetails.php:144, ../../app/Resources/Options.php:1897, ../../templates/listing-form/information.php:84
 msgid "Price Type"
 msgstr ""
 
-#: ../../app/Resources/ListingDetails.php:165, ../../app/Resources/Options.php:77, ../../app/Resources/Options.php:1120, ../../app/Resources/Options.php:1881, ../../app/Resources/Options.php:1895, ../../app/Resources/OrderOptions.php:127, ../../app/Resources/PricingOptions.php:43, ../../app/Controllers/Admin/Meta/PricingMetaColumn.php:38, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingPriceTrait.php:32, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:292, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:634, ../../templates/listing-form/information.php:105, ../../views/settings/general-settings.php:61
+#: ../../app/Resources/ListingDetails.php:165, ../../app/Resources/Options.php:77, ../../app/Resources/Options.php:1123, ../../app/Resources/Options.php:1884, ../../app/Resources/Options.php:1898, ../../app/Resources/OrderOptions.php:127, ../../app/Resources/PricingOptions.php:43, ../../app/Controllers/Admin/Meta/PricingMetaColumn.php:38, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingPriceTrait.php:32, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:292, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:634, ../../templates/listing-form/information.php:105, ../../views/settings/general-settings.php:61
 msgid "Price"
 msgstr ""
 
@@ -1452,7 +1464,7 @@ msgstr ""
 msgid "Date posted"
 msgstr ""
 
-#: ../../app/Resources/Options.php:78, ../../app/Resources/Options.php:1880, ../../views/settings/general-settings.php:62
+#: ../../app/Resources/Options.php:78, ../../app/Resources/Options.php:1883, ../../views/settings/general-settings.php:62
 msgid "Views count"
 msgstr ""
 
@@ -1508,7 +1520,7 @@ msgstr ""
 msgid "Image Position"
 msgstr ""
 
-#: ../../app/Resources/Options.php:131, ../../app/Controllers/Admin/Meta/ListingMetaColumn.php:25, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingBadgeTrait.php:139
+#: ../../app/Resources/Options.php:131, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingBadgeTrait.php:139
 msgid "Top"
 msgstr ""
 
@@ -1576,7 +1588,7 @@ msgstr ""
 msgid "All Categories / All Locations link"
 msgstr ""
 
-#: ../../app/Resources/Options.php:232, ../../app/Controllers/Settings/AdminSettings.php:371, ../../app/Controllers/Elementor/ELWidgetsTraits/ElSliderTrait.php:150, ../../app/Controllers/Elementor/Widgets/ListingSearch.php:84, ../../app/Controllers/Elementor/Widgets/SingleLocation.php:57, ../../app/Controllers/Elementor/Widgets/SingleLocation.php:240, ../../app/Controllers/Elementor/WidgetSettings/AllLocationsSettings.php:102, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:666
+#: ../../app/Resources/Options.php:232, ../../app/Controllers/Settings/AdminSettings.php:371, ../../app/Controllers/Elementor/ELWidgetsTraits/ElSliderTrait.php:150, ../../app/Controllers/Elementor/Widgets/ListingCategoryBox.php:75, ../../app/Controllers/Elementor/Widgets/ListingSearch.php:84, ../../app/Controllers/Elementor/Widgets/SingleLocation.php:57, ../../app/Controllers/Elementor/Widgets/SingleLocation.php:240, ../../app/Controllers/Elementor/WidgetSettings/AllLocationsSettings.php:102, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:666
 msgid "Style"
 msgstr ""
 
@@ -1592,11 +1604,11 @@ msgstr ""
 msgid "Search by Types"
 msgstr ""
 
-#: ../../app/Resources/Options.php:269, ../../app/Resources/Options.php:1935
+#: ../../app/Resources/Options.php:269, ../../app/Resources/Options.php:1938
 msgid "Facebook"
 msgstr ""
 
-#: ../../app/Resources/Options.php:270, ../../app/Resources/Options.php:1936
+#: ../../app/Resources/Options.php:270, ../../app/Resources/Options.php:1939
 msgid "Twitter"
 msgstr ""
 
@@ -1612,7 +1624,7 @@ msgstr ""
 msgid "LinkedIn"
 msgstr ""
 
-#: ../../app/Resources/Options.php:274, ../../app/Resources/Options.php:1938
+#: ../../app/Resources/Options.php:274, ../../app/Resources/Options.php:1941
 msgid "Pinterest"
 msgstr ""
 
@@ -1664,1191 +1676,1191 @@ msgstr ""
 msgid "Custom"
 msgstr ""
 
-#: ../../app/Resources/Options.php:323
+#: ../../app/Resources/Options.php:326
 msgid "Published"
 msgstr ""
 
-#: ../../app/Resources/Options.php:324
+#: ../../app/Resources/Options.php:327
 msgid "Pending"
 msgstr ""
 
-#: ../../app/Resources/Options.php:325
+#: ../../app/Resources/Options.php:328
 msgid "Draft"
 msgstr ""
 
-#: ../../app/Resources/Options.php:326
+#: ../../app/Resources/Options.php:329
 msgid "Reviewed"
 msgstr ""
 
-#: ../../app/Resources/Options.php:327
+#: ../../app/Resources/Options.php:330
 msgid "Expired"
 msgstr ""
 
-#: ../../app/Resources/Options.php:330
+#: ../../app/Resources/Options.php:333
 msgid "Temporary"
 msgstr ""
 
-#: ../../app/Resources/Options.php:344
+#: ../../app/Resources/Options.php:347
 msgid "Bottom"
 msgstr ""
 
-#: ../../app/Resources/Options.php:352
+#: ../../app/Resources/Options.php:355
 msgctxt "Payment status"
 msgid "Pending"
 msgstr ""
 
-#: ../../app/Resources/Options.php:353, ../../app/Controllers/Admin/RegisterPostType.php:433
+#: ../../app/Resources/Options.php:356, ../../app/Controllers/Admin/RegisterPostType.php:433
 msgctxt "Payment status"
 msgid "Processing"
 msgstr ""
 
-#: ../../app/Resources/Options.php:354, ../../app/Controllers/Admin/RegisterPostType.php:424
+#: ../../app/Resources/Options.php:357, ../../app/Controllers/Admin/RegisterPostType.php:424
 msgctxt "Payment status"
 msgid "On hold"
 msgstr ""
 
-#: ../../app/Resources/Options.php:355, ../../app/Controllers/Admin/RegisterPostType.php:384
+#: ../../app/Resources/Options.php:358, ../../app/Controllers/Admin/RegisterPostType.php:384
 msgctxt "Payment status"
 msgid "Completed"
 msgstr ""
 
-#: ../../app/Resources/Options.php:356, ../../app/Controllers/Admin/RegisterPostType.php:404
+#: ../../app/Resources/Options.php:359, ../../app/Controllers/Admin/RegisterPostType.php:404
 msgctxt "Payment status"
 msgid "Cancelled"
 msgstr ""
 
-#: ../../app/Resources/Options.php:357, ../../app/Controllers/Admin/RegisterPostType.php:414
+#: ../../app/Resources/Options.php:360, ../../app/Controllers/Admin/RegisterPostType.php:414
 msgctxt "Payment status"
 msgid "Refunded"
 msgstr ""
 
-#: ../../app/Resources/Options.php:358, ../../app/Controllers/Admin/RegisterPostType.php:394
+#: ../../app/Resources/Options.php:361, ../../app/Controllers/Admin/RegisterPostType.php:394
 msgctxt "Payment status"
 msgid "Failed"
 msgstr ""
 
-#: ../../app/Resources/Options.php:359, ../../app/Controllers/Admin/RegisterPostType.php:374
+#: ../../app/Resources/Options.php:362, ../../app/Controllers/Admin/RegisterPostType.php:374
 msgctxt "Payment status"
 msgid "Created"
 msgstr ""
 
-#: ../../app/Resources/Options.php:380
+#: ../../app/Resources/Options.php:383
 msgid "Sell"
 msgstr ""
 
-#: ../../app/Resources/Options.php:381
+#: ../../app/Resources/Options.php:384
 msgid "Buy"
 msgstr ""
 
-#: ../../app/Resources/Options.php:382
+#: ../../app/Resources/Options.php:385
 msgid "Exchange"
 msgstr ""
 
-#: ../../app/Resources/Options.php:383
+#: ../../app/Resources/Options.php:386
 msgid "Job"
 msgstr ""
 
-#: ../../app/Resources/Options.php:384
+#: ../../app/Resources/Options.php:387
 msgid "To-Let"
 msgstr ""
 
-#: ../../app/Resources/Options.php:416
+#: ../../app/Resources/Options.php:419
 msgid "Text Box"
 msgstr ""
 
-#: ../../app/Resources/Options.php:421, ../../app/Resources/Options.php:436, ../../app/Resources/Options.php:455, ../../app/Resources/Options.php:479
+#: ../../app/Resources/Options.php:424, ../../app/Resources/Options.php:439, ../../app/Resources/Options.php:458, ../../app/Resources/Options.php:482
 msgid "Default value"
 msgstr ""
 
-#: ../../app/Resources/Options.php:425, ../../app/Resources/Options.php:440, ../../app/Resources/Options.php:459, ../../app/Resources/Options.php:483, ../../app/Resources/Options.php:506
+#: ../../app/Resources/Options.php:428, ../../app/Resources/Options.php:443, ../../app/Resources/Options.php:462, ../../app/Resources/Options.php:486, ../../app/Resources/Options.php:509
 msgid "Placeholder text"
 msgstr ""
 
-#: ../../app/Resources/Options.php:431, ../../views/settings/general-settings.php:102
+#: ../../app/Resources/Options.php:434, ../../views/settings/general-settings.php:102
 msgid "Textarea"
 msgstr ""
 
-#: ../../app/Resources/Options.php:444
+#: ../../app/Resources/Options.php:447
 msgid "Rows"
 msgstr ""
 
-#: ../../app/Resources/Options.php:450
+#: ../../app/Resources/Options.php:453
 msgid "URL"
 msgstr ""
 
-#: ../../app/Resources/Options.php:463
+#: ../../app/Resources/Options.php:466
 msgid "Open link in a new window?"
 msgstr ""
 
-#: ../../app/Resources/Options.php:467
+#: ../../app/Resources/Options.php:470
 msgid "Use rel=\"nofollow\" when displaying the link?"
 msgstr ""
 
-#: ../../app/Resources/Options.php:474
+#: ../../app/Resources/Options.php:477
 msgid "Number"
 msgstr ""
 
-#: ../../app/Resources/Options.php:487
+#: ../../app/Resources/Options.php:490
 msgid "Minimum value"
 msgstr ""
 
-#: ../../app/Resources/Options.php:491
+#: ../../app/Resources/Options.php:494
 msgid "Maximum value"
 msgstr ""
 
-#: ../../app/Resources/Options.php:495
+#: ../../app/Resources/Options.php:498
 msgid "Step Size"
 msgstr ""
 
-#: ../../app/Resources/Options.php:501, ../../app/Resources/Options.php:515, ../../app/Controllers/Admin/Meta/OrderMetaColumn.php:68, ../../app/Controllers/Elementor/Widgets/ListingCategoryBox.php:130, ../../app/Controllers/Elementor/WidgetSettings/AllLocationsSettings.php:263, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:632, ../../templates/checkout/payment-info.php:33, ../../templates/emails/email-order-details.php:57, ../../templates/myaccount/payment-history.php:29
+#: ../../app/Resources/Options.php:504, ../../app/Resources/Options.php:518, ../../app/Controllers/Admin/Meta/OrderMetaColumn.php:68, ../../app/Controllers/Elementor/Widgets/ListingCategoryBox.php:130, ../../app/Controllers/Elementor/WidgetSettings/AllLocationsSettings.php:263, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:632, ../../templates/checkout/payment-info.php:33, ../../templates/emails/email-order-details.php:57, ../../templates/myaccount/payment-history.php:29
 msgid "Date"
 msgstr ""
 
-#: ../../app/Resources/Options.php:510, ../../app/Widgets/Filter.php:251, ../../app/Controllers/Admin/Meta/OrderMetaColumn.php:65, ../../templates/block/listing-search/search.php:186, ../../templates/elementor/search/fields/types-field.php:27, ../../views/settings/listing-type.php:50
+#: ../../app/Resources/Options.php:513, ../../app/Widgets/Filter.php:251, ../../app/Controllers/Admin/Meta/OrderMetaColumn.php:65, ../../templates/block/listing-search/search.php:186, ../../templates/elementor/search/fields/types-field.php:27, ../../views/settings/listing-type.php:50
 msgid "Type"
 msgstr ""
 
-#: ../../app/Resources/Options.php:516
+#: ../../app/Resources/Options.php:519
 msgid "Date & Time"
 msgstr ""
 
-#: ../../app/Resources/Options.php:517
+#: ../../app/Resources/Options.php:520
 msgid "Date Range"
 msgstr ""
 
-#: ../../app/Resources/Options.php:518
+#: ../../app/Resources/Options.php:521
 msgid "Date & Time Range"
 msgstr ""
 
-#: ../../app/Resources/Options.php:522
+#: ../../app/Resources/Options.php:525
 msgid "Date Format"
 msgstr ""
 
-#: ../../app/Resources/Options.php:533
+#: ../../app/Resources/Options.php:536
 msgid "Time Format"
 msgstr ""
 
-#: ../../app/Resources/Options.php:544
+#: ../../app/Resources/Options.php:547
 msgid "Search able date type"
 msgstr ""
 
-#: ../../app/Resources/Options.php:549
+#: ../../app/Resources/Options.php:552
 msgid "Single"
 msgstr ""
 
-#: ../../app/Resources/Options.php:550
+#: ../../app/Resources/Options.php:553
 msgid "Range"
 msgstr ""
 
-#: ../../app/Resources/Options.php:556
+#: ../../app/Resources/Options.php:559
 msgid "Select"
 msgstr ""
 
-#: ../../app/Resources/Options.php:561, ../../app/Resources/Options.php:572, ../../app/Resources/Options.php:583
+#: ../../app/Resources/Options.php:564, ../../app/Resources/Options.php:575, ../../app/Resources/Options.php:586
 msgid "Options"
 msgstr ""
 
-#: ../../app/Resources/Options.php:567
+#: ../../app/Resources/Options.php:570
 msgid "Radio"
 msgstr ""
 
-#: ../../app/Resources/Options.php:578
+#: ../../app/Resources/Options.php:581
 msgid "Checkbox"
 msgstr ""
 
-#: ../../app/Resources/Options.php:594
+#: ../../app/Resources/Options.php:597
 msgid "Field label"
 msgstr ""
 
-#: ../../app/Resources/Options.php:596
+#: ../../app/Resources/Options.php:599
 msgid "Enter field label"
 msgstr ""
 
-#: ../../app/Resources/Options.php:600
+#: ../../app/Resources/Options.php:603
 msgid "Field slug/name"
 msgstr ""
 
-#: ../../app/Resources/Options.php:602
+#: ../../app/Resources/Options.php:605
 msgid "Enter field slug/name"
 msgstr ""
 
-#: ../../app/Resources/Options.php:606
+#: ../../app/Resources/Options.php:609
 msgid "Field description"
 msgstr ""
 
-#: ../../app/Resources/Options.php:608
+#: ../../app/Resources/Options.php:611
 msgid "Enter field description"
 msgstr ""
 
-#: ../../app/Resources/Options.php:611, ../../app/Controllers/Admin/Meta/AddTermMetaField.php:375, ../../app/Controllers/Admin/Meta/AddTermMetaField.php:489, ../../app/Controllers/Elementor/Widgets/ListingCategoryBox.php:180, ../../app/Controllers/Elementor/Widgets/SingleLocation.php:88, ../../app/Controllers/Elementor/Widgets/SingleLocation.php:275
+#: ../../app/Resources/Options.php:614, ../../app/Controllers/Admin/Meta/AddTermMetaField.php:375, ../../app/Controllers/Admin/Meta/AddTermMetaField.php:489, ../../app/Controllers/Elementor/Widgets/ListingCategoryBox.php:180, ../../app/Controllers/Elementor/Widgets/SingleLocation.php:88, ../../app/Controllers/Elementor/Widgets/SingleLocation.php:275
 msgid "Icon"
 msgstr ""
 
-#: ../../app/Resources/Options.php:618
+#: ../../app/Resources/Options.php:621
 msgid "Required?"
 msgstr ""
 
-#: ../../app/Resources/Options.php:622
+#: ../../app/Resources/Options.php:625
 msgid "Include this field in the filter (Widget)?"
 msgstr ""
 
-#: ../../app/Resources/Options.php:627
+#: ../../app/Resources/Options.php:630
 msgid "Include this field in the listing?"
 msgstr ""
 
-#: ../../app/Resources/Options.php:632
+#: ../../app/Resources/Options.php:635
 msgid "Conditional Logic"
 msgstr ""
 
-#: ../../app/Resources/Options.php:644, ../../app/Resources/Options.php:1867, ../../app/Resources/Options.php:1900, ../../app/Controllers/Hooks/TemplateHooks.php:585, ../../templates/listing-form/contact.php:117
+#: ../../app/Resources/Options.php:647, ../../app/Resources/Options.php:1870, ../../app/Resources/Options.php:1903, ../../app/Controllers/Hooks/TemplateHooks.php:581, ../../templates/listing-form/contact.php:117
 msgid "Zip Code"
 msgstr ""
 
-#: ../../app/Resources/Options.php:650, ../../app/Resources/Options.php:1866, ../../app/Resources/Options.php:1901, ../../app/Controllers/Hooks/TemplateHooks.php:590, ../../templates/listing-form/contact.php:124
+#: ../../app/Resources/Options.php:653, ../../app/Resources/Options.php:1869, ../../app/Resources/Options.php:1904, ../../app/Controllers/Hooks/TemplateHooks.php:586, ../../templates/listing-form/contact.php:124
 msgid "Address"
 msgstr ""
 
-#: ../../app/Resources/Options.php:662, ../../templates/listing-form/contact.php:164
+#: ../../app/Resources/Options.php:665, ../../templates/listing-form/contact.php:164
 msgid "Whatsapp number"
 msgstr ""
 
-#: ../../app/Resources/Options.php:668, ../../app/Resources/Options.php:1904, ../../app/Controllers/Settings/AdminSettings.php:369, ../../templates/listing-form/contact.php:173, ../../templates/myaccount/user-info.php:27
+#: ../../app/Resources/Options.php:671, ../../app/Resources/Options.php:1907, ../../app/Controllers/Settings/AdminSettings.php:369, ../../templates/listing-form/contact.php:173, ../../templates/myaccount/user-info.php:28
 msgid "Email"
 msgstr ""
 
-#: ../../app/Resources/Options.php:674, ../../templates/listing-form/contact.php:185, ../../templates/myaccount/form-edit-account.php:161
+#: ../../app/Resources/Options.php:677, ../../templates/listing-form/contact.php:185, ../../templates/myaccount/form-edit-account.php:161
 msgid "Website"
 msgstr ""
 
-#: ../../app/Resources/Options.php:683
+#: ../../app/Resources/Options.php:686
 msgid "Jan"
 msgstr ""
 
-#: ../../app/Resources/Options.php:684
+#: ../../app/Resources/Options.php:687
 msgid "Feb"
 msgstr ""
 
-#: ../../app/Resources/Options.php:685
+#: ../../app/Resources/Options.php:688
 msgid "Mar"
 msgstr ""
 
-#: ../../app/Resources/Options.php:686
+#: ../../app/Resources/Options.php:689
 msgid "Apr"
 msgstr ""
 
-#: ../../app/Resources/Options.php:687
+#: ../../app/Resources/Options.php:690
 msgid "May"
 msgstr ""
 
-#: ../../app/Resources/Options.php:688
+#: ../../app/Resources/Options.php:691
 msgid "Jun"
 msgstr ""
 
-#: ../../app/Resources/Options.php:689
+#: ../../app/Resources/Options.php:692
 msgid "Jul"
 msgstr ""
 
-#: ../../app/Resources/Options.php:690
+#: ../../app/Resources/Options.php:693
 msgid "Aug"
 msgstr ""
 
-#: ../../app/Resources/Options.php:691
+#: ../../app/Resources/Options.php:694
 msgid "Sep"
 msgstr ""
 
-#: ../../app/Resources/Options.php:692
+#: ../../app/Resources/Options.php:695
 msgid "Oct"
 msgstr ""
 
-#: ../../app/Resources/Options.php:693
+#: ../../app/Resources/Options.php:696
 msgid "Nov"
 msgstr ""
 
-#: ../../app/Resources/Options.php:694
+#: ../../app/Resources/Options.php:697
 msgid "Dec"
 msgstr ""
 
-#: ../../app/Resources/Options.php:941
+#: ../../app/Resources/Options.php:944
 msgid "%1$s (%2$s)"
 msgstr ""
 
-#: ../../app/Resources/Options.php:950
+#: ../../app/Resources/Options.php:953
 msgid "United Arab Emirates dirham"
 msgstr ""
 
-#: ../../app/Resources/Options.php:951
+#: ../../app/Resources/Options.php:954
 msgid "Afghan afghani"
 msgstr ""
 
-#: ../../app/Resources/Options.php:952
+#: ../../app/Resources/Options.php:955
 msgid "Albanian lek"
 msgstr ""
 
-#: ../../app/Resources/Options.php:953
+#: ../../app/Resources/Options.php:956
 msgid "Armenian dram"
 msgstr ""
 
-#: ../../app/Resources/Options.php:954
+#: ../../app/Resources/Options.php:957
 msgid "Netherlands Antillean guilder"
 msgstr ""
 
-#: ../../app/Resources/Options.php:955
+#: ../../app/Resources/Options.php:958
 msgid "Angolan kwanza"
 msgstr ""
 
-#: ../../app/Resources/Options.php:956
+#: ../../app/Resources/Options.php:959
 msgid "Argentine peso"
 msgstr ""
 
-#: ../../app/Resources/Options.php:957
+#: ../../app/Resources/Options.php:960
 msgid "Australian dollar"
 msgstr ""
 
-#: ../../app/Resources/Options.php:958
+#: ../../app/Resources/Options.php:961
 msgid "Aruban florin"
 msgstr ""
 
-#: ../../app/Resources/Options.php:959
+#: ../../app/Resources/Options.php:962
 msgid "Azerbaijani manat"
 msgstr ""
 
-#: ../../app/Resources/Options.php:960
+#: ../../app/Resources/Options.php:963
 msgid "Bosnia and Herzegovina convertible mark"
 msgstr ""
 
-#: ../../app/Resources/Options.php:961
+#: ../../app/Resources/Options.php:964
 msgid "Barbadian dollar"
 msgstr ""
 
-#: ../../app/Resources/Options.php:962
+#: ../../app/Resources/Options.php:965
 msgid "Bangladeshi taka"
 msgstr ""
 
-#: ../../app/Resources/Options.php:963
+#: ../../app/Resources/Options.php:966
 msgid "Bulgarian lev"
 msgstr ""
 
-#: ../../app/Resources/Options.php:964
+#: ../../app/Resources/Options.php:967
 msgid "Bahraini dinar"
 msgstr ""
 
-#: ../../app/Resources/Options.php:965
+#: ../../app/Resources/Options.php:968
 msgid "Burundian franc"
 msgstr ""
 
-#: ../../app/Resources/Options.php:966
+#: ../../app/Resources/Options.php:969
 msgid "Bermudian dollar"
 msgstr ""
 
-#: ../../app/Resources/Options.php:967
+#: ../../app/Resources/Options.php:970
 msgid "Brunei dollar"
 msgstr ""
 
-#: ../../app/Resources/Options.php:968
+#: ../../app/Resources/Options.php:971
 msgid "Bolivian boliviano"
 msgstr ""
 
-#: ../../app/Resources/Options.php:969
+#: ../../app/Resources/Options.php:972
 msgid "Brazilian real"
 msgstr ""
 
-#: ../../app/Resources/Options.php:970
+#: ../../app/Resources/Options.php:973
 msgid "Bahamian dollar"
 msgstr ""
 
-#: ../../app/Resources/Options.php:971
+#: ../../app/Resources/Options.php:974
 msgid "Bitcoin"
 msgstr ""
 
-#: ../../app/Resources/Options.php:972
+#: ../../app/Resources/Options.php:975
 msgid "Bhutanese ngultrum"
 msgstr ""
 
-#: ../../app/Resources/Options.php:973
+#: ../../app/Resources/Options.php:976
 msgid "Botswana pula"
 msgstr ""
 
-#: ../../app/Resources/Options.php:974
+#: ../../app/Resources/Options.php:977
 msgid "Belarusian ruble (old)"
 msgstr ""
 
-#: ../../app/Resources/Options.php:975
+#: ../../app/Resources/Options.php:978
 msgid "Belarusian ruble"
 msgstr ""
 
-#: ../../app/Resources/Options.php:976
+#: ../../app/Resources/Options.php:979
 msgid "Belize dollar"
 msgstr ""
 
-#: ../../app/Resources/Options.php:977
+#: ../../app/Resources/Options.php:980
 msgid "Canadian dollar"
 msgstr ""
 
-#: ../../app/Resources/Options.php:978
+#: ../../app/Resources/Options.php:981
 msgid "Congolese franc"
 msgstr ""
 
-#: ../../app/Resources/Options.php:979
+#: ../../app/Resources/Options.php:982
 msgid "Swiss franc"
 msgstr ""
 
-#: ../../app/Resources/Options.php:980
+#: ../../app/Resources/Options.php:983
 msgid "Chilean peso"
 msgstr ""
 
-#: ../../app/Resources/Options.php:981
+#: ../../app/Resources/Options.php:984
 msgid "Chinese yuan"
 msgstr ""
 
-#: ../../app/Resources/Options.php:982
+#: ../../app/Resources/Options.php:985
 msgid "Colombian peso"
 msgstr ""
 
-#: ../../app/Resources/Options.php:983
+#: ../../app/Resources/Options.php:986
 msgid "Costa Rican col&oacute;n"
 msgstr ""
 
-#: ../../app/Resources/Options.php:984
+#: ../../app/Resources/Options.php:987
 msgid "Cuban convertible peso"
 msgstr ""
 
-#: ../../app/Resources/Options.php:985
+#: ../../app/Resources/Options.php:988
 msgid "Cuban peso"
 msgstr ""
 
-#: ../../app/Resources/Options.php:986
+#: ../../app/Resources/Options.php:989
 msgid "Cape Verdean escudo"
 msgstr ""
 
-#: ../../app/Resources/Options.php:987
+#: ../../app/Resources/Options.php:990
 msgid "Czech koruna"
 msgstr ""
 
-#: ../../app/Resources/Options.php:988
+#: ../../app/Resources/Options.php:991
 msgid "Djiboutian franc"
 msgstr ""
 
-#: ../../app/Resources/Options.php:989
+#: ../../app/Resources/Options.php:992
 msgid "Danish krone"
 msgstr ""
 
-#: ../../app/Resources/Options.php:990
+#: ../../app/Resources/Options.php:993
 msgid "Dominican peso"
 msgstr ""
 
-#: ../../app/Resources/Options.php:991
+#: ../../app/Resources/Options.php:994
 msgid "Algerian dinar"
 msgstr ""
 
-#: ../../app/Resources/Options.php:992
+#: ../../app/Resources/Options.php:995
 msgid "Egyptian pound"
 msgstr ""
 
-#: ../../app/Resources/Options.php:993
+#: ../../app/Resources/Options.php:996
 msgid "Eritrean nakfa"
 msgstr ""
 
-#: ../../app/Resources/Options.php:994
+#: ../../app/Resources/Options.php:997
 msgid "Ethiopian birr"
 msgstr ""
 
-#: ../../app/Resources/Options.php:995
+#: ../../app/Resources/Options.php:998
 msgid "Euro"
 msgstr ""
 
-#: ../../app/Resources/Options.php:996
+#: ../../app/Resources/Options.php:999
 msgid "Fijian dollar"
 msgstr ""
 
-#: ../../app/Resources/Options.php:997
+#: ../../app/Resources/Options.php:1000
 msgid "Falkland Islands pound"
 msgstr ""
 
-#: ../../app/Resources/Options.php:998
+#: ../../app/Resources/Options.php:1001
 msgid "Pound sterling"
 msgstr ""
 
-#: ../../app/Resources/Options.php:999
+#: ../../app/Resources/Options.php:1002
 msgid "Georgian lari"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1000
+#: ../../app/Resources/Options.php:1003
 msgid "Guernsey pound"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1001
+#: ../../app/Resources/Options.php:1004
 msgid "Ghana cedi"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1002
+#: ../../app/Resources/Options.php:1005
 msgid "Gibraltar pound"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1003
+#: ../../app/Resources/Options.php:1006
 msgid "Gambian dalasi"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1004
+#: ../../app/Resources/Options.php:1007
 msgid "Guinean franc"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1005
+#: ../../app/Resources/Options.php:1008
 msgid "Guatemalan quetzal"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1006
+#: ../../app/Resources/Options.php:1009
 msgid "Guyanese dollar"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1007
+#: ../../app/Resources/Options.php:1010
 msgid "Hong Kong dollar"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1008
+#: ../../app/Resources/Options.php:1011
 msgid "Honduran lempira"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1009
+#: ../../app/Resources/Options.php:1012
 msgid "Croatian kuna"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1010
+#: ../../app/Resources/Options.php:1013
 msgid "Haitian gourde"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1011
+#: ../../app/Resources/Options.php:1014
 msgid "Hungarian forint"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1012
+#: ../../app/Resources/Options.php:1015
 msgid "Indonesian rupiah"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1013
+#: ../../app/Resources/Options.php:1016
 msgid "Israeli new shekel"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1014
+#: ../../app/Resources/Options.php:1017
 msgid "Manx pound"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1015
+#: ../../app/Resources/Options.php:1018
 msgid "Indian rupee"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1016
+#: ../../app/Resources/Options.php:1019
 msgid "Iraqi dinar"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1017
+#: ../../app/Resources/Options.php:1020
 msgid "Iranian rial"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1018
+#: ../../app/Resources/Options.php:1021
 msgid "Iranian toman"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1019
+#: ../../app/Resources/Options.php:1022
 msgid "Icelandic kr&oacute;na"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1020
+#: ../../app/Resources/Options.php:1023
 msgid "Jersey pound"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1021
+#: ../../app/Resources/Options.php:1024
 msgid "Jamaican dollar"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1022
+#: ../../app/Resources/Options.php:1025
 msgid "Jordanian dinar"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1023
+#: ../../app/Resources/Options.php:1026
 msgid "Japanese yen"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1024
+#: ../../app/Resources/Options.php:1027
 msgid "Kenyan shilling"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1025
+#: ../../app/Resources/Options.php:1028
 msgid "Kyrgyzstani som"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1026
+#: ../../app/Resources/Options.php:1029
 msgid "Cambodian riel"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1027
+#: ../../app/Resources/Options.php:1030
 msgid "Comorian franc"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1028
+#: ../../app/Resources/Options.php:1031
 msgid "North Korean won"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1029
+#: ../../app/Resources/Options.php:1032
 msgid "South Korean won"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1030
+#: ../../app/Resources/Options.php:1033
 msgid "Kuwaiti dinar"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1031
+#: ../../app/Resources/Options.php:1034
 msgid "Cayman Islands dollar"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1032
+#: ../../app/Resources/Options.php:1035
 msgid "Kazakhstani tenge"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1033
+#: ../../app/Resources/Options.php:1036
 msgid "Lao kip"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1034
+#: ../../app/Resources/Options.php:1037
 msgid "Lebanese pound"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1035
+#: ../../app/Resources/Options.php:1038
 msgid "Sri Lankan rupee"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1036
+#: ../../app/Resources/Options.php:1039
 msgid "Liberian dollar"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1037
+#: ../../app/Resources/Options.php:1040
 msgid "Lesotho loti"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1038
+#: ../../app/Resources/Options.php:1041
 msgid "Libyan dinar"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1039
+#: ../../app/Resources/Options.php:1042
 msgid "Moroccan dirham"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1040
+#: ../../app/Resources/Options.php:1043
 msgid "Moldovan leu"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1041
+#: ../../app/Resources/Options.php:1044
 msgid "Malagasy ariary"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1042
+#: ../../app/Resources/Options.php:1045
 msgid "Macedonian denar"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1043
+#: ../../app/Resources/Options.php:1046
 msgid "Burmese kyat"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1044
+#: ../../app/Resources/Options.php:1047
 msgid "Mongolian t&ouml;gr&ouml;g"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1045
+#: ../../app/Resources/Options.php:1048
 msgid "Macanese pataca"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1046
+#: ../../app/Resources/Options.php:1049
 msgid "Mauritanian ouguiya"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1047
+#: ../../app/Resources/Options.php:1050
 msgid "Mauritian rupee"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1048
+#: ../../app/Resources/Options.php:1051
 msgid "Maldivian rufiyaa"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1049
+#: ../../app/Resources/Options.php:1052
 msgid "Malawian kwacha"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1050
+#: ../../app/Resources/Options.php:1053
 msgid "Mexican peso"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1051
+#: ../../app/Resources/Options.php:1054
 msgid "Malaysian ringgit"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1052
+#: ../../app/Resources/Options.php:1055
 msgid "Mozambican metical"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1053
+#: ../../app/Resources/Options.php:1056
 msgid "Namibian dollar"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1054
+#: ../../app/Resources/Options.php:1057
 msgid "Nigerian naira"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1055
+#: ../../app/Resources/Options.php:1058
 msgid "Nicaraguan c&oacute;rdoba"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1056
+#: ../../app/Resources/Options.php:1059
 msgid "Norwegian krone"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1057
+#: ../../app/Resources/Options.php:1060
 msgid "Nepalese rupee"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1058
+#: ../../app/Resources/Options.php:1061
 msgid "New Zealand dollar"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1059
+#: ../../app/Resources/Options.php:1062
 msgid "Omani rial"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1060
+#: ../../app/Resources/Options.php:1063
 msgid "Panamanian balboa"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1061
+#: ../../app/Resources/Options.php:1064
 msgid "Peruvian nuevo sol"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1062
+#: ../../app/Resources/Options.php:1065
 msgid "Papua New Guinean kina"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1063
+#: ../../app/Resources/Options.php:1066
 msgid "Philippine peso"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1064
+#: ../../app/Resources/Options.php:1067
 msgid "Pakistani rupee"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1065
+#: ../../app/Resources/Options.php:1068
 msgid "Polish z&#x142;oty"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1066
+#: ../../app/Resources/Options.php:1069
 msgid "Transnistrian ruble"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1067
+#: ../../app/Resources/Options.php:1070
 msgid "Paraguayan guaran&iacute;"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1068
+#: ../../app/Resources/Options.php:1071
 msgid "Qatari riyal"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1069
+#: ../../app/Resources/Options.php:1072
 msgid "Romanian leu"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1070
+#: ../../app/Resources/Options.php:1073
 msgid "Serbian dinar"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1071
+#: ../../app/Resources/Options.php:1074
 msgid "Russian ruble"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1072
+#: ../../app/Resources/Options.php:1075
 msgid "Rwandan franc"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1073
+#: ../../app/Resources/Options.php:1076
 msgid "Saudi riyal"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1074
+#: ../../app/Resources/Options.php:1077
 msgid "Solomon Islands dollar"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1075
+#: ../../app/Resources/Options.php:1078
 msgid "Seychellois rupee"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1076
+#: ../../app/Resources/Options.php:1079
 msgid "Sudanese pound"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1077
+#: ../../app/Resources/Options.php:1080
 msgid "Swedish krona"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1078
+#: ../../app/Resources/Options.php:1081
 msgid "Singapore dollar"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1079
+#: ../../app/Resources/Options.php:1082
 msgid "Saint Helena pound"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1080
+#: ../../app/Resources/Options.php:1083
 msgid "Sierra Leonean leone"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1081
+#: ../../app/Resources/Options.php:1084
 msgid "Somali shilling"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1082
+#: ../../app/Resources/Options.php:1085
 msgid "Surinamese dollar"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1083
+#: ../../app/Resources/Options.php:1086
 msgid "South Sudanese pound"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1084
+#: ../../app/Resources/Options.php:1087
 msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe dobra"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1085
+#: ../../app/Resources/Options.php:1088
 msgid "Syrian pound"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1086
+#: ../../app/Resources/Options.php:1089
 msgid "Swazi lilangeni"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1087
+#: ../../app/Resources/Options.php:1090
 msgid "Thai baht"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1088
+#: ../../app/Resources/Options.php:1091
 msgid "Tajikistani somoni"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1089
+#: ../../app/Resources/Options.php:1092
 msgid "Turkmenistan manat"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1090
+#: ../../app/Resources/Options.php:1093
 msgid "Tunisian dinar"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1091
+#: ../../app/Resources/Options.php:1094
 msgid "Tongan pa&#x2bb;anga"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1092
+#: ../../app/Resources/Options.php:1095
 msgid "Turkish lira"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1093
+#: ../../app/Resources/Options.php:1096
 msgid "Trinidad and Tobago dollar"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1094
+#: ../../app/Resources/Options.php:1097
 msgid "New Taiwan dollar"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1095
+#: ../../app/Resources/Options.php:1098
 msgid "Tanzanian shilling"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1096
+#: ../../app/Resources/Options.php:1099
 msgid "Ukrainian hryvnia"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1097
+#: ../../app/Resources/Options.php:1100
 msgid "Ugandan shilling"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1098
+#: ../../app/Resources/Options.php:1101
 msgid "United States dollar"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1099
+#: ../../app/Resources/Options.php:1102
 msgid "Uruguayan peso"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1100
+#: ../../app/Resources/Options.php:1103
 msgid "Uzbekistani som"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1101
+#: ../../app/Resources/Options.php:1104
 msgid "Venezuelan bol&iacute;var"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1102
+#: ../../app/Resources/Options.php:1105
 msgid "Vietnamese &#x111;&#x1ed3;ng"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1103
+#: ../../app/Resources/Options.php:1106
 msgid "Vanuatu vatu"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1104
+#: ../../app/Resources/Options.php:1107
 msgid "Samoan t&#x101;l&#x101;"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1105
+#: ../../app/Resources/Options.php:1108
 msgid "Central African CFA franc"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1106
+#: ../../app/Resources/Options.php:1109
 msgid "East Caribbean dollar"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1107
+#: ../../app/Resources/Options.php:1110
 msgid "West African CFA franc"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1108
+#: ../../app/Resources/Options.php:1111
 msgid "CFP franc"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1109
+#: ../../app/Resources/Options.php:1112
 msgid "Yemeni rial"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1110
+#: ../../app/Resources/Options.php:1113
 msgid "South African rand"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1111
+#: ../../app/Resources/Options.php:1114
 msgid "Zambian kwacha"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1121, ../../app/Widgets/Filter.php:290, ../../templates/widgets/search/vertical.php:138
+#: ../../app/Resources/Options.php:1124, ../../app/Widgets/Filter.php:290, ../../templates/widgets/search/vertical.php:138
 msgid "Price Range"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1122
+#: ../../app/Resources/Options.php:1125
 msgid "Disabled"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1131
+#: ../../app/Resources/Options.php:1134
 msgid "Regular"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1139
+#: ../../app/Resources/Options.php:1142
 msgid "Left ($99)"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1140
+#: ../../app/Resources/Options.php:1143
 msgid "Right (99$)"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1141
+#: ../../app/Resources/Options.php:1144
 msgid "Left with space ($ 99)"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1142
+#: ../../app/Resources/Options.php:1145
 msgid "Right with space (99 $)"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1759
+#: ../../app/Resources/Options.php:1762
 msgid "per year"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1763
+#: ../../app/Resources/Options.php:1766
 msgid "per month"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1766
+#: ../../app/Resources/Options.php:1769
 msgid "Week"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1767
+#: ../../app/Resources/Options.php:1770
 msgid "per week"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1771
+#: ../../app/Resources/Options.php:1774
 msgid "per day"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1775
+#: ../../app/Resources/Options.php:1778
 msgid "per hour"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1778
+#: ../../app/Resources/Options.php:1781
 msgid "Square Feet"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1779
+#: ../../app/Resources/Options.php:1782
 msgid "per sqft"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1782
+#: ../../app/Resources/Options.php:1785
 msgid "Total Price"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1783
+#: ../../app/Resources/Options.php:1786
 msgid "total price"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1793, ../../app/Resources/Options.php:1807
+#: ../../app/Resources/Options.php:1796, ../../app/Resources/Options.php:1810
 msgid "A new user is registered (Only work when user registered using Classified listing plugin registration form)"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1794
+#: ../../app/Resources/Options.php:1797
 msgid "A new listing is submitted"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1795
+#: ../../app/Resources/Options.php:1798
 msgid "A listing is edited"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1796
+#: ../../app/Resources/Options.php:1799
 msgid "A listing expired"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1797, ../../app/Resources/Options.php:1813
+#: ../../app/Resources/Options.php:1800, ../../app/Resources/Options.php:1816
 msgid "Order created"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1798
+#: ../../app/Resources/Options.php:1801
 msgid "Payment received / Order Completed"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1799
+#: ../../app/Resources/Options.php:1802
 msgid "Contact message (Email to listing owner)"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1808
+#: ../../app/Resources/Options.php:1811
 msgid "Listing is submitted"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1809
+#: ../../app/Resources/Options.php:1812
 msgid "Listing is approved/published"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1810
+#: ../../app/Resources/Options.php:1813
 msgid "Listing is about to expire (reached renewal email threshold)."
 msgstr ""
 
-#: ../../app/Resources/Options.php:1811
+#: ../../app/Resources/Options.php:1814
 msgid "Listing expired"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1812
+#: ../../app/Resources/Options.php:1815
 msgid "Listing expired and reached renewal reminder email threshold"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1814
+#: ../../app/Resources/Options.php:1817
 msgid "Order completed"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1815
+#: ../../app/Resources/Options.php:1818
 msgid "Disable contact email to listing owner"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1843
+#: ../../app/Resources/Options.php:1846
 msgid "Plain text"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1846
+#: ../../app/Resources/Options.php:1849
 msgid "HTML"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1847
+#: ../../app/Resources/Options.php:1850
 msgid "Multipart"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1855
+#: ../../app/Resources/Options.php:1858
 msgid "User Login form"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1856
+#: ../../app/Resources/Options.php:1859
 msgid "User Registration form"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1857
+#: ../../app/Resources/Options.php:1860
 msgid "New Listing form"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1858, ../../views/settings/moderation-settings.php:80
+#: ../../app/Resources/Options.php:1861, ../../views/settings/moderation-settings.php:80
 msgid "Contact form"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1859
+#: ../../app/Resources/Options.php:1862
 msgid "Report abuse form"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1874
+#: ../../app/Resources/Options.php:1877
 msgid "Category name"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1875
+#: ../../app/Resources/Options.php:1878
 msgid "Location name"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1876, ../../app/Resources/Options.php:1892, ../../templates/listing-form/category.php:28
+#: ../../app/Resources/Options.php:1879, ../../app/Resources/Options.php:1895, ../../templates/listing-form/category.php:28
 msgid "Ad Type"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1877
+#: ../../app/Resources/Options.php:1880
 msgid "Date added"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1878
+#: ../../app/Resources/Options.php:1881
 msgid "Listing owner name"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1879
+#: ../../app/Resources/Options.php:1882
 msgid "Listing owner link"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1882
+#: ../../app/Resources/Options.php:1885
 msgid "Price type"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1883
+#: ../../app/Resources/Options.php:1886
 msgid "Feature Label"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1884
+#: ../../app/Resources/Options.php:1887
 msgid "New Label"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1893
+#: ../../app/Resources/Options.php:1896
 msgid "Pricing Type"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1897, ../../app/Controllers/Admin/Meta/AddMetaBox.php:72
+#: ../../app/Resources/Options.php:1900, ../../app/Controllers/Admin/Meta/AddMetaBox.php:72
 msgid "Gallery"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1898, ../../app/Controllers/Admin/Meta/AddMetaBox.php:80, ../../templates/listing-form/video-urls.php:15
+#: ../../app/Resources/Options.php:1901, ../../app/Controllers/Admin/Meta/AddMetaBox.php:80, ../../templates/listing-form/video-urls.php:15
 msgid "Video URL"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1899, ../../app/Widgets/Filter.php:214, ../../app/Controllers/Admin/ScriptLoader.php:396, ../../app/Controllers/Hooks/TemplateHooks.php:344, ../../app/Controllers/Hooks/TemplateHooks.php:513, ../../app/Controllers/Hooks/TemplateHooks.php:605, ../../app/Controllers/Elementor/Widgets/SingleLocation.php:64, ../../templates/listing-form/contact.php:134, ../../templates/block/listing-search/search.php:80, ../../templates/block/listing-search/search.php:51, ../../templates/elementor/search/fields/location-field.php:60, ../../templates/elementor/search/fields/location-field.php:33
+#: ../../app/Resources/Options.php:1902, ../../app/Widgets/Filter.php:214, ../../app/Controllers/Admin/ScriptLoader.php:396, ../../app/Controllers/Hooks/TemplateHooks.php:340, ../../app/Controllers/Hooks/TemplateHooks.php:509, ../../app/Controllers/Hooks/TemplateHooks.php:601, ../../app/Controllers/Elementor/Widgets/SingleLocation.php:64, ../../templates/listing-form/contact.php:134, ../../templates/block/listing-search/search.php:80, ../../templates/block/listing-search/search.php:51, ../../templates/elementor/search/fields/location-field.php:60, ../../templates/elementor/search/fields/location-field.php:33
 msgid "Location"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1903
+#: ../../app/Resources/Options.php:1906
 msgid "Whatsapp Number"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1905
+#: ../../app/Resources/Options.php:1908
 msgid "Website URL"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1913
+#: ../../app/Resources/Options.php:1916
 msgid "Short description"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1937
+#: ../../app/Resources/Options.php:1940
 msgid "Linkedin"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1939
+#: ../../app/Resources/Options.php:1942
 msgid "WhatsApp (Only at mobile)"
 msgstr ""
 
-#: ../../app/Resources/Options.php:1940
+#: ../../app/Resources/Options.php:1943
 msgid "Telegram (Only at mobile)"
 msgstr ""
 
@@ -2856,7 +2868,7 @@ msgstr ""
 msgid "Move to trash"
 msgstr ""
 
-#: ../../app/Resources/OrderOptions.php:23, ../../app/Resources/OrderOptions.php:24, ../../app/Controllers/Hooks/TemplateHooks.php:857, ../../app/Controllers/Admin/Meta/ListingSubmitBoxMice.php:114, ../../views/settings/listing-type.php:57
+#: ../../app/Resources/OrderOptions.php:23, ../../app/Resources/OrderOptions.php:24, ../../app/Controllers/Hooks/TemplateHooks.php:853, ../../app/Controllers/Admin/Meta/ListingSubmitBoxMice.php:114, ../../views/settings/listing-type.php:57
 msgid "Update"
 msgstr ""
 
@@ -2979,15 +2991,15 @@ msgstr ""
 msgid "You do not have sufficient permissions to access this page."
 msgstr ""
 
-#: ../../app/Shortcodes/ListingForm.php:52, ../../app/Controllers/Ajax/PublicUser.php:683
+#: ../../app/Shortcodes/ListingForm.php:52, ../../app/Controllers/Ajax/PublicUser.php:689
 msgid "Please select ad type and category"
 msgstr ""
 
-#: ../../app/Shortcodes/ListingForm.php:55, ../../app/Controllers/Ajax/PublicUser.php:686
+#: ../../app/Shortcodes/ListingForm.php:55, ../../app/Controllers/Ajax/PublicUser.php:692
 msgid "Please select an ad type"
 msgstr ""
 
-#: ../../app/Shortcodes/ListingForm.php:59, ../../app/Controllers/Ajax/PublicUser.php:690
+#: ../../app/Shortcodes/ListingForm.php:59, ../../app/Controllers/Ajax/PublicUser.php:696
 msgid "Please select correct type and category"
 msgstr ""
 
@@ -3045,6 +3057,10 @@ msgstr ""
 
 #: ../../app/Widgets/Filter.php:279, ../../templates/widgets/search/inline.php:151, ../../templates/widgets/search/vertical.php:149, ../../templates/elementor/search/fields/price-field.php:36
 msgid "max"
+msgstr ""
+
+#: ../../app/Widgets/Filter.php:320, ../../templates/widgets/search/inline.php:49, ../../templates/widgets/search/vertical.php:52
+msgid "km"
 msgstr ""
 
 #: ../../app/Widgets/Filter.php:320, ../../templates/widgets/search/inline.php:49, ../../templates/widgets/search/vertical.php:52
@@ -3540,7 +3556,7 @@ msgstr ""
 msgid "File extension not supported."
 msgstr ""
 
-#: ../../app/Controllers/Admin/ScriptLoader.php:118, ../../app/Controllers/Ajax/PublicUser.php:210, ../../app/Controllers/Ajax/PublicUser.php:271, ../../app/Controllers/Ajax/PublicUser.php:492, ../../app/Controllers/Ajax/PublicUser.php:567, ../../app/Controllers/Blocks/AdminAjaxController.php:62, ../../app/Controllers/Blocks/AdminAjaxController.php:174, ../../app/Controllers/Blocks/AdminAjaxController.php:191, ../../app/Controllers/Blocks/AdminAjaxController.php:226, ../../app/Controllers/Blocks/AdminAjaxController.php:239, ../../app/Controllers/Blocks/AdminAjaxController.php:262, ../../app/Controllers/Blocks/AdminAjaxController.php:420, ../../app/Controllers/Blocks/AdminAjaxController.php:436, ../../app/Controllers/Blocks/ListingsAjaxController.php:230
+#: ../../app/Controllers/Admin/ScriptLoader.php:118, ../../app/Controllers/Ajax/PublicUser.php:215, ../../app/Controllers/Ajax/PublicUser.php:277, ../../app/Controllers/Ajax/PublicUser.php:498, ../../app/Controllers/Ajax/PublicUser.php:573, ../../app/Controllers/Blocks/AdminAjaxController.php:62, ../../app/Controllers/Blocks/AdminAjaxController.php:174, ../../app/Controllers/Blocks/AdminAjaxController.php:191, ../../app/Controllers/Blocks/AdminAjaxController.php:226, ../../app/Controllers/Blocks/AdminAjaxController.php:239, ../../app/Controllers/Blocks/AdminAjaxController.php:262, ../../app/Controllers/Blocks/AdminAjaxController.php:420, ../../app/Controllers/Blocks/AdminAjaxController.php:436, ../../app/Controllers/Blocks/ListingsAjaxController.php:230
 msgid "Session Expired!!"
 msgstr ""
 
@@ -3640,7 +3656,7 @@ msgstr ""
 msgid "Please Select a value file with a valid extension."
 msgstr ""
 
-#: ../../app/Controllers/Admin/ScriptLoader.php:144, ../../app/Controllers/Hooks/FilterHooks.php:134
+#: ../../app/Controllers/Admin/ScriptLoader.php:144, ../../app/Controllers/Hooks/FilterHooks.php:146
 msgid "Your password must be at least %d characters long."
 msgstr ""
 
@@ -3876,7 +3892,7 @@ msgstr ""
 msgid "Type field is required"
 msgstr ""
 
-#: ../../app/Controllers/Ajax/AjaxListingType.php:42, ../../app/Controllers/Ajax/AjaxListingType.php:116, ../../app/Controllers/Ajax/AjaxListingType.php:146, ../../app/Controllers/Ajax/PublicUser.php:546
+#: ../../app/Controllers/Ajax/AjaxListingType.php:42, ../../app/Controllers/Ajax/AjaxListingType.php:116, ../../app/Controllers/Ajax/AjaxListingType.php:146, ../../app/Controllers/Ajax/PublicUser.php:552
 msgid "Session expired."
 msgstr ""
 
@@ -3944,6 +3960,14 @@ msgstr ""
 msgid "%s Successfully created"
 msgstr ""
 
+#: ../../app/Controllers/Ajax/InlineSearchAjax.php:52
+msgid "Session error !!"
+msgstr ""
+
+#: ../../app/Controllers/Ajax/InlineSearchAjax.php:56, ../../app/Controllers/Ajax/InlineSearchAjax.php:111
+msgid "Please provide all field!!"
+msgstr ""
+
 #. translators: $1: customer name, $2 customer id, $3: customer email
 #: ../../app/Controllers/Ajax/InlineSearchAjax.php:78
 msgid "%1$s (#%2$s &ndash; %3$s)"
@@ -3961,7 +3985,7 @@ msgstr ""
 msgid "Please select all field"
 msgstr ""
 
-#: ../../app/Controllers/Ajax/ListingAdminAjax.php:54, ../../app/Controllers/Ajax/PublicUser.php:861
+#: ../../app/Controllers/Ajax/ListingAdminAjax.php:54, ../../app/Controllers/Ajax/PublicUser.php:867
 msgid "Error!!"
 msgstr ""
 
@@ -3971,6 +3995,10 @@ msgstr ""
 
 #: ../../app/Controllers/Ajax/ListingAdminAjax.php:78
 msgid "Post with given ID does not exist."
+msgstr ""
+
+#: ../../app/Controllers/Ajax/PublicUser.php:70, ../../app/Controllers/Ajax/PublicUser.php:152, ../../app/Controllers/Ajax/PublicUser.php:203
+msgid "Authentication error!!"
 msgstr ""
 
 #: ../../app/Controllers/Ajax/PublicUser.php:75
@@ -3997,103 +4025,99 @@ msgstr ""
 msgid "Your listing is renewed!!"
 msgstr ""
 
-#: ../../app/Controllers/Ajax/PublicUser.php:152, ../../app/Controllers/Ajax/PublicUser.php:203
-msgid "Authentication error!!"
-msgstr ""
-
-#: ../../app/Controllers/Ajax/PublicUser.php:309
+#: ../../app/Controllers/Ajax/PublicUser.php:315
 msgid "You have successfully logged in."
 msgstr ""
 
-#: ../../app/Controllers/Ajax/PublicUser.php:325
+#: ../../app/Controllers/Ajax/PublicUser.php:331
 msgid "Invalid email address."
 msgstr ""
 
-#: ../../app/Controllers/Ajax/PublicUser.php:330
+#: ../../app/Controllers/Ajax/PublicUser.php:336
 msgid "Sorry, that email address already exists!"
 msgstr ""
 
-#: ../../app/Controllers/Ajax/PublicUser.php:341
+#: ../../app/Controllers/Ajax/PublicUser.php:347
 msgid "The password field is empty."
 msgstr ""
 
-#: ../../app/Controllers/Ajax/PublicUser.php:426
+#: ../../app/Controllers/Ajax/PublicUser.php:432
 msgid "Your account has been updated."
 msgstr ""
 
-#: ../../app/Controllers/Ajax/PublicUser.php:515, ../../app/Controllers/Ajax/PublicUser.php:591
+#: ../../app/Controllers/Ajax/PublicUser.php:521, ../../app/Controllers/Ajax/PublicUser.php:597
 msgid "Your message sent successfully."
 msgstr ""
 
-#: ../../app/Controllers/Ajax/PublicUser.php:543
+#: ../../app/Controllers/Ajax/PublicUser.php:549
 msgid "Permission Error."
 msgstr ""
 
-#: ../../app/Controllers/Ajax/PublicUser.php:540
+#: ../../app/Controllers/Ajax/PublicUser.php:546
 msgid "Successfully deleted."
 msgstr ""
 
-#: ../../app/Controllers/Ajax/PublicUser.php:584
+#: ../../app/Controllers/Ajax/PublicUser.php:590
 msgid "Sorry! Please try again."
 msgstr ""
 
-#: ../../app/Controllers/Ajax/PublicUser.php:624
+#: ../../app/Controllers/Ajax/PublicUser.php:630
 msgid "Session Expired!"
 msgstr ""
 
-#: ../../app/Controllers/Ajax/PublicUser.php:621
+#: ../../app/Controllers/Ajax/PublicUser.php:627
 msgid "Add post id to remove"
 msgstr ""
 
-#: ../../app/Controllers/Ajax/PublicUser.php:619
+#: ../../app/Controllers/Ajax/PublicUser.php:625
 msgid "Successfully removed"
 msgstr ""
 
-#: ../../app/Controllers/Ajax/PublicUser.php:868
+#: ../../app/Controllers/Ajax/PublicUser.php:874
 msgid "Session Error !!"
 msgstr ""
 
-#: ../../app/Controllers/Ajax/PublicUser.php:674
+#: ../../app/Controllers/Ajax/PublicUser.php:680
 msgid "Image is required. Please select an image."
 msgstr ""
 
-#: ../../app/Controllers/Ajax/PublicUser.php:694
+#: ../../app/Controllers/Ajax/PublicUser.php:700
 msgid "Category is not valid"
 msgstr ""
 
-#: ../../app/Controllers/Ajax/PublicUser.php:698
+#: ../../app/Controllers/Ajax/PublicUser.php:704
 msgid "Category not selected"
 msgstr ""
 
-#: ../../app/Controllers/Ajax/PublicUser.php:773
+#: ../../app/Controllers/Ajax/PublicUser.php:779
 msgid "A new account is registered, password is sent to your email(%s)."
 msgstr ""
 
-#: ../../app/Controllers/Ajax/PublicUser.php:853
+#: ../../app/Controllers/Ajax/PublicUser.php:859
 msgid "Successfully updated !!!"
 msgstr ""
 
-#: ../../app/Controllers/Ajax/PublicUser.php:851
+#: ../../app/Controllers/Ajax/PublicUser.php:857
 msgid "Thank you for submitting your ad!"
 msgstr ""
 
-#: ../../app/Controllers/Ajax/PublicUser.php:663
+#: ../../app/Controllers/Ajax/PublicUser.php:669
 msgid "Category not selected. <a href=\"%s\">Click here to set category</a>"
 msgstr ""
 
-#: ../../app/Controllers/Ajax/PublicUser.php:651
+#: ../../app/Controllers/Ajax/PublicUser.php:657
 msgid "Please agree with the terms and conditions."
 msgstr ""
 
-#: ../../app/Controllers/Ajax/PublicUser.php:910
+#: ../../app/Controllers/Ajax/PublicUser.php:916
 msgid "Category not selected."
 msgstr ""
 
-#: ../../app/Controllers/Ajax/PublicUser.php:943
+#: ../../app/Controllers/Ajax/PublicUser.php:949
 msgid "Type is not selected."
 msgstr ""
 
-#: ../../app/Controllers/Ajax/PublicUser.php:940
+#: ../../app/Controllers/Ajax/PublicUser.php:946
 msgid "No category found."
 msgstr ""
 
@@ -4101,11 +4125,15 @@ msgstr ""
 msgid "Please Select a Location and Background"
 msgstr ""
 
-#: ../../app/Controllers/Blocks/ListingsAjaxController.php:165, ../../app/Controllers/Elementor/Widgets/HeaderButton.php:222
+#: ../../app/Controllers/Blocks/ListingsAjaxController.php:150, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingBadgeTrait.php:77
+msgid "Sold Out"
+msgstr ""
+
+#: ../../app/Controllers/Blocks/ListingsAjaxController.php:165, ../../app/Controllers/Elementor/Widgets/HeaderButton.php:222, ../../templates/elementor/listing-ads/grid/style-1.php:97, ../../templates/elementor/listing-ads/list/style-1.php:99, ../../templates/elementor/listing-ads/list/style-1.php:101
 msgid "Compare"
 msgstr ""
 
-#: ../../app/Controllers/Blocks/ListingsAjaxController.php:175, ../../templates/elementor/listing-ads/grid/style-1.php:73, ../../templates/elementor/listing-ads/list/style-1.php:74
+#: ../../app/Controllers/Blocks/ListingsAjaxController.php:175, ../../templates/elementor/listing-ads/grid/style-1.php:73, ../../templates/elementor/listing-ads/list/style-1.php:74, ../../templates/elementor/listing-ads/list/style-1.php:76
 msgid "Quick View"
 msgstr ""
 
@@ -4171,87 +4199,87 @@ msgstr ""
 msgid "Please add the review title."
 msgstr ""
 
-#: ../../app/Controllers/Hooks/FilterHooks.php:169, ../../templates/myaccount/form-registration.php:24
+#: ../../app/Controllers/Hooks/FilterHooks.php:181, ../../templates/myaccount/form-registration.php:24
 msgid "Registration"
 msgstr ""
 
-#: ../../app/Controllers/Hooks/TemplateHooks.php:232
+#: ../../app/Controllers/Hooks/TemplateHooks.php:228
 msgid "View all my listings"
 msgstr ""
 
-#: ../../app/Controllers/Hooks/TemplateHooks.php:256
+#: ../../app/Controllers/Hooks/TemplateHooks.php:252
 msgid "Visit Website"
 msgstr ""
 
-#: ../../app/Controllers/Hooks/TemplateHooks.php:313
+#: ../../app/Controllers/Hooks/TemplateHooks.php:309
 msgid "Contact Number"
 msgstr ""
 
-#: ../../app/Controllers/Hooks/TemplateHooks.php:323
+#: ../../app/Controllers/Hooks/TemplateHooks.php:319
 msgid "Click to reveal phone number"
 msgstr ""
 
-#: ../../app/Controllers/Hooks/TemplateHooks.php:364, ../../views/settings/advanced-settings.php:130
+#: ../../app/Controllers/Hooks/TemplateHooks.php:360, ../../views/settings/advanced-settings.php:130
 msgid "Promote"
 msgstr ""
 
-#: ../../app/Controllers/Hooks/TemplateHooks.php:386
+#: ../../app/Controllers/Hooks/TemplateHooks.php:382
 msgid "Renew"
 msgstr ""
 
-#: ../../app/Controllers/Hooks/TemplateHooks.php:415, ../../templates/myaccount/favourite-listings.php:40, ../../views/settings/listing-type.php:39
+#: ../../app/Controllers/Hooks/TemplateHooks.php:411, ../../templates/myaccount/favourite-listings.php:40, ../../views/settings/listing-type.php:39
 msgid "Delete"
 msgstr ""
 
-#: ../../app/Controllers/Hooks/TemplateHooks.php:427
+#: ../../app/Controllers/Hooks/TemplateHooks.php:423
 msgid "Add to favourite"
 msgstr ""
 
-#: ../../app/Controllers/Hooks/TemplateHooks.php:474
+#: ../../app/Controllers/Hooks/TemplateHooks.php:470
 msgid "Update Account"
 msgstr ""
 
-#: ../../app/Controllers/Hooks/TemplateHooks.php:484
+#: ../../app/Controllers/Hooks/TemplateHooks.php:480
 msgid "Social Profile"
 msgstr ""
 
-#: ../../app/Controllers/Hooks/TemplateHooks.php:520
+#: ../../app/Controllers/Hooks/TemplateHooks.php:516
 msgid "Select state"
 msgstr ""
 
-#: ../../app/Controllers/Hooks/TemplateHooks.php:546, ../../app/Controllers/Hooks/TemplateHooks.php:571, ../../templates/listing-form/contact.php:45, ../../templates/listing-form/contact.php:73, ../../templates/listing-form/contact.php:100
+#: ../../app/Controllers/Hooks/TemplateHooks.php:542, ../../app/Controllers/Hooks/TemplateHooks.php:567, ../../templates/listing-form/contact.php:45, ../../templates/listing-form/contact.php:73, ../../templates/listing-form/contact.php:100
 msgid "Select location"
 msgstr ""
 
-#: ../../app/Controllers/Hooks/TemplateHooks.php:627, ../../views/settings/misc-settings.php:150
+#: ../../app/Controllers/Hooks/TemplateHooks.php:623, ../../views/settings/misc-settings.php:150
 msgid "Map"
 msgstr ""
 
-#: ../../app/Controllers/Hooks/TemplateHooks.php:840
+#: ../../app/Controllers/Hooks/TemplateHooks.php:836
 msgid "Apply filters"
 msgstr ""
 
-#: ../../app/Controllers/Hooks/TemplateHooks.php:845
+#: ../../app/Controllers/Hooks/TemplateHooks.php:841
 msgid "Clear filters"
 msgstr ""
 
-#: ../../app/Controllers/Hooks/TemplateHooks.php:859, ../../templates/listing/actions.php:73, ../../templates/listing/email-to-seller-form.php:30
+#: ../../app/Controllers/Hooks/TemplateHooks.php:855, ../../templates/listing/actions.php:75, ../../templates/listing/email-to-seller-form.php:30
 msgid "Submit"
 msgstr ""
 
-#: ../../app/Controllers/Hooks/TemplateHooks.php:887, ../../templates/myaccount/form-edit-account.php:47
+#: ../../app/Controllers/Hooks/TemplateHooks.php:883, ../../templates/myaccount/form-edit-account.php:47
 msgid "First Name"
 msgstr ""
 
-#: ../../app/Controllers/Hooks/TemplateHooks.php:898, ../../templates/myaccount/form-edit-account.php:57
+#: ../../app/Controllers/Hooks/TemplateHooks.php:894, ../../templates/myaccount/form-edit-account.php:57
 msgid "Last Name"
 msgstr ""
 
-#: ../../app/Controllers/Hooks/TemplateHooks.php:916
+#: ../../app/Controllers/Hooks/TemplateHooks.php:913
 msgid "Phone Number"
 msgstr ""
 
-#: ../../app/Controllers/Hooks/TemplateHooks.php:1038
+#: ../../app/Controllers/Hooks/TemplateHooks.php:1037
 msgid "Relevance"
 msgstr ""
 
@@ -4670,40 +4698,40 @@ msgstr ""
 msgid "Image"
 msgstr ""
 
-#: ../../app/Controllers/Admin/Meta/ListingMetaColumn.php:23, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:635
+#: ../../app/Controllers/Admin/Meta/ListingMetaColumn.php:26, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:635
 msgid "Views"
 msgstr ""
 
-#: ../../app/Controllers/Admin/Meta/ListingMetaColumn.php:26
+#: ../../app/Controllers/Admin/Meta/ListingMetaColumn.php:29
 msgid "Posted Date"
 msgstr ""
 
-#: ../../app/Controllers/Admin/Meta/ListingMetaColumn.php:27, ../../templates/myaccount/my-listings.php:78, ../../templates/myaccount/my-listings.php:73
+#: ../../app/Controllers/Admin/Meta/ListingMetaColumn.php:30, ../../templates/myaccount/my-listings.php:78, ../../templates/myaccount/my-listings.php:73
 msgid "Expires on"
 msgstr ""
 
-#: ../../app/Controllers/Admin/Meta/ListingMetaColumn.php:28, ../../app/Controllers/Admin/Meta/ListingSubmitBoxMice.php:77, ../../app/Controllers/Admin/Meta/OrderMetaColumn.php:69, ../../templates/myaccount/my-listings.php:67, ../../templates/myaccount/payment-history.php:28
+#: ../../app/Controllers/Admin/Meta/ListingMetaColumn.php:31, ../../app/Controllers/Admin/Meta/ListingSubmitBoxMice.php:77, ../../app/Controllers/Admin/Meta/OrderMetaColumn.php:69, ../../templates/myaccount/my-listings.php:67, ../../templates/myaccount/payment-history.php:28
 msgid "Status"
 msgstr ""
 
-#: ../../app/Controllers/Admin/Meta/ListingMetaColumn.php:56
+#: ../../app/Controllers/Admin/Meta/ListingMetaColumn.php:59
 msgctxt "%s = human-readable time difference"
 msgid "%s ago"
 msgstr ""
 
-#: ../../app/Controllers/Admin/Meta/ListingMetaColumn.php:108
+#: ../../app/Controllers/Admin/Meta/ListingMetaColumn.php:111
 msgid "Filter by location"
 msgstr ""
 
-#: ../../app/Controllers/Admin/Meta/ListingMetaColumn.php:116
+#: ../../app/Controllers/Admin/Meta/ListingMetaColumn.php:119
 msgid "Filter by category"
 msgstr ""
 
-#: ../../app/Controllers/Admin/Meta/ListingMetaColumn.php:129
+#: ../../app/Controllers/Admin/Meta/ListingMetaColumn.php:132
 msgid "All Promotions"
 msgstr ""
 
-#: ../../app/Controllers/Admin/Meta/ListingMetaColumn.php:142
+#: ../../app/Controllers/Admin/Meta/ListingMetaColumn.php:145
 msgid "All Status"
 msgstr ""
 
@@ -4959,7 +4987,7 @@ msgstr ""
 msgid "Button Typography"
 msgstr ""
 
-#: ../../app/Controllers/Elementor/ELWidgetsTraits/ListingActionBtnTrait.php:70, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingMetaTrait.php:68, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingPromotionFieldsTrait.php:38, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingTitleTrait.php:65, ../../app/Controllers/Elementor/WidgetSettings/ButtonSettings.php:74
+#: ../../app/Controllers/Elementor/ELWidgetsTraits/ListingActionBtnTrait.php:70, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingMetaTrait.php:68, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingPromotionFieldsTrait.php:38, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingTitleTrait.php:65, ../../app/Controllers/Elementor/Widgets/HeaderButton.php:436, ../../app/Controllers/Elementor/Widgets/HeaderButton.php:575, ../../app/Controllers/Elementor/Widgets/ListingCategoryBox.php:395, ../../app/Controllers/Elementor/Widgets/ListingCategoryBox.php:631, ../../app/Controllers/Elementor/Widgets/ListingCategoryBox.php:715, ../../app/Controllers/Elementor/Widgets/ListingCategoryBox.php:782, ../../app/Controllers/Elementor/Widgets/ListingCategoryBox.php:849, ../../app/Controllers/Elementor/Widgets/ListingSearch.php:420, ../../app/Controllers/Elementor/Widgets/SingleLocation.php:169, ../../app/Controllers/Elementor/Widgets/SingleLocation.php:290, ../../app/Controllers/Elementor/WidgetSettings/AllLocationsSettings.php:607, ../../app/Controllers/Elementor/WidgetSettings/ButtonSettings.php:74, ../../app/Controllers/Elementor/WidgetSettings/FormFieldSettings.php:88, ../../app/Controllers/Elementor/WidgetSettings/IconSettings.php:83, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:114, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:180, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:870
 msgid "Normal"
 msgstr ""
 
@@ -4971,7 +4999,7 @@ msgstr ""
 msgid "Details Button Text Color"
 msgstr ""
 
-#: ../../app/Controllers/Elementor/ELWidgetsTraits/ListingActionBtnTrait.php:129, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingActionBtnTrait.php:351, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingPaginationTrait.php:47, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingPriceTrait.php:78, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingWrapperTrait.php:34, ../../app/Controllers/Elementor/Widgets/HeaderButton.php:580, ../../app/Controllers/Elementor/Widgets/HeaderButton.php:615, ../../app/Controllers/Elementor/WidgetSettings/ButtonSettings.php:86, ../../app/Controllers/Elementor/WidgetSettings/ButtonSettings.php:117, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:350, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:579, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:929, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:1179
+#: ../../app/Controllers/Elementor/ELWidgetsTraits/ListingActionBtnTrait.php:129, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingActionBtnTrait.php:351, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingPaginationTrait.php:47, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingPriceTrait.php:78, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingWrapperTrait.php:34, ../../app/Controllers/Elementor/Widgets/HeaderButton.php:580, ../../app/Controllers/Elementor/Widgets/HeaderButton.php:615, ../../app/Controllers/Elementor/WidgetSettings/ButtonSettings.php:86, ../../app/Controllers/Elementor/WidgetSettings/ButtonSettings.php:117, ../../app/Controllers/Elementor/WidgetSettings/FormFieldSettings.php:105, ../../app/Controllers/Elementor/WidgetSettings/FormFieldSettings.php:134, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:350, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:579, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:929, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:1179
 msgid "Background Color"
 msgstr ""
 
@@ -4987,7 +5015,7 @@ msgstr ""
 msgid "Action Button Text Color"
 msgstr ""
 
-#: ../../app/Controllers/Elementor/ELWidgetsTraits/ListingActionBtnTrait.php:292, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingMetaTrait.php:98, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingPromotionFieldsTrait.php:73, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingTitleTrait.php:80, ../../app/Controllers/Elementor/WidgetSettings/ButtonSettings.php:105
+#: ../../app/Controllers/Elementor/ELWidgetsTraits/ListingActionBtnTrait.php:292, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingMetaTrait.php:98, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingPromotionFieldsTrait.php:73, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingTitleTrait.php:80, ../../app/Controllers/Elementor/Widgets/HeaderButton.php:500, ../../app/Controllers/Elementor/Widgets/HeaderButton.php:609, ../../app/Controllers/Elementor/Widgets/ListingCategoryBox.php:479, ../../app/Controllers/Elementor/Widgets/ListingCategoryBox.php:664, ../../app/Controllers/Elementor/Widgets/ListingCategoryBox.php:730, ../../app/Controllers/Elementor/Widgets/ListingCategoryBox.php:797, ../../app/Controllers/Elementor/Widgets/ListingCategoryBox.php:864, ../../app/Controllers/Elementor/Widgets/ListingSearch.php:446, ../../app/Controllers/Elementor/Widgets/SingleLocation.php:187, ../../app/Controllers/Elementor/Widgets/SingleLocation.php:339, ../../app/Controllers/Elementor/WidgetSettings/AllLocationsSettings.php:636, ../../app/Controllers/Elementor/WidgetSettings/ButtonSettings.php:105, ../../app/Controllers/Elementor/WidgetSettings/IconSettings.php:129, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:129, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:210, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:1120
 msgid "Hover"
 msgstr ""
 
@@ -5013,10 +5041,6 @@ msgstr ""
 
 #: ../../app/Controllers/Elementor/ELWidgetsTraits/ListingBadgeTrait.php:49
 msgid "Badge Spacing"
-msgstr ""
-
-#: ../../app/Controllers/Elementor/ELWidgetsTraits/ListingBadgeTrait.php:77
-msgid "Sold Out"
 msgstr ""
 
 #: ../../app/Controllers/Elementor/ELWidgetsTraits/ListingBadgeTrait.php:85, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:438
@@ -5247,7 +5271,7 @@ msgstr ""
 msgid "Horizontal View"
 msgstr ""
 
-#: ../../app/Controllers/Elementor/ELWidgetsTraits/ListingDescTrait.php:48, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingMetaTrait.php:37, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingPriceTrait.php:41, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingTitleTrait.php:43, ../../app/Controllers/Elementor/Widgets/ListingCategoryBox.php:749, ../../app/Controllers/Elementor/Widgets/ListingCategoryBox.php:815, ../../app/Controllers/Elementor/Widgets/ListingCategoryBox.php:882, ../../app/Controllers/Elementor/Widgets/ListingSearch.php:400, ../../app/Controllers/Elementor/Widgets/SingleLocation.php:396, ../../app/Controllers/Elementor/WidgetSettings/AllLocationsSettings.php:672, ../../app/Controllers/Elementor/WidgetSettings/ButtonSettings.php:35, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:92, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:159, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:268, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:301, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:455
+#: ../../app/Controllers/Elementor/ELWidgetsTraits/ListingDescTrait.php:48, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingMetaTrait.php:37, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingPriceTrait.php:41, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingTitleTrait.php:43, ../../app/Controllers/Elementor/Widgets/ListingCategoryBox.php:749, ../../app/Controllers/Elementor/Widgets/ListingCategoryBox.php:815, ../../app/Controllers/Elementor/Widgets/ListingCategoryBox.php:882, ../../app/Controllers/Elementor/Widgets/ListingSearch.php:400, ../../app/Controllers/Elementor/Widgets/SingleLocation.php:396, ../../app/Controllers/Elementor/WidgetSettings/AllLocationsSettings.php:672, ../../app/Controllers/Elementor/WidgetSettings/ButtonSettings.php:35, ../../app/Controllers/Elementor/WidgetSettings/FormFieldSettings.php:64, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:92, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:159, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:268, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:301, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:455
 msgid "Typography"
 msgstr ""
 
@@ -5299,7 +5323,7 @@ msgstr ""
 msgid "Active Background Color"
 msgstr ""
 
-#: ../../app/Controllers/Elementor/ELWidgetsTraits/ListingPaginationTrait.php:64, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingPriceTrait.php:47, ../../app/Controllers/Elementor/Widgets/HeaderButton.php:588, ../../app/Controllers/Elementor/Widgets/HeaderButton.php:623, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:392, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:596
+#: ../../app/Controllers/Elementor/ELWidgetsTraits/ListingPaginationTrait.php:64, ../../app/Controllers/Elementor/ELWidgetsTraits/ListingPriceTrait.php:47, ../../app/Controllers/Elementor/Widgets/HeaderButton.php:588, ../../app/Controllers/Elementor/Widgets/HeaderButton.php:623, ../../app/Controllers/Elementor/WidgetSettings/FormFieldSettings.php:97, ../../app/Controllers/Elementor/WidgetSettings/FormFieldSettings.php:127, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:392, ../../app/Controllers/Elementor/WidgetSettings/ListingItemsSettings.php:596
 msgid "Text Color"
 msgstr ""
 
@@ -5667,7 +5691,7 @@ msgstr ""
 msgid "Icon Area"
 msgstr ""
 
-#: ../../app/Controllers/Elementor/Widgets/ListingCategoryBox.php:603, ../../app/Controllers/Elementor/Widgets/ListingSearch.php:190, ../../app/Controllers/Elementor/Widgets/ListingSearch.php:305, ../../app/Controllers/Elementor/WidgetSettings/AllLocationsSettings.php:395
+#: ../../app/Controllers/Elementor/Widgets/ListingCategoryBox.php:603, ../../app/Controllers/Elementor/Widgets/ListingSearch.php:190, ../../app/Controllers/Elementor/Widgets/ListingSearch.php:305, ../../app/Controllers/Elementor/WidgetSettings/AllLocationsSettings.php:395, ../../app/Controllers/Elementor/WidgetSettings/FormFieldSettings.php:149, ../../app/Controllers/Elementor/WidgetSettings/IconSettings.php:67
 msgid "Border Radius"
 msgstr ""
 
@@ -5735,7 +5759,7 @@ msgstr ""
 msgid "Wrapper Padding"
 msgstr ""
 
-#: ../../app/Controllers/Elementor/Widgets/ListingSearch.php:229
+#: ../../app/Controllers/Elementor/Widgets/ListingSearch.php:229, ../../app/Controllers/Elementor/WidgetSettings/FormFieldSettings.php:35
 msgid "Label Typography"
 msgstr ""
 
@@ -5817,6 +5841,10 @@ msgstr ""
 
 #: ../../app/Controllers/Elementor/Widgets/SingleLocation.php:296, ../../app/Controllers/Elementor/Widgets/SingleLocation.php:345
 msgid "Icon Background Color"
+msgstr ""
+
+#: ../../app/Controllers/Elementor/Widgets/SingleLocation.php:314, ../../app/Controllers/Elementor/Widgets/SingleLocation.php:362
+msgid "Icon Rotate"
 msgstr ""
 
 #: ../../app/Controllers/Elementor/WidgetSettings/AllLocationsSettings.php:113
@@ -5935,8 +5963,40 @@ msgstr ""
 msgid "Margin (px)"
 msgstr ""
 
+#: ../../app/Controllers/Elementor/WidgetSettings/FormFieldSettings.php:30
+msgid "Form Label"
+msgstr ""
+
+#: ../../app/Controllers/Elementor/WidgetSettings/FormFieldSettings.php:39
+msgid "Label Color"
+msgstr ""
+
+#: ../../app/Controllers/Elementor/WidgetSettings/FormFieldSettings.php:46
+msgid "Label Margin"
+msgstr ""
+
+#: ../../app/Controllers/Elementor/WidgetSettings/FormFieldSettings.php:59
+msgid "Form Field's"
+msgstr ""
+
+#: ../../app/Controllers/Elementor/WidgetSettings/FormFieldSettings.php:68
+msgid "Field's Height"
+msgstr ""
+
+#: ../../app/Controllers/Elementor/WidgetSettings/FormFieldSettings.php:117
+msgid "Hover & Focus"
+msgstr ""
+
+#: ../../app/Controllers/Elementor/WidgetSettings/FormFieldSettings.php:157
+msgid "Fields Padding (px)"
+msgstr ""
+
 #: ../../app/Controllers/Elementor/WidgetSettings/IconSettings.php:33
 msgid "Icon Wrapper Size"
+msgstr ""
+
+#: ../../app/Controllers/Elementor/WidgetSettings/IconSettings.php:50
+msgid "Font Size"
 msgstr ""
 
 #: ../../app/Controllers/Elementor/WidgetSettings/IconSettings.php:158
@@ -6663,7 +6723,7 @@ msgstr ""
 msgid "Nicaragua"
 msgstr ""
 
-#: ../countries.php:175, ../states.php:1255
+#: ../countries.php:175, ../states.php:1269
 msgid "Niger"
 msgstr ""
 
@@ -7199,7 +7259,7 @@ msgstr ""
 msgid "Mendoza"
 msgstr ""
 
-#: ../states.php:66, ../states.php:1475
+#: ../states.php:66, ../states.php:1489
 msgid "Misiones"
 msgstr ""
 
@@ -7207,7 +7267,7 @@ msgstr ""
 msgid "Neuquén"
 msgstr ""
 
-#: ../states.php:68, ../states.php:2015
+#: ../states.php:68, ../states.php:2029
 msgid "Río Negro"
 msgstr ""
 
@@ -7563,7 +7623,7 @@ msgstr ""
 msgid "Lovech"
 msgstr ""
 
-#: ../states.php:166, ../states.php:1974
+#: ../states.php:166, ../states.php:1988
 msgid "Montana"
 msgstr ""
 
@@ -7683,7 +7743,7 @@ msgstr ""
 msgid "Ouémé"
 msgstr ""
 
-#: ../states.php:200, ../states.php:1260
+#: ../states.php:200, ../states.php:1274
 msgid "Plateau"
 msgstr ""
 
@@ -7703,7 +7763,7 @@ msgstr ""
 msgid "Cochabamba"
 msgstr ""
 
-#: ../states.php:207, ../states.php:669, ../states.php:1541
+#: ../states.php:207, ../states.php:669, ../states.php:1555
 msgid "La Paz"
 msgstr ""
 
@@ -7735,7 +7795,7 @@ msgstr ""
 msgid "Amapá"
 msgstr ""
 
-#: ../states.php:218, ../states.php:339, ../states.php:1340, ../states.php:2049
+#: ../states.php:218, ../states.php:339, ../states.php:1354, ../states.php:2063
 msgid "Amazonas"
 msgstr ""
 
@@ -8191,7 +8251,7 @@ msgstr ""
 msgid "Atlántico"
 msgstr ""
 
-#: ../states.php:343, ../states.php:482, ../states.php:2030
+#: ../states.php:343, ../states.php:482, ../states.php:2044
 msgid "Bolívar"
 msgstr ""
 
@@ -8279,7 +8339,7 @@ msgstr ""
 msgid "San Andrés & Providencia"
 msgstr ""
 
-#: ../states.php:367, ../states.php:2041
+#: ../states.php:367, ../states.php:2055
 msgid "Sucre"
 msgstr ""
 
@@ -8323,7 +8383,7 @@ msgstr ""
 msgid "Puntarenas"
 msgstr ""
 
-#: ../states.php:380, ../states.php:2019
+#: ../states.php:380, ../states.php:2033
 msgid "San José"
 msgstr ""
 
@@ -8955,7 +9015,7 @@ msgstr ""
 msgid "Girona"
 msgstr ""
 
-#: ../states.php:556, ../states.php:1293
+#: ../states.php:556, ../states.php:1307
 msgid "Granada"
 msgstr ""
 
@@ -8983,7 +9043,7 @@ msgstr ""
 msgid "Las Palmas"
 msgstr ""
 
-#: ../states.php:564, ../states.php:1295
+#: ../states.php:564, ../states.php:1309
 msgid "León"
 msgstr ""
 
@@ -9099,11 +9159,11 @@ msgstr ""
 msgid "Bono East"
 msgstr ""
 
-#: ../states.php:598, ../states.php:1478, ../states.php:2066
+#: ../states.php:598, ../states.php:1492, ../states.php:2080
 msgid "Central"
 msgstr ""
 
-#: ../states.php:599, ../states.php:2067
+#: ../states.php:599, ../states.php:2081
 msgid "Eastern"
 msgstr ""
 
@@ -9115,7 +9175,7 @@ msgstr ""
 msgid "North East"
 msgstr ""
 
-#: ../states.php:602, ../states.php:2069
+#: ../states.php:602, ../states.php:2083
 msgid "Northern"
 msgstr ""
 
@@ -9139,7 +9199,7 @@ msgstr ""
 msgid "Volta"
 msgstr ""
 
-#: ../states.php:608, ../states.php:2065
+#: ../states.php:608, ../states.php:2079
 msgid "Western"
 msgstr ""
 
@@ -9307,7 +9367,7 @@ msgstr ""
 msgid "Choluteca"
 msgstr ""
 
-#: ../states.php:660, ../states.php:1325
+#: ../states.php:660, ../states.php:1339
 msgid "Colón"
 msgstr ""
 
@@ -9767,7 +9827,7 @@ msgstr ""
 msgid "Odisha"
 msgstr ""
 
-#: ../states.php:784, ../states.php:1460
+#: ../states.php:784, ../states.php:1474
 msgid "Punjab"
 msgstr ""
 
@@ -10639,7 +10699,7 @@ msgstr ""
 msgid "Bungoma"
 msgstr ""
 
-#: ../states.php:1022, ../states.php:1831
+#: ../states.php:1022, ../states.php:1845
 msgid "Busia"
 msgstr ""
 
@@ -10888,3568 +10948,3656 @@ msgid "Xaisomboun"
 msgstr ""
 
 #: ../states.php:1091
-msgid "Bomi"
+msgid "Anse la Raye Quarter"
 msgstr ""
 
 #: ../states.php:1092
-msgid "Bong"
+msgid "Canaries"
 msgstr ""
 
 #: ../states.php:1093
-msgid "Gbarpolu"
+msgid "Castries Quarter"
 msgstr ""
 
 #: ../states.php:1094
-msgid "Grand Bassa"
+msgid "Choiseul Quarter"
 msgstr ""
 
 #: ../states.php:1095
-msgid "Grand Cape Mount"
+msgid "Dauphin Quarter"
 msgstr ""
 
 #: ../states.php:1096
-msgid "Grand Gedeh"
+msgid "Dennery Quarter"
 msgstr ""
 
 #: ../states.php:1097
-msgid "Grand Kru"
+msgid "Gros Islet Quarter"
 msgstr ""
 
 #: ../states.php:1098
-msgid "Lofa"
+msgid "Laborie Quarter"
 msgstr ""
 
 #: ../states.php:1099
-msgid "Margibi"
+msgid "Micoud Quarter"
 msgstr ""
 
-#: ../states.php:1100, ../states.php:1968
-msgid "Maryland"
+#: ../states.php:1100
+msgid "Praslin Quarter"
 msgstr ""
 
 #: ../states.php:1101
-msgid "Montserrado"
+msgid "Soufrière Quarter"
 msgstr ""
 
 #: ../states.php:1102
-msgid "Nimba"
-msgstr ""
-
-#: ../states.php:1103
-msgid "Rivercess"
-msgstr ""
-
-#: ../states.php:1104
-msgid "River Gee"
+msgid "Vieux Fort Quarter"
 msgstr ""
 
 #: ../states.php:1105
-msgid "Sinoe"
+msgid "Bomi"
+msgstr ""
+
+#: ../states.php:1106
+msgid "Bong"
+msgstr ""
+
+#: ../states.php:1107
+msgid "Gbarpolu"
+msgstr ""
+
+#: ../states.php:1108
+msgid "Grand Bassa"
 msgstr ""
 
 #: ../states.php:1109
-msgid "Chișinău"
+msgid "Grand Cape Mount"
 msgstr ""
 
 #: ../states.php:1110
-msgid "Bălți"
+msgid "Grand Gedeh"
 msgstr ""
 
 #: ../states.php:1111
-msgid "Anenii Noi"
+msgid "Grand Kru"
 msgstr ""
 
 #: ../states.php:1112
-msgid "Basarabeasca"
+msgid "Lofa"
 msgstr ""
 
 #: ../states.php:1113
-msgid "Briceni"
+msgid "Margibi"
 msgstr ""
 
-#: ../states.php:1114
-msgid "Cahul"
+#: ../states.php:1114, ../states.php:1982
+msgid "Maryland"
 msgstr ""
 
 #: ../states.php:1115
-msgid "Cantemir"
+msgid "Montserrado"
 msgstr ""
 
-#: ../states.php:1116, ../states.php:1499
-msgid "Călărași"
+#: ../states.php:1116
+msgid "Nimba"
 msgstr ""
 
 #: ../states.php:1117
-msgid "Căușeni"
+msgid "Rivercess"
 msgstr ""
 
 #: ../states.php:1118
-msgid "Cimișlia"
+msgid "River Gee"
 msgstr ""
 
 #: ../states.php:1119
-msgid "Criuleni"
-msgstr ""
-
-#: ../states.php:1120
-msgid "Dondușeni"
-msgstr ""
-
-#: ../states.php:1121
-msgid "Drochia"
-msgstr ""
-
-#: ../states.php:1122
-msgid "Dubăsari"
+msgid "Sinoe"
 msgstr ""
 
 #: ../states.php:1123
-msgid "Edineț"
+msgid "Chișinău"
 msgstr ""
 
 #: ../states.php:1124
-msgid "Fălești"
+msgid "Bălți"
 msgstr ""
 
 #: ../states.php:1125
-msgid "Florești"
+msgid "Anenii Noi"
 msgstr ""
 
 #: ../states.php:1126
-msgid "UTA Găgăuzia"
+msgid "Basarabeasca"
 msgstr ""
 
 #: ../states.php:1127
-msgid "Glodeni"
+msgid "Briceni"
 msgstr ""
 
 #: ../states.php:1128
-msgid "Hîncești"
+msgid "Cahul"
 msgstr ""
 
 #: ../states.php:1129
-msgid "Ialoveni"
+msgid "Cantemir"
 msgstr ""
 
-#: ../states.php:1130
-msgid "Leova"
+#: ../states.php:1130, ../states.php:1513
+msgid "Călărași"
 msgstr ""
 
 #: ../states.php:1131
-msgid "Nisporeni"
+msgid "Căușeni"
 msgstr ""
 
 #: ../states.php:1132
-msgid "Ocnița"
+msgid "Cimișlia"
 msgstr ""
 
 #: ../states.php:1133
-msgid "Orhei"
+msgid "Criuleni"
 msgstr ""
 
 #: ../states.php:1134
-msgid "Rezina"
+msgid "Dondușeni"
 msgstr ""
 
 #: ../states.php:1135
-msgid "Rîșcani"
+msgid "Drochia"
 msgstr ""
 
 #: ../states.php:1136
-msgid "Sîngerei"
+msgid "Dubăsari"
 msgstr ""
 
 #: ../states.php:1137
-msgid "Soroca"
+msgid "Edineț"
 msgstr ""
 
 #: ../states.php:1138
-msgid "Strășeni"
+msgid "Fălești"
 msgstr ""
 
 #: ../states.php:1139
-msgid "Șoldănești"
+msgid "Florești"
 msgstr ""
 
 #: ../states.php:1140
-msgid "Ștefan Vodă"
+msgid "UTA Găgăuzia"
 msgstr ""
 
 #: ../states.php:1141
-msgid "Taraclia"
+msgid "Glodeni"
 msgstr ""
 
 #: ../states.php:1142
-msgid "Telenești"
+msgid "Hîncești"
 msgstr ""
 
 #: ../states.php:1143
-msgid "Ungheni"
+msgid "Ialoveni"
+msgstr ""
+
+#: ../states.php:1144
+msgid "Leova"
+msgstr ""
+
+#: ../states.php:1145
+msgid "Nisporeni"
+msgstr ""
+
+#: ../states.php:1146
+msgid "Ocnița"
+msgstr ""
+
+#: ../states.php:1147
+msgid "Orhei"
 msgstr ""
 
 #: ../states.php:1148
-msgid "Ciudad de México"
+msgid "Rezina"
 msgstr ""
 
 #: ../states.php:1149
-msgid "Jalisco"
+msgid "Rîșcani"
 msgstr ""
 
 #: ../states.php:1150
-msgid "Nuevo León"
+msgid "Sîngerei"
 msgstr ""
 
 #: ../states.php:1151
-msgid "Aguascalientes"
+msgid "Soroca"
 msgstr ""
 
 #: ../states.php:1152
-msgid "Baja California"
+msgid "Strășeni"
 msgstr ""
 
 #: ../states.php:1153
-msgid "Baja California Sur"
+msgid "Șoldănești"
 msgstr ""
 
 #: ../states.php:1154
-msgid "Campeche"
+msgid "Ștefan Vodă"
 msgstr ""
 
 #: ../states.php:1155
-msgid "Chiapas"
+msgid "Taraclia"
 msgstr ""
 
 #: ../states.php:1156
-msgid "Chihuahua"
+msgid "Telenești"
 msgstr ""
 
 #: ../states.php:1157
-msgid "Coahuila"
-msgstr ""
-
-#: ../states.php:1158
-msgid "Colima"
-msgstr ""
-
-#: ../states.php:1159
-msgid "Durango"
-msgstr ""
-
-#: ../states.php:1160
-msgid "Guanajuato"
-msgstr ""
-
-#: ../states.php:1161
-msgid "Guerrero"
+msgid "Ungheni"
 msgstr ""
 
 #: ../states.php:1162
-msgid "Hidalgo"
+msgid "Ciudad de México"
 msgstr ""
 
 #: ../states.php:1163
-msgid "Estado de México"
+msgid "Jalisco"
 msgstr ""
 
 #: ../states.php:1164
-msgid "Michoacán"
+msgid "Nuevo León"
 msgstr ""
 
 #: ../states.php:1165
-msgid "Morelos"
+msgid "Aguascalientes"
 msgstr ""
 
 #: ../states.php:1166
-msgid "Nayarit"
+msgid "Baja California"
 msgstr ""
 
 #: ../states.php:1167
-msgid "Oaxaca"
+msgid "Baja California Sur"
 msgstr ""
 
 #: ../states.php:1168
-msgid "Puebla"
+msgid "Campeche"
 msgstr ""
 
 #: ../states.php:1169
-msgid "Querétaro"
+msgid "Chiapas"
 msgstr ""
 
 #: ../states.php:1170
-msgid "Quintana Roo"
+msgid "Chihuahua"
 msgstr ""
 
 #: ../states.php:1171
-msgid "San Luis Potosí"
+msgid "Coahuila"
 msgstr ""
 
 #: ../states.php:1172
-msgid "Sinaloa"
+msgid "Colima"
 msgstr ""
 
 #: ../states.php:1173
-msgid "Sonora"
+msgid "Durango"
 msgstr ""
 
 #: ../states.php:1174
-msgid "Tabasco"
+msgid "Guanajuato"
 msgstr ""
 
 #: ../states.php:1175
-msgid "Tamaulipas"
+msgid "Guerrero"
 msgstr ""
 
 #: ../states.php:1176
-msgid "Tlaxcala"
+msgid "Hidalgo"
 msgstr ""
 
 #: ../states.php:1177
-msgid "Veracruz"
+msgid "Estado de México"
 msgstr ""
 
 #: ../states.php:1178
-msgid "Yucatán"
+msgid "Michoacán"
 msgstr ""
 
 #: ../states.php:1179
-msgid "Zacatecas"
+msgid "Morelos"
+msgstr ""
+
+#: ../states.php:1180
+msgid "Nayarit"
+msgstr ""
+
+#: ../states.php:1181
+msgid "Oaxaca"
 msgstr ""
 
 #: ../states.php:1182
-msgid "Johor"
+msgid "Puebla"
 msgstr ""
 
 #: ../states.php:1183
-msgid "Kedah"
+msgid "Querétaro"
 msgstr ""
 
 #: ../states.php:1184
-msgid "Kelantan"
+msgid "Quintana Roo"
 msgstr ""
 
 #: ../states.php:1185
-msgid "Labuan"
+msgid "San Luis Potosí"
 msgstr ""
 
 #: ../states.php:1186
-msgid "Malacca (Melaka)"
+msgid "Sinaloa"
 msgstr ""
 
 #: ../states.php:1187
-msgid "Negeri Sembilan"
+msgid "Sonora"
 msgstr ""
 
 #: ../states.php:1188
-msgid "Pahang"
+msgid "Tabasco"
 msgstr ""
 
 #: ../states.php:1189
-msgid "Penang (Pulau Pinang)"
+msgid "Tamaulipas"
 msgstr ""
 
 #: ../states.php:1190
-msgid "Perak"
+msgid "Tlaxcala"
 msgstr ""
 
 #: ../states.php:1191
-msgid "Perlis"
+msgid "Veracruz"
 msgstr ""
 
 #: ../states.php:1192
-msgid "Sabah"
+msgid "Yucatán"
 msgstr ""
 
 #: ../states.php:1193
-msgid "Sarawak"
-msgstr ""
-
-#: ../states.php:1194
-msgid "Selangor"
-msgstr ""
-
-#: ../states.php:1195
-msgid "Terengganu"
+msgid "Zacatecas"
 msgstr ""
 
 #: ../states.php:1196
-msgid "Putrajaya"
+msgid "Johor"
 msgstr ""
 
 #: ../states.php:1197
-msgid "Kuala Lumpur"
+msgid "Kedah"
+msgstr ""
+
+#: ../states.php:1198
+msgid "Kelantan"
+msgstr ""
+
+#: ../states.php:1199
+msgid "Labuan"
 msgstr ""
 
 #: ../states.php:1200
-msgid "Cabo Delgado"
+msgid "Malacca (Melaka)"
 msgstr ""
 
 #: ../states.php:1201
-msgid "Gaza"
+msgid "Negeri Sembilan"
 msgstr ""
 
 #: ../states.php:1202
-msgid "Inhambane"
+msgid "Pahang"
 msgstr ""
 
 #: ../states.php:1203
-msgid "Manica"
+msgid "Penang (Pulau Pinang)"
 msgstr ""
 
 #: ../states.php:1204
-msgid "Maputo Province"
+msgid "Perak"
 msgstr ""
 
 #: ../states.php:1205
-msgid "Maputo"
+msgid "Perlis"
 msgstr ""
 
 #: ../states.php:1206
-msgid "Nampula"
+msgid "Sabah"
 msgstr ""
 
 #: ../states.php:1207
-msgid "Niassa"
+msgid "Sarawak"
 msgstr ""
 
 #: ../states.php:1208
-msgid "Sofala"
+msgid "Selangor"
 msgstr ""
 
 #: ../states.php:1209
-msgid "Tete"
+msgid "Terengganu"
 msgstr ""
 
 #: ../states.php:1210
-msgid "Zambézia"
+msgid "Putrajaya"
 msgstr ""
 
-#: ../states.php:1213
-msgid "Erongo"
+#: ../states.php:1211
+msgid "Kuala Lumpur"
 msgstr ""
 
 #: ../states.php:1214
-msgid "Hardap"
+msgid "Cabo Delgado"
 msgstr ""
 
 #: ../states.php:1215
-msgid "Karas"
+msgid "Gaza"
 msgstr ""
 
 #: ../states.php:1216
-msgid "Kavango East"
+msgid "Inhambane"
 msgstr ""
 
 #: ../states.php:1217
-msgid "Kavango West"
+msgid "Manica"
 msgstr ""
 
 #: ../states.php:1218
-msgid "Khomas"
+msgid "Maputo Province"
 msgstr ""
 
 #: ../states.php:1219
-msgid "Kunene"
+msgid "Maputo"
 msgstr ""
 
 #: ../states.php:1220
-msgid "Ohangwena"
+msgid "Nampula"
 msgstr ""
 
 #: ../states.php:1221
-msgid "Omaheke"
+msgid "Niassa"
 msgstr ""
 
 #: ../states.php:1222
-msgid "Omusati"
+msgid "Sofala"
 msgstr ""
 
 #: ../states.php:1223
-msgid "Oshana"
+msgid "Tete"
 msgstr ""
 
 #: ../states.php:1224
-msgid "Oshikoto"
+msgid "Zambézia"
 msgstr ""
 
-#: ../states.php:1225
-msgid "Otjozondjupa"
+#: ../states.php:1227
+msgid "Erongo"
 msgstr ""
 
-#: ../states.php:1226
-msgid "Zambezi"
+#: ../states.php:1228
+msgid "Hardap"
 msgstr ""
 
 #: ../states.php:1229
-msgid "Abia"
+msgid "Karas"
 msgstr ""
 
 #: ../states.php:1230
-msgid "Abuja"
+msgid "Kavango East"
 msgstr ""
 
 #: ../states.php:1231
-msgid "Adamawa"
+msgid "Kavango West"
 msgstr ""
 
 #: ../states.php:1232
-msgid "Akwa Ibom"
+msgid "Khomas"
 msgstr ""
 
 #: ../states.php:1233
-msgid "Anambra"
+msgid "Kunene"
 msgstr ""
 
 #: ../states.php:1234
-msgid "Bauchi"
+msgid "Ohangwena"
 msgstr ""
 
 #: ../states.php:1235
-msgid "Bayelsa"
+msgid "Omaheke"
 msgstr ""
 
 #: ../states.php:1236
-msgid "Benue"
+msgid "Omusati"
 msgstr ""
 
 #: ../states.php:1237
-msgid "Borno"
+msgid "Oshana"
 msgstr ""
 
 #: ../states.php:1238
-msgid "Cross River"
+msgid "Oshikoto"
 msgstr ""
 
 #: ../states.php:1239
-msgid "Delta"
+msgid "Otjozondjupa"
 msgstr ""
 
 #: ../states.php:1240
-msgid "Ebonyi"
-msgstr ""
-
-#: ../states.php:1241
-msgid "Edo"
-msgstr ""
-
-#: ../states.php:1242
-msgid "Ekiti"
+msgid "Zambezi"
 msgstr ""
 
 #: ../states.php:1243
-msgid "Enugu"
+msgid "Abia"
 msgstr ""
 
 #: ../states.php:1244
-msgid "Gombe"
+msgid "Abuja"
 msgstr ""
 
 #: ../states.php:1245
-msgid "Imo"
+msgid "Adamawa"
 msgstr ""
 
 #: ../states.php:1246
-msgid "Jigawa"
+msgid "Akwa Ibom"
 msgstr ""
 
 #: ../states.php:1247
-msgid "Kaduna"
+msgid "Anambra"
 msgstr ""
 
 #: ../states.php:1248
-msgid "Kano"
+msgid "Bauchi"
 msgstr ""
 
 #: ../states.php:1249
-msgid "Katsina"
+msgid "Bayelsa"
 msgstr ""
 
 #: ../states.php:1250
-msgid "Kebbi"
+msgid "Benue"
 msgstr ""
 
 #: ../states.php:1251
-msgid "Kogi"
+msgid "Borno"
 msgstr ""
 
 #: ../states.php:1252
-msgid "Kwara"
+msgid "Cross River"
 msgstr ""
 
 #: ../states.php:1253
-msgid "Lagos"
+msgid "Delta"
 msgstr ""
 
 #: ../states.php:1254
-msgid "Nasarawa"
+msgid "Ebonyi"
+msgstr ""
+
+#: ../states.php:1255
+msgid "Edo"
 msgstr ""
 
 #: ../states.php:1256
-msgid "Ogun"
+msgid "Ekiti"
 msgstr ""
 
 #: ../states.php:1257
-msgid "Ondo"
+msgid "Enugu"
 msgstr ""
 
 #: ../states.php:1258
-msgid "Osun"
+msgid "Gombe"
 msgstr ""
 
 #: ../states.php:1259
-msgid "Oyo"
+msgid "Imo"
+msgstr ""
+
+#: ../states.php:1260
+msgid "Jigawa"
 msgstr ""
 
 #: ../states.php:1261
-msgid "Rivers"
+msgid "Kaduna"
 msgstr ""
 
 #: ../states.php:1262
-msgid "Sokoto"
+msgid "Kano"
 msgstr ""
 
 #: ../states.php:1263
-msgid "Taraba"
+msgid "Katsina"
 msgstr ""
 
 #: ../states.php:1264
-msgid "Yobe"
+msgid "Kebbi"
 msgstr ""
 
 #: ../states.php:1265
-msgid "Zamfara"
+msgid "Kogi"
+msgstr ""
+
+#: ../states.php:1266
+msgid "Kwara"
+msgstr ""
+
+#: ../states.php:1267
+msgid "Lagos"
+msgstr ""
+
+#: ../states.php:1268
+msgid "Nasarawa"
 msgstr ""
 
 #: ../states.php:1270
-msgid "Bagmati"
+msgid "Ogun"
 msgstr ""
 
 #: ../states.php:1271
-msgid "Bheri"
+msgid "Ondo"
 msgstr ""
 
 #: ../states.php:1272
-msgid "Dhaulagiri"
+msgid "Osun"
 msgstr ""
 
 #: ../states.php:1273
-msgid "Gandaki"
-msgstr ""
-
-#: ../states.php:1274
-msgid "Janakpur"
+msgid "Oyo"
 msgstr ""
 
 #: ../states.php:1275
-msgid "Karnali"
+msgid "Rivers"
 msgstr ""
 
 #: ../states.php:1276
-msgid "Koshi"
+msgid "Sokoto"
 msgstr ""
 
 #: ../states.php:1277
-msgid "Lumbini"
+msgid "Taraba"
 msgstr ""
 
 #: ../states.php:1278
-msgid "Mahakali"
+msgid "Yobe"
 msgstr ""
 
 #: ../states.php:1279
-msgid "Mechi"
+msgid "Zamfara"
 msgstr ""
 
-#: ../states.php:1280
-msgid "Narayani"
+#: ../states.php:1284
+msgid "Bagmati"
 msgstr ""
 
-#: ../states.php:1281
-msgid "Rapti"
-msgstr ""
-
-#: ../states.php:1282
-msgid "Sagarmatha"
-msgstr ""
-
-#: ../states.php:1283
-msgid "Seti"
+#: ../states.php:1285
+msgid "Bheri"
 msgstr ""
 
 #: ../states.php:1286
-msgid "Atlántico Norte"
+msgid "Dhaulagiri"
 msgstr ""
 
 #: ../states.php:1287
-msgid "Atlántico Sur"
+msgid "Gandaki"
 msgstr ""
 
 #: ../states.php:1288
-msgid "Boaco"
+msgid "Janakpur"
 msgstr ""
 
 #: ../states.php:1289
-msgid "Carazo"
+msgid "Karnali"
 msgstr ""
 
 #: ../states.php:1290
-msgid "Chinandega"
+msgid "Koshi"
 msgstr ""
 
 #: ../states.php:1291
-msgid "Chontales"
+msgid "Lumbini"
 msgstr ""
 
 #: ../states.php:1292
-msgid "Estelí"
+msgid "Mahakali"
+msgstr ""
+
+#: ../states.php:1293
+msgid "Mechi"
 msgstr ""
 
 #: ../states.php:1294
-msgid "Jinotega"
+msgid "Narayani"
+msgstr ""
+
+#: ../states.php:1295
+msgid "Rapti"
 msgstr ""
 
 #: ../states.php:1296
-msgid "Madriz"
+msgid "Sagarmatha"
 msgstr ""
 
 #: ../states.php:1297
-msgid "Managua"
-msgstr ""
-
-#: ../states.php:1298
-msgid "Masaya"
-msgstr ""
-
-#: ../states.php:1299
-msgid "Matagalpa"
+msgid "Seti"
 msgstr ""
 
 #: ../states.php:1300
-msgid "Nueva Segovia"
+msgid "Atlántico Norte"
 msgstr ""
 
 #: ../states.php:1301
-msgid "Rivas"
+msgid "Atlántico Sur"
 msgstr ""
 
 #: ../states.php:1302
-msgid "Río San Juan"
+msgid "Boaco"
+msgstr ""
+
+#: ../states.php:1303
+msgid "Carazo"
+msgstr ""
+
+#: ../states.php:1304
+msgid "Chinandega"
 msgstr ""
 
 #: ../states.php:1305
-msgid "Northland"
+msgid "Chontales"
 msgstr ""
 
 #: ../states.php:1306
-msgid "Auckland"
-msgstr ""
-
-#: ../states.php:1307
-msgid "Waikato"
+msgid "Estelí"
 msgstr ""
 
 #: ../states.php:1308
-msgid "Bay of Plenty"
-msgstr ""
-
-#: ../states.php:1309
-msgid "Taranaki"
+msgid "Jinotega"
 msgstr ""
 
 #: ../states.php:1310
-msgid "Gisborne"
+msgid "Madriz"
 msgstr ""
 
 #: ../states.php:1311
-msgid "Hawke’s Bay"
+msgid "Managua"
 msgstr ""
 
 #: ../states.php:1312
-msgid "Manawatu-Wanganui"
+msgid "Masaya"
 msgstr ""
 
 #: ../states.php:1313
-msgid "Wellington"
+msgid "Matagalpa"
 msgstr ""
 
 #: ../states.php:1314
-msgid "Nelson"
+msgid "Nueva Segovia"
 msgstr ""
 
 #: ../states.php:1315
-msgid "Marlborough"
+msgid "Rivas"
 msgstr ""
 
 #: ../states.php:1316
-msgid "Tasman"
-msgstr ""
-
-#: ../states.php:1317
-msgid "West Coast"
-msgstr ""
-
-#: ../states.php:1318
-msgid "Canterbury"
+msgid "Río San Juan"
 msgstr ""
 
 #: ../states.php:1319
-msgid "Otago"
+msgid "Northland"
 msgstr ""
 
 #: ../states.php:1320
-msgid "Southland"
+msgid "Auckland"
+msgstr ""
+
+#: ../states.php:1321
+msgid "Waikato"
+msgstr ""
+
+#: ../states.php:1322
+msgid "Bay of Plenty"
 msgstr ""
 
 #: ../states.php:1323
-msgid "Bocas del Toro"
+msgid "Taranaki"
 msgstr ""
 
 #: ../states.php:1324
-msgid "Coclé"
+msgid "Gisborne"
+msgstr ""
+
+#: ../states.php:1325
+msgid "Hawke’s Bay"
 msgstr ""
 
 #: ../states.php:1326
-msgid "Chiriquí"
+msgid "Manawatu-Wanganui"
 msgstr ""
 
 #: ../states.php:1327
-msgid "Darién"
+msgid "Wellington"
 msgstr ""
 
 #: ../states.php:1328
-msgid "Herrera"
+msgid "Nelson"
 msgstr ""
 
 #: ../states.php:1329
-msgid "Los Santos"
+msgid "Marlborough"
 msgstr ""
 
 #: ../states.php:1330
-msgid "Panamá"
+msgid "Tasman"
 msgstr ""
 
 #: ../states.php:1331
-msgid "Veraguas"
+msgid "West Coast"
 msgstr ""
 
 #: ../states.php:1332
-msgid "West Panamá"
+msgid "Canterbury"
 msgstr ""
 
 #: ../states.php:1333
-msgid "Emberá"
+msgid "Otago"
 msgstr ""
 
 #: ../states.php:1334
-msgid "Guna Yala"
+msgid "Southland"
 msgstr ""
 
-#: ../states.php:1335
-msgid "Ngöbe-Buglé"
+#: ../states.php:1337
+msgid "Bocas del Toro"
 msgstr ""
 
 #: ../states.php:1338
-msgid "El Callao"
+msgid "Coclé"
 msgstr ""
 
-#: ../states.php:1339
-msgid "Municipalidad Metropolitana de Lima"
+#: ../states.php:1340
+msgid "Chiriquí"
 msgstr ""
 
 #: ../states.php:1341
-msgid "Ancash"
+msgid "Darién"
 msgstr ""
 
 #: ../states.php:1342
-msgid "Apurímac"
+msgid "Herrera"
 msgstr ""
 
 #: ../states.php:1343
-msgid "Arequipa"
+msgid "Los Santos"
 msgstr ""
 
 #: ../states.php:1344
-msgid "Ayacucho"
+msgid "Panamá"
 msgstr ""
 
 #: ../states.php:1345
-msgid "Cajamarca"
+msgid "Veraguas"
 msgstr ""
 
 #: ../states.php:1346
-msgid "Cusco"
+msgid "West Panamá"
 msgstr ""
 
 #: ../states.php:1347
-msgid "Huancavelica"
+msgid "Emberá"
 msgstr ""
 
 #: ../states.php:1348
-msgid "Huánuco"
+msgid "Guna Yala"
 msgstr ""
 
 #: ../states.php:1349
-msgid "Ica"
-msgstr ""
-
-#: ../states.php:1350
-msgid "Junín"
-msgstr ""
-
-#: ../states.php:1351, ../states.php:1539
-msgid "La Libertad"
+msgid "Ngöbe-Buglé"
 msgstr ""
 
 #: ../states.php:1352
-msgid "Lambayeque"
+msgid "El Callao"
 msgstr ""
 
 #: ../states.php:1353
-msgid "Lima"
-msgstr ""
-
-#: ../states.php:1354
-msgid "Loreto"
+msgid "Municipalidad Metropolitana de Lima"
 msgstr ""
 
 #: ../states.php:1355
-msgid "Madre de Dios"
+msgid "Ancash"
 msgstr ""
 
 #: ../states.php:1356
-msgid "Moquegua"
+msgid "Apurímac"
 msgstr ""
 
 #: ../states.php:1357
-msgid "Pasco"
+msgid "Arequipa"
 msgstr ""
 
 #: ../states.php:1358
-msgid "Piura"
+msgid "Ayacucho"
 msgstr ""
 
 #: ../states.php:1359
-msgid "Puno"
+msgid "Cajamarca"
 msgstr ""
 
 #: ../states.php:1360
-msgid "San Martín"
+msgid "Cusco"
 msgstr ""
 
 #: ../states.php:1361
-msgid "Tacna"
+msgid "Huancavelica"
 msgstr ""
 
 #: ../states.php:1362
-msgid "Tumbes"
+msgid "Huánuco"
 msgstr ""
 
 #: ../states.php:1363
-msgid "Ucayali"
+msgid "Ica"
+msgstr ""
+
+#: ../states.php:1364
+msgid "Junín"
+msgstr ""
+
+#: ../states.php:1365, ../states.php:1553
+msgid "La Libertad"
+msgstr ""
+
+#: ../states.php:1366
+msgid "Lambayeque"
+msgstr ""
+
+#: ../states.php:1367
+msgid "Lima"
+msgstr ""
+
+#: ../states.php:1368
+msgid "Loreto"
+msgstr ""
+
+#: ../states.php:1369
+msgid "Madre de Dios"
 msgstr ""
 
 #: ../states.php:1370
-msgid "Abra"
+msgid "Moquegua"
 msgstr ""
 
 #: ../states.php:1371
-msgid "Agusan del Norte"
+msgid "Pasco"
 msgstr ""
 
 #: ../states.php:1372
-msgid "Agusan del Sur"
+msgid "Piura"
 msgstr ""
 
 #: ../states.php:1373
-msgid "Aklan"
+msgid "Puno"
 msgstr ""
 
 #: ../states.php:1374
-msgid "Albay"
+msgid "San Martín"
 msgstr ""
 
 #: ../states.php:1375
-msgid "Antique"
+msgid "Tacna"
 msgstr ""
 
 #: ../states.php:1376
-msgid "Apayao"
+msgid "Tumbes"
 msgstr ""
 
 #: ../states.php:1377
-msgid "Aurora"
-msgstr ""
-
-#: ../states.php:1378
-msgid "Basilan"
-msgstr ""
-
-#: ../states.php:1379
-msgid "Bataan"
-msgstr ""
-
-#: ../states.php:1380
-msgid "Batanes"
-msgstr ""
-
-#: ../states.php:1381
-msgid "Batangas"
-msgstr ""
-
-#: ../states.php:1382
-msgid "Benguet"
-msgstr ""
-
-#: ../states.php:1383
-msgid "Biliran"
+msgid "Ucayali"
 msgstr ""
 
 #: ../states.php:1384
-msgid "Bohol"
+msgid "Abra"
 msgstr ""
 
 #: ../states.php:1385
-msgid "Bukidnon"
+msgid "Agusan del Norte"
 msgstr ""
 
 #: ../states.php:1386
-msgid "Bulacan"
+msgid "Agusan del Sur"
 msgstr ""
 
 #: ../states.php:1387
-msgid "Cagayan"
+msgid "Aklan"
 msgstr ""
 
 #: ../states.php:1388
-msgid "Camarines Norte"
+msgid "Albay"
 msgstr ""
 
 #: ../states.php:1389
-msgid "Camarines Sur"
+msgid "Antique"
 msgstr ""
 
 #: ../states.php:1390
-msgid "Camiguin"
+msgid "Apayao"
 msgstr ""
 
 #: ../states.php:1391
-msgid "Capiz"
+msgid "Aurora"
 msgstr ""
 
 #: ../states.php:1392
-msgid "Catanduanes"
+msgid "Basilan"
 msgstr ""
 
 #: ../states.php:1393
-msgid "Cavite"
+msgid "Bataan"
 msgstr ""
 
 #: ../states.php:1394
-msgid "Cebu"
+msgid "Batanes"
 msgstr ""
 
 #: ../states.php:1395
-msgid "Compostela Valley"
+msgid "Batangas"
 msgstr ""
 
 #: ../states.php:1396
-msgid "Cotabato"
+msgid "Benguet"
 msgstr ""
 
 #: ../states.php:1397
-msgid "Davao del Norte"
+msgid "Biliran"
 msgstr ""
 
 #: ../states.php:1398
-msgid "Davao del Sur"
+msgid "Bohol"
 msgstr ""
 
 #: ../states.php:1399
-msgid "Davao Occidental"
+msgid "Bukidnon"
 msgstr ""
 
 #: ../states.php:1400
-msgid "Davao Oriental"
+msgid "Bulacan"
 msgstr ""
 
 #: ../states.php:1401
-msgid "Dinagat Islands"
+msgid "Cagayan"
 msgstr ""
 
 #: ../states.php:1402
-msgid "Eastern Samar"
+msgid "Camarines Norte"
 msgstr ""
 
 #: ../states.php:1403
-msgid "Guimaras"
+msgid "Camarines Sur"
 msgstr ""
 
 #: ../states.php:1404
-msgid "Ifugao"
+msgid "Camiguin"
 msgstr ""
 
 #: ../states.php:1405
-msgid "Ilocos Norte"
+msgid "Capiz"
 msgstr ""
 
 #: ../states.php:1406
-msgid "Ilocos Sur"
+msgid "Catanduanes"
 msgstr ""
 
 #: ../states.php:1407
-msgid "Iloilo"
+msgid "Cavite"
 msgstr ""
 
 #: ../states.php:1408
-msgid "Isabela"
+msgid "Cebu"
 msgstr ""
 
 #: ../states.php:1409
-msgid "Kalinga"
+msgid "Compostela Valley"
 msgstr ""
 
 #: ../states.php:1410
-msgid "La Union"
+msgid "Cotabato"
 msgstr ""
 
 #: ../states.php:1411
-msgid "Laguna"
+msgid "Davao del Norte"
 msgstr ""
 
 #: ../states.php:1412
-msgid "Lanao del Norte"
+msgid "Davao del Sur"
 msgstr ""
 
 #: ../states.php:1413
-msgid "Lanao del Sur"
+msgid "Davao Occidental"
 msgstr ""
 
 #: ../states.php:1414
-msgid "Leyte"
+msgid "Davao Oriental"
 msgstr ""
 
 #: ../states.php:1415
-msgid "Maguindanao"
+msgid "Dinagat Islands"
 msgstr ""
 
 #: ../states.php:1416
-msgid "Marinduque"
+msgid "Eastern Samar"
 msgstr ""
 
 #: ../states.php:1417
-msgid "Masbate"
+msgid "Guimaras"
 msgstr ""
 
 #: ../states.php:1418
-msgid "Misamis Occidental"
+msgid "Ifugao"
 msgstr ""
 
 #: ../states.php:1419
-msgid "Misamis Oriental"
+msgid "Ilocos Norte"
 msgstr ""
 
 #: ../states.php:1420
-msgid "Mountain Province"
+msgid "Ilocos Sur"
 msgstr ""
 
 #: ../states.php:1421
-msgid "Negros Occidental"
+msgid "Iloilo"
 msgstr ""
 
 #: ../states.php:1422
-msgid "Negros Oriental"
+msgid "Isabela"
 msgstr ""
 
 #: ../states.php:1423
-msgid "Northern Samar"
+msgid "Kalinga"
 msgstr ""
 
 #: ../states.php:1424
-msgid "Nueva Ecija"
+msgid "La Union"
 msgstr ""
 
 #: ../states.php:1425
-msgid "Nueva Vizcaya"
+msgid "Laguna"
 msgstr ""
 
 #: ../states.php:1426
-msgid "Occidental Mindoro"
+msgid "Lanao del Norte"
 msgstr ""
 
 #: ../states.php:1427
-msgid "Oriental Mindoro"
+msgid "Lanao del Sur"
 msgstr ""
 
 #: ../states.php:1428
-msgid "Palawan"
+msgid "Leyte"
 msgstr ""
 
 #: ../states.php:1429
-msgid "Pampanga"
+msgid "Maguindanao"
 msgstr ""
 
 #: ../states.php:1430
-msgid "Pangasinan"
+msgid "Marinduque"
 msgstr ""
 
 #: ../states.php:1431
-msgid "Quezon"
+msgid "Masbate"
 msgstr ""
 
 #: ../states.php:1432
-msgid "Quirino"
+msgid "Misamis Occidental"
 msgstr ""
 
 #: ../states.php:1433
-msgid "Rizal"
+msgid "Misamis Oriental"
 msgstr ""
 
 #: ../states.php:1434
-msgid "Romblon"
+msgid "Mountain Province"
 msgstr ""
 
 #: ../states.php:1435
-msgid "Samar"
+msgid "Negros Occidental"
 msgstr ""
 
 #: ../states.php:1436
-msgid "Sarangani"
+msgid "Negros Oriental"
 msgstr ""
 
 #: ../states.php:1437
-msgid "Siquijor"
+msgid "Northern Samar"
 msgstr ""
 
 #: ../states.php:1438
-msgid "Sorsogon"
+msgid "Nueva Ecija"
 msgstr ""
 
 #: ../states.php:1439
-msgid "South Cotabato"
+msgid "Nueva Vizcaya"
 msgstr ""
 
 #: ../states.php:1440
-msgid "Southern Leyte"
+msgid "Occidental Mindoro"
 msgstr ""
 
 #: ../states.php:1441
-msgid "Sultan Kudarat"
+msgid "Oriental Mindoro"
 msgstr ""
 
 #: ../states.php:1442
-msgid "Sulu"
+msgid "Palawan"
 msgstr ""
 
 #: ../states.php:1443
-msgid "Surigao del Norte"
+msgid "Pampanga"
 msgstr ""
 
 #: ../states.php:1444
-msgid "Surigao del Sur"
+msgid "Pangasinan"
 msgstr ""
 
 #: ../states.php:1445
-msgid "Tarlac"
+msgid "Quezon"
 msgstr ""
 
 #: ../states.php:1446
-msgid "Tawi-Tawi"
+msgid "Quirino"
 msgstr ""
 
 #: ../states.php:1447
-msgid "Zambales"
+msgid "Rizal"
 msgstr ""
 
 #: ../states.php:1448
-msgid "Zamboanga del Norte"
+msgid "Romblon"
 msgstr ""
 
 #: ../states.php:1449
-msgid "Zamboanga del Sur"
+msgid "Samar"
 msgstr ""
 
 #: ../states.php:1450
-msgid "Zamboanga Sibugay"
+msgid "Sarangani"
 msgstr ""
 
 #: ../states.php:1451
-msgid "Metro Manila"
+msgid "Siquijor"
+msgstr ""
+
+#: ../states.php:1452
+msgid "Sorsogon"
+msgstr ""
+
+#: ../states.php:1453
+msgid "South Cotabato"
 msgstr ""
 
 #: ../states.php:1454
-msgid "Azad Kashmir"
+msgid "Southern Leyte"
 msgstr ""
 
 #: ../states.php:1455
-msgid "Balochistan"
+msgid "Sultan Kudarat"
 msgstr ""
 
 #: ../states.php:1456
-msgid "FATA"
+msgid "Sulu"
 msgstr ""
 
 #: ../states.php:1457
-msgid "Gilgit Baltistan"
+msgid "Surigao del Norte"
 msgstr ""
 
 #: ../states.php:1458
-msgid "Islamabad Capital Territory"
+msgid "Surigao del Sur"
 msgstr ""
 
 #: ../states.php:1459
-msgid "Khyber Pakhtunkhwa"
+msgid "Tarlac"
+msgstr ""
+
+#: ../states.php:1460
+msgid "Tawi-Tawi"
 msgstr ""
 
 #: ../states.php:1461
-msgid "Sindh"
+msgid "Zambales"
 msgstr ""
 
-#: ../states.php:1467
-msgid "Asunción"
+#: ../states.php:1462
+msgid "Zamboanga del Norte"
+msgstr ""
+
+#: ../states.php:1463
+msgid "Zamboanga del Sur"
+msgstr ""
+
+#: ../states.php:1464
+msgid "Zamboanga Sibugay"
+msgstr ""
+
+#: ../states.php:1465
+msgid "Metro Manila"
 msgstr ""
 
 #: ../states.php:1468
-msgid "Concepción"
+msgid "Azad Kashmir"
 msgstr ""
 
 #: ../states.php:1469
-msgid "San Pedro"
+msgid "Balochistan"
 msgstr ""
 
 #: ../states.php:1470
-msgid "Cordillera"
+msgid "FATA"
 msgstr ""
 
 #: ../states.php:1471
-msgid "Guairá"
+msgid "Gilgit Baltistan"
 msgstr ""
 
 #: ../states.php:1472
-msgid "Caaguazú"
+msgid "Islamabad Capital Territory"
 msgstr ""
 
 #: ../states.php:1473
-msgid "Caazapá"
+msgid "Khyber Pakhtunkhwa"
 msgstr ""
 
-#: ../states.php:1474
-msgid "Itapúa"
-msgstr ""
-
-#: ../states.php:1476
-msgid "Paraguarí"
-msgstr ""
-
-#: ../states.php:1477
-msgid "Alto Paraná"
-msgstr ""
-
-#: ../states.php:1479
-msgid "Ñeembucú"
-msgstr ""
-
-#: ../states.php:1480
-msgid "Amambay"
+#: ../states.php:1475
+msgid "Sindh"
 msgstr ""
 
 #: ../states.php:1481
-msgid "Canindeyú"
+msgid "Asunción"
 msgstr ""
 
 #: ../states.php:1482
-msgid "Presidente Hayes"
+msgid "Concepción"
 msgstr ""
 
 #: ../states.php:1483
-msgid "Alto Paraguay"
+msgid "San Pedro"
 msgstr ""
 
 #: ../states.php:1484
-msgid "Boquerón"
+msgid "Cordillera"
+msgstr ""
+
+#: ../states.php:1485
+msgid "Guairá"
+msgstr ""
+
+#: ../states.php:1486
+msgid "Caaguazú"
+msgstr ""
+
+#: ../states.php:1487
+msgid "Caazapá"
 msgstr ""
 
 #: ../states.php:1488
-msgid "Alba"
-msgstr ""
-
-#: ../states.php:1489
-msgid "Arad"
+msgid "Itapúa"
 msgstr ""
 
 #: ../states.php:1490
-msgid "Argeș"
+msgid "Paraguarí"
 msgstr ""
 
 #: ../states.php:1491
-msgid "Bacău"
-msgstr ""
-
-#: ../states.php:1492
-msgid "Bihor"
+msgid "Alto Paraná"
 msgstr ""
 
 #: ../states.php:1493
-msgid "Bistrița-Năsăud"
+msgid "Ñeembucú"
 msgstr ""
 
 #: ../states.php:1494
-msgid "Botoșani"
+msgid "Amambay"
 msgstr ""
 
 #: ../states.php:1495
-msgid "Brăila"
+msgid "Canindeyú"
 msgstr ""
 
 #: ../states.php:1496
-msgid "Brașov"
+msgid "Presidente Hayes"
 msgstr ""
 
 #: ../states.php:1497
-msgid "București"
+msgid "Alto Paraguay"
 msgstr ""
 
 #: ../states.php:1498
-msgid "Buzău"
-msgstr ""
-
-#: ../states.php:1500
-msgid "Caraș-Severin"
-msgstr ""
-
-#: ../states.php:1501
-msgid "Cluj"
+msgid "Boquerón"
 msgstr ""
 
 #: ../states.php:1502
-msgid "Constanța"
+msgid "Alba"
 msgstr ""
 
 #: ../states.php:1503
-msgid "Covasna"
+msgid "Arad"
 msgstr ""
 
 #: ../states.php:1504
-msgid "Dâmbovița"
+msgid "Argeș"
 msgstr ""
 
 #: ../states.php:1505
-msgid "Dolj"
+msgid "Bacău"
 msgstr ""
 
 #: ../states.php:1506
-msgid "Galați"
+msgid "Bihor"
 msgstr ""
 
 #: ../states.php:1507
-msgid "Giurgiu"
+msgid "Bistrița-Năsăud"
 msgstr ""
 
 #: ../states.php:1508
-msgid "Gorj"
+msgid "Botoșani"
 msgstr ""
 
 #: ../states.php:1509
-msgid "Harghita"
+msgid "Brăila"
 msgstr ""
 
 #: ../states.php:1510
-msgid "Hunedoara"
+msgid "Brașov"
 msgstr ""
 
 #: ../states.php:1511
-msgid "Ialomița"
+msgid "București"
 msgstr ""
 
 #: ../states.php:1512
-msgid "Iași"
-msgstr ""
-
-#: ../states.php:1513
-msgid "Ilfov"
+msgid "Buzău"
 msgstr ""
 
 #: ../states.php:1514
-msgid "Maramureș"
+msgid "Caraș-Severin"
 msgstr ""
 
 #: ../states.php:1515
-msgid "Mehedinți"
+msgid "Cluj"
 msgstr ""
 
 #: ../states.php:1516
-msgid "Mureș"
+msgid "Constanța"
 msgstr ""
 
 #: ../states.php:1517
-msgid "Neamț"
+msgid "Covasna"
 msgstr ""
 
 #: ../states.php:1518
-msgid "Olt"
+msgid "Dâmbovița"
 msgstr ""
 
 #: ../states.php:1519
-msgid "Prahova"
+msgid "Dolj"
 msgstr ""
 
 #: ../states.php:1520
-msgid "Sălaj"
+msgid "Galați"
 msgstr ""
 
 #: ../states.php:1521
-msgid "Satu Mare"
+msgid "Giurgiu"
 msgstr ""
 
 #: ../states.php:1522
-msgid "Sibiu"
+msgid "Gorj"
 msgstr ""
 
 #: ../states.php:1523
-msgid "Suceava"
+msgid "Harghita"
 msgstr ""
 
 #: ../states.php:1524
-msgid "Teleorman"
+msgid "Hunedoara"
 msgstr ""
 
 #: ../states.php:1525
-msgid "Timiș"
+msgid "Ialomița"
 msgstr ""
 
 #: ../states.php:1526
-msgid "Tulcea"
+msgid "Iași"
 msgstr ""
 
 #: ../states.php:1527
-msgid "Vâlcea"
+msgid "Ilfov"
 msgstr ""
 
 #: ../states.php:1528
-msgid "Vaslui"
+msgid "Maramureș"
 msgstr ""
 
 #: ../states.php:1529
-msgid "Vrancea"
+msgid "Mehedinți"
+msgstr ""
+
+#: ../states.php:1530
+msgid "Mureș"
+msgstr ""
+
+#: ../states.php:1531
+msgid "Neamț"
+msgstr ""
+
+#: ../states.php:1532
+msgid "Olt"
+msgstr ""
+
+#: ../states.php:1533
+msgid "Prahova"
+msgstr ""
+
+#: ../states.php:1534
+msgid "Sălaj"
 msgstr ""
 
 #: ../states.php:1535
-msgid "Ahuachapán"
+msgid "Satu Mare"
 msgstr ""
 
 #: ../states.php:1536
-msgid "Cabañas"
+msgid "Sibiu"
 msgstr ""
 
 #: ../states.php:1537
-msgid "Chalatenango"
+msgid "Suceava"
 msgstr ""
 
 #: ../states.php:1538
-msgid "Cuscatlán"
+msgid "Teleorman"
+msgstr ""
+
+#: ../states.php:1539
+msgid "Timiș"
 msgstr ""
 
 #: ../states.php:1540
-msgid "Morazán"
+msgid "Tulcea"
+msgstr ""
+
+#: ../states.php:1541
+msgid "Vâlcea"
 msgstr ""
 
 #: ../states.php:1542
-msgid "Santa Ana"
+msgid "Vaslui"
 msgstr ""
 
 #: ../states.php:1543
-msgid "San Miguel"
+msgid "Vrancea"
 msgstr ""
 
-#: ../states.php:1544
-msgid "Sonsonate"
+#: ../states.php:1549
+msgid "Ahuachapán"
 msgstr ""
 
-#: ../states.php:1545
-msgid "San Salvador"
-msgstr ""
-
-#: ../states.php:1546
-msgid "San Vicente"
-msgstr ""
-
-#: ../states.php:1547
-msgid "La Unión"
-msgstr ""
-
-#: ../states.php:1548
-msgid "Usulután"
+#: ../states.php:1550
+msgid "Cabañas"
 msgstr ""
 
 #: ../states.php:1551
-msgid "Amnat Charoen"
+msgid "Chalatenango"
 msgstr ""
 
 #: ../states.php:1552
-msgid "Ang Thong"
-msgstr ""
-
-#: ../states.php:1553
-msgid "Ayutthaya"
+msgid "Cuscatlán"
 msgstr ""
 
 #: ../states.php:1554
-msgid "Bangkok"
-msgstr ""
-
-#: ../states.php:1555
-msgid "Bueng Kan"
+msgid "Morazán"
 msgstr ""
 
 #: ../states.php:1556
-msgid "Buri Ram"
+msgid "Santa Ana"
 msgstr ""
 
 #: ../states.php:1557
-msgid "Chachoengsao"
+msgid "San Miguel"
 msgstr ""
 
 #: ../states.php:1558
-msgid "Chai Nat"
+msgid "Sonsonate"
 msgstr ""
 
 #: ../states.php:1559
-msgid "Chaiyaphum"
+msgid "San Salvador"
 msgstr ""
 
 #: ../states.php:1560
-msgid "Chanthaburi"
+msgid "San Vicente"
 msgstr ""
 
 #: ../states.php:1561
-msgid "Chiang Mai"
+msgid "La Unión"
 msgstr ""
 
 #: ../states.php:1562
-msgid "Chiang Rai"
-msgstr ""
-
-#: ../states.php:1563
-msgid "Chonburi"
-msgstr ""
-
-#: ../states.php:1564
-msgid "Chumphon"
+msgid "Usulután"
 msgstr ""
 
 #: ../states.php:1565
-msgid "Kalasin"
+msgid "Amnat Charoen"
 msgstr ""
 
 #: ../states.php:1566
-msgid "Kamphaeng Phet"
+msgid "Ang Thong"
 msgstr ""
 
 #: ../states.php:1567
-msgid "Kanchanaburi"
+msgid "Ayutthaya"
 msgstr ""
 
 #: ../states.php:1568
-msgid "Khon Kaen"
+msgid "Bangkok"
 msgstr ""
 
 #: ../states.php:1569
-msgid "Krabi"
+msgid "Bueng Kan"
 msgstr ""
 
 #: ../states.php:1570
-msgid "Lampang"
+msgid "Buri Ram"
 msgstr ""
 
 #: ../states.php:1571
-msgid "Lamphun"
+msgid "Chachoengsao"
 msgstr ""
 
 #: ../states.php:1572
-msgid "Loei"
+msgid "Chai Nat"
 msgstr ""
 
 #: ../states.php:1573
-msgid "Lopburi"
+msgid "Chaiyaphum"
 msgstr ""
 
 #: ../states.php:1574
-msgid "Mae Hong Son"
+msgid "Chanthaburi"
 msgstr ""
 
 #: ../states.php:1575
-msgid "Maha Sarakham"
+msgid "Chiang Mai"
 msgstr ""
 
 #: ../states.php:1576
-msgid "Mukdahan"
+msgid "Chiang Rai"
 msgstr ""
 
 #: ../states.php:1577
-msgid "Nakhon Nayok"
+msgid "Chonburi"
 msgstr ""
 
 #: ../states.php:1578
-msgid "Nakhon Pathom"
+msgid "Chumphon"
 msgstr ""
 
 #: ../states.php:1579
-msgid "Nakhon Phanom"
+msgid "Kalasin"
 msgstr ""
 
 #: ../states.php:1580
-msgid "Nakhon Ratchasima"
+msgid "Kamphaeng Phet"
 msgstr ""
 
 #: ../states.php:1581
-msgid "Nakhon Sawan"
+msgid "Kanchanaburi"
 msgstr ""
 
 #: ../states.php:1582
-msgid "Nakhon Si Thammarat"
+msgid "Khon Kaen"
 msgstr ""
 
 #: ../states.php:1583
-msgid "Nan"
+msgid "Krabi"
 msgstr ""
 
 #: ../states.php:1584
-msgid "Narathiwat"
+msgid "Lampang"
 msgstr ""
 
 #: ../states.php:1585
-msgid "Nong Bua Lam Phu"
+msgid "Lamphun"
 msgstr ""
 
 #: ../states.php:1586
-msgid "Nong Khai"
+msgid "Loei"
 msgstr ""
 
 #: ../states.php:1587
-msgid "Nonthaburi"
+msgid "Lopburi"
 msgstr ""
 
 #: ../states.php:1588
-msgid "Pathum Thani"
+msgid "Mae Hong Son"
 msgstr ""
 
 #: ../states.php:1589
-msgid "Pattani"
+msgid "Maha Sarakham"
 msgstr ""
 
 #: ../states.php:1590
-msgid "Phang Nga"
+msgid "Mukdahan"
 msgstr ""
 
 #: ../states.php:1591
-msgid "Phatthalung"
+msgid "Nakhon Nayok"
 msgstr ""
 
 #: ../states.php:1592
-msgid "Phayao"
+msgid "Nakhon Pathom"
 msgstr ""
 
 #: ../states.php:1593
-msgid "Phetchabun"
+msgid "Nakhon Phanom"
 msgstr ""
 
 #: ../states.php:1594
-msgid "Phetchaburi"
+msgid "Nakhon Ratchasima"
 msgstr ""
 
 #: ../states.php:1595
-msgid "Phichit"
+msgid "Nakhon Sawan"
 msgstr ""
 
 #: ../states.php:1596
-msgid "Phitsanulok"
+msgid "Nakhon Si Thammarat"
 msgstr ""
 
 #: ../states.php:1597
-msgid "Phrae"
+msgid "Nan"
 msgstr ""
 
 #: ../states.php:1598
-msgid "Phuket"
+msgid "Narathiwat"
 msgstr ""
 
 #: ../states.php:1599
-msgid "Prachin Buri"
+msgid "Nong Bua Lam Phu"
 msgstr ""
 
 #: ../states.php:1600
-msgid "Prachuap Khiri Khan"
+msgid "Nong Khai"
 msgstr ""
 
 #: ../states.php:1601
-msgid "Ranong"
+msgid "Nonthaburi"
 msgstr ""
 
 #: ../states.php:1602
-msgid "Ratchaburi"
+msgid "Pathum Thani"
 msgstr ""
 
 #: ../states.php:1603
-msgid "Rayong"
+msgid "Pattani"
 msgstr ""
 
 #: ../states.php:1604
-msgid "Roi Et"
+msgid "Phang Nga"
 msgstr ""
 
 #: ../states.php:1605
-msgid "Sa Kaeo"
+msgid "Phatthalung"
 msgstr ""
 
 #: ../states.php:1606
-msgid "Sakon Nakhon"
+msgid "Phayao"
 msgstr ""
 
 #: ../states.php:1607
-msgid "Samut Prakan"
+msgid "Phetchabun"
 msgstr ""
 
 #: ../states.php:1608
-msgid "Samut Sakhon"
+msgid "Phetchaburi"
 msgstr ""
 
 #: ../states.php:1609
-msgid "Samut Songkhram"
+msgid "Phichit"
 msgstr ""
 
 #: ../states.php:1610
-msgid "Saraburi"
+msgid "Phitsanulok"
 msgstr ""
 
 #: ../states.php:1611
-msgid "Satun"
+msgid "Phrae"
 msgstr ""
 
 #: ../states.php:1612
-msgid "Sing Buri"
+msgid "Phuket"
 msgstr ""
 
 #: ../states.php:1613
-msgid "Sisaket"
+msgid "Prachin Buri"
 msgstr ""
 
 #: ../states.php:1614
-msgid "Songkhla"
+msgid "Prachuap Khiri Khan"
 msgstr ""
 
 #: ../states.php:1615
-msgid "Sukhothai"
+msgid "Ranong"
 msgstr ""
 
 #: ../states.php:1616
-msgid "Suphan Buri"
+msgid "Ratchaburi"
 msgstr ""
 
 #: ../states.php:1617
-msgid "Surat Thani"
+msgid "Rayong"
 msgstr ""
 
 #: ../states.php:1618
-msgid "Surin"
+msgid "Roi Et"
 msgstr ""
 
 #: ../states.php:1619
-msgid "Tak"
+msgid "Sa Kaeo"
 msgstr ""
 
 #: ../states.php:1620
-msgid "Trang"
+msgid "Sakon Nakhon"
 msgstr ""
 
 #: ../states.php:1621
-msgid "Trat"
+msgid "Samut Prakan"
 msgstr ""
 
 #: ../states.php:1622
-msgid "Ubon Ratchathani"
+msgid "Samut Sakhon"
 msgstr ""
 
 #: ../states.php:1623
-msgid "Udon Thani"
+msgid "Samut Songkhram"
 msgstr ""
 
 #: ../states.php:1624
-msgid "Uthai Thani"
+msgid "Saraburi"
 msgstr ""
 
 #: ../states.php:1625
-msgid "Uttaradit"
+msgid "Satun"
 msgstr ""
 
 #: ../states.php:1626
-msgid "Yala"
+msgid "Sing Buri"
 msgstr ""
 
 #: ../states.php:1627
-msgid "Yasothon"
+msgid "Sisaket"
+msgstr ""
+
+#: ../states.php:1628
+msgid "Songkhla"
+msgstr ""
+
+#: ../states.php:1629
+msgid "Sukhothai"
 msgstr ""
 
 #: ../states.php:1630
-msgid "Adana"
+msgid "Suphan Buri"
 msgstr ""
 
 #: ../states.php:1631
-msgid "Adıyaman"
+msgid "Surat Thani"
 msgstr ""
 
 #: ../states.php:1632
-msgid "Afyon"
+msgid "Surin"
 msgstr ""
 
 #: ../states.php:1633
-msgid "Ağrı"
+msgid "Tak"
 msgstr ""
 
 #: ../states.php:1634
-msgid "Amasya"
+msgid "Trang"
 msgstr ""
 
 #: ../states.php:1635
-msgid "Ankara"
+msgid "Trat"
 msgstr ""
 
 #: ../states.php:1636
-msgid "Antalya"
+msgid "Ubon Ratchathani"
 msgstr ""
 
 #: ../states.php:1637
-msgid "Artvin"
+msgid "Udon Thani"
 msgstr ""
 
 #: ../states.php:1638
-msgid "Aydın"
+msgid "Uthai Thani"
 msgstr ""
 
 #: ../states.php:1639
-msgid "Balıkesir"
+msgid "Uttaradit"
 msgstr ""
 
 #: ../states.php:1640
-msgid "Bilecik"
+msgid "Yala"
 msgstr ""
 
 #: ../states.php:1641
-msgid "Bingöl"
-msgstr ""
-
-#: ../states.php:1642
-msgid "Bitlis"
-msgstr ""
-
-#: ../states.php:1643
-msgid "Bolu"
+msgid "Yasothon"
 msgstr ""
 
 #: ../states.php:1644
-msgid "Burdur"
+msgid "Adana"
 msgstr ""
 
 #: ../states.php:1645
-msgid "Bursa"
+msgid "Adıyaman"
 msgstr ""
 
 #: ../states.php:1646
-msgid "Çanakkale"
+msgid "Afyon"
 msgstr ""
 
 #: ../states.php:1647
-msgid "Çankırı"
+msgid "Ağrı"
 msgstr ""
 
 #: ../states.php:1648
-msgid "Çorum"
+msgid "Amasya"
 msgstr ""
 
 #: ../states.php:1649
-msgid "Denizli"
+msgid "Ankara"
 msgstr ""
 
 #: ../states.php:1650
-msgid "Diyarbakır"
+msgid "Antalya"
 msgstr ""
 
 #: ../states.php:1651
-msgid "Edirne"
+msgid "Artvin"
 msgstr ""
 
 #: ../states.php:1652
-msgid "Elazığ"
+msgid "Aydın"
 msgstr ""
 
 #: ../states.php:1653
-msgid "Erzincan"
+msgid "Balıkesir"
 msgstr ""
 
 #: ../states.php:1654
-msgid "Erzurum"
+msgid "Bilecik"
 msgstr ""
 
 #: ../states.php:1655
-msgid "Eskişehir"
+msgid "Bingöl"
 msgstr ""
 
 #: ../states.php:1656
-msgid "Gaziantep"
+msgid "Bitlis"
 msgstr ""
 
 #: ../states.php:1657
-msgid "Giresun"
+msgid "Bolu"
 msgstr ""
 
 #: ../states.php:1658
-msgid "Gümüşhane"
+msgid "Burdur"
 msgstr ""
 
 #: ../states.php:1659
-msgid "Hakkari"
+msgid "Bursa"
 msgstr ""
 
 #: ../states.php:1660
-msgid "Hatay"
+msgid "Çanakkale"
 msgstr ""
 
 #: ../states.php:1661
-msgid "Isparta"
+msgid "Çankırı"
 msgstr ""
 
 #: ../states.php:1662
-msgid "İçel"
+msgid "Çorum"
 msgstr ""
 
 #: ../states.php:1663
-msgid "İstanbul"
+msgid "Denizli"
 msgstr ""
 
 #: ../states.php:1664
-msgid "İzmir"
+msgid "Diyarbakır"
 msgstr ""
 
 #: ../states.php:1665
-msgid "Kars"
+msgid "Edirne"
 msgstr ""
 
 #: ../states.php:1666
-msgid "Kastamonu"
+msgid "Elazığ"
 msgstr ""
 
 #: ../states.php:1667
-msgid "Kayseri"
+msgid "Erzincan"
 msgstr ""
 
 #: ../states.php:1668
-msgid "Kırklareli"
+msgid "Erzurum"
 msgstr ""
 
 #: ../states.php:1669
-msgid "Kırşehir"
+msgid "Eskişehir"
 msgstr ""
 
 #: ../states.php:1670
-msgid "Kocaeli"
+msgid "Gaziantep"
 msgstr ""
 
 #: ../states.php:1671
-msgid "Konya"
+msgid "Giresun"
 msgstr ""
 
 #: ../states.php:1672
-msgid "Kütahya"
+msgid "Gümüşhane"
 msgstr ""
 
 #: ../states.php:1673
-msgid "Malatya"
+msgid "Hakkari"
 msgstr ""
 
 #: ../states.php:1674
-msgid "Manisa"
+msgid "Hatay"
 msgstr ""
 
 #: ../states.php:1675
-msgid "Kahramanmaraş"
+msgid "Isparta"
 msgstr ""
 
 #: ../states.php:1676
-msgid "Mardin"
+msgid "İçel"
 msgstr ""
 
 #: ../states.php:1677
-msgid "Muğla"
+msgid "İstanbul"
 msgstr ""
 
 #: ../states.php:1678
-msgid "Muş"
+msgid "İzmir"
 msgstr ""
 
 #: ../states.php:1679
-msgid "Nevşehir"
+msgid "Kars"
 msgstr ""
 
 #: ../states.php:1680
-msgid "Niğde"
+msgid "Kastamonu"
 msgstr ""
 
 #: ../states.php:1681
-msgid "Ordu"
+msgid "Kayseri"
 msgstr ""
 
 #: ../states.php:1682
-msgid "Rize"
+msgid "Kırklareli"
 msgstr ""
 
 #: ../states.php:1683
-msgid "Sakarya"
+msgid "Kırşehir"
 msgstr ""
 
 #: ../states.php:1684
-msgid "Samsun"
+msgid "Kocaeli"
 msgstr ""
 
 #: ../states.php:1685
-msgid "Siirt"
+msgid "Konya"
 msgstr ""
 
 #: ../states.php:1686
-msgid "Sinop"
+msgid "Kütahya"
 msgstr ""
 
 #: ../states.php:1687
-msgid "Sivas"
+msgid "Malatya"
 msgstr ""
 
 #: ../states.php:1688
-msgid "Tekirdağ"
+msgid "Manisa"
 msgstr ""
 
 #: ../states.php:1689
-msgid "Tokat"
+msgid "Kahramanmaraş"
 msgstr ""
 
 #: ../states.php:1690
-msgid "Trabzon"
+msgid "Mardin"
 msgstr ""
 
 #: ../states.php:1691
-msgid "Tunceli"
+msgid "Muğla"
 msgstr ""
 
 #: ../states.php:1692
-msgid "Şanlıurfa"
+msgid "Muş"
 msgstr ""
 
 #: ../states.php:1693
-msgid "Uşak"
+msgid "Nevşehir"
 msgstr ""
 
 #: ../states.php:1694
-msgid "Van"
+msgid "Niğde"
 msgstr ""
 
 #: ../states.php:1695
-msgid "Yozgat"
+msgid "Ordu"
 msgstr ""
 
 #: ../states.php:1696
-msgid "Zonguldak"
+msgid "Rize"
 msgstr ""
 
 #: ../states.php:1697
-msgid "Aksaray"
+msgid "Sakarya"
 msgstr ""
 
 #: ../states.php:1698
-msgid "Bayburt"
+msgid "Samsun"
 msgstr ""
 
 #: ../states.php:1699
-msgid "Karaman"
+msgid "Siirt"
 msgstr ""
 
 #: ../states.php:1700
-msgid "Kırıkkale"
+msgid "Sinop"
 msgstr ""
 
 #: ../states.php:1701
-msgid "Batman"
+msgid "Sivas"
 msgstr ""
 
 #: ../states.php:1702
-msgid "Şırnak"
+msgid "Tekirdağ"
 msgstr ""
 
 #: ../states.php:1703
-msgid "Bartın"
+msgid "Tokat"
 msgstr ""
 
 #: ../states.php:1704
-msgid "Ardahan"
+msgid "Trabzon"
 msgstr ""
 
 #: ../states.php:1705
-msgid "Iğdır"
+msgid "Tunceli"
 msgstr ""
 
 #: ../states.php:1706
-msgid "Yalova"
+msgid "Şanlıurfa"
 msgstr ""
 
 #: ../states.php:1707
-msgid "Karabük"
+msgid "Uşak"
 msgstr ""
 
 #: ../states.php:1708
-msgid "Kilis"
+msgid "Van"
 msgstr ""
 
 #: ../states.php:1709
-msgid "Osmaniye"
+msgid "Yozgat"
 msgstr ""
 
 #: ../states.php:1710
-msgid "Düzce"
+msgid "Zonguldak"
+msgstr ""
+
+#: ../states.php:1711
+msgid "Aksaray"
+msgstr ""
+
+#: ../states.php:1712
+msgid "Bayburt"
 msgstr ""
 
 #: ../states.php:1713
-msgid "Arusha"
+msgid "Karaman"
 msgstr ""
 
 #: ../states.php:1714
-msgid "Dar es Salaam"
+msgid "Kırıkkale"
 msgstr ""
 
 #: ../states.php:1715
-msgid "Dodoma"
+msgid "Batman"
 msgstr ""
 
 #: ../states.php:1716
-msgid "Iringa"
+msgid "Şırnak"
 msgstr ""
 
 #: ../states.php:1717
-msgid "Kagera"
+msgid "Bartın"
 msgstr ""
 
 #: ../states.php:1718
-msgid "Pemba North"
+msgid "Ardahan"
 msgstr ""
 
 #: ../states.php:1719
-msgid "Zanzibar North"
+msgid "Iğdır"
 msgstr ""
 
 #: ../states.php:1720
-msgid "Kigoma"
+msgid "Yalova"
 msgstr ""
 
 #: ../states.php:1721
-msgid "Kilimanjaro"
+msgid "Karabük"
 msgstr ""
 
 #: ../states.php:1722
-msgid "Pemba South"
+msgid "Kilis"
 msgstr ""
 
 #: ../states.php:1723
-msgid "Zanzibar South"
+msgid "Osmaniye"
 msgstr ""
 
 #: ../states.php:1724
-msgid "Lindi"
-msgstr ""
-
-#: ../states.php:1725
-msgid "Mara"
-msgstr ""
-
-#: ../states.php:1726
-msgid "Mbeya"
+msgid "Düzce"
 msgstr ""
 
 #: ../states.php:1727
-msgid "Zanzibar West"
+msgid "Arusha"
 msgstr ""
 
 #: ../states.php:1728
-msgid "Morogoro"
+msgid "Dar es Salaam"
 msgstr ""
 
 #: ../states.php:1729
-msgid "Mtwara"
+msgid "Dodoma"
 msgstr ""
 
 #: ../states.php:1730
-msgid "Mwanza"
+msgid "Iringa"
 msgstr ""
 
 #: ../states.php:1731
-msgid "Coast"
+msgid "Kagera"
 msgstr ""
 
 #: ../states.php:1732
-msgid "Rukwa"
+msgid "Pemba North"
 msgstr ""
 
 #: ../states.php:1733
-msgid "Ruvuma"
+msgid "Zanzibar North"
 msgstr ""
 
 #: ../states.php:1734
-msgid "Shinyanga"
+msgid "Kigoma"
 msgstr ""
 
 #: ../states.php:1735
-msgid "Singida"
+msgid "Kilimanjaro"
 msgstr ""
 
 #: ../states.php:1736
-msgid "Tabora"
+msgid "Pemba South"
 msgstr ""
 
 #: ../states.php:1737
-msgid "Tanga"
+msgid "Zanzibar South"
 msgstr ""
 
 #: ../states.php:1738
-msgid "Manyara"
+msgid "Lindi"
 msgstr ""
 
 #: ../states.php:1739
-msgid "Geita"
+msgid "Mara"
 msgstr ""
 
 #: ../states.php:1740
-msgid "Katavi"
+msgid "Mbeya"
 msgstr ""
 
 #: ../states.php:1741
-msgid "Njombe"
+msgid "Zanzibar West"
 msgstr ""
 
 #: ../states.php:1742
-msgid "Simiyu"
+msgid "Morogoro"
+msgstr ""
+
+#: ../states.php:1743
+msgid "Mtwara"
+msgstr ""
+
+#: ../states.php:1744
+msgid "Mwanza"
+msgstr ""
+
+#: ../states.php:1745
+msgid "Coast"
 msgstr ""
 
 #: ../states.php:1746
-msgctxt "district"
-msgid "Belgrade"
+msgid "Rukwa"
 msgstr ""
 
 #: ../states.php:1747
-msgctxt "district"
-msgid "Bor"
+msgid "Ruvuma"
 msgstr ""
 
 #: ../states.php:1748
-msgctxt "district"
-msgid "Braničevo"
+msgid "Shinyanga"
 msgstr ""
 
 #: ../states.php:1749
-msgctxt "district"
-msgid "Central Banat"
+msgid "Singida"
 msgstr ""
 
 #: ../states.php:1750
-msgctxt "district"
-msgid "Danube"
+msgid "Tabora"
 msgstr ""
 
 #: ../states.php:1751
-msgctxt "district"
-msgid "Jablanica"
+msgid "Tanga"
 msgstr ""
 
 #: ../states.php:1752
-msgctxt "district"
-msgid "Kolubara"
+msgid "Manyara"
 msgstr ""
 
 #: ../states.php:1753
-msgctxt "district"
-msgid "Mačva"
+msgid "Geita"
 msgstr ""
 
 #: ../states.php:1754
-msgctxt "district"
-msgid "Morava"
+msgid "Katavi"
 msgstr ""
 
 #: ../states.php:1755
-msgctxt "district"
-msgid "Nišava"
+msgid "Njombe"
 msgstr ""
 
 #: ../states.php:1756
-msgctxt "district"
-msgid "North Bačka"
-msgstr ""
-
-#: ../states.php:1757
-msgctxt "district"
-msgid "North Banat"
-msgstr ""
-
-#: ../states.php:1758
-msgctxt "district"
-msgid "Pčinja"
-msgstr ""
-
-#: ../states.php:1759
-msgctxt "district"
-msgid "Pirot"
+msgid "Simiyu"
 msgstr ""
 
 #: ../states.php:1760
 msgctxt "district"
-msgid "Pomoravlje"
+msgid "Belgrade"
 msgstr ""
 
 #: ../states.php:1761
 msgctxt "district"
-msgid "Rasina"
+msgid "Bor"
 msgstr ""
 
 #: ../states.php:1762
 msgctxt "district"
-msgid "Raška"
+msgid "Braničevo"
 msgstr ""
 
 #: ../states.php:1763
 msgctxt "district"
-msgid "South Bačka"
+msgid "Central Banat"
 msgstr ""
 
 #: ../states.php:1764
 msgctxt "district"
-msgid "South Banat"
+msgid "Danube"
 msgstr ""
 
 #: ../states.php:1765
 msgctxt "district"
-msgid "Srem"
+msgid "Jablanica"
 msgstr ""
 
 #: ../states.php:1766
 msgctxt "district"
-msgid "Šumadija"
+msgid "Kolubara"
 msgstr ""
 
 #: ../states.php:1767
 msgctxt "district"
-msgid "Toplica"
+msgid "Mačva"
 msgstr ""
 
 #: ../states.php:1768
 msgctxt "district"
-msgid "West Bačka"
+msgid "Morava"
 msgstr ""
 
 #: ../states.php:1769
 msgctxt "district"
-msgid "Zaječar"
+msgid "Nišava"
 msgstr ""
 
 #: ../states.php:1770
 msgctxt "district"
-msgid "Zlatibor"
+msgid "North Bačka"
 msgstr ""
 
 #: ../states.php:1771
 msgctxt "district"
-msgid "Kosovo"
+msgid "North Banat"
 msgstr ""
 
 #: ../states.php:1772
 msgctxt "district"
-msgid "Peć"
+msgid "Pčinja"
 msgstr ""
 
 #: ../states.php:1773
 msgctxt "district"
-msgid "Prizren"
+msgid "Pirot"
 msgstr ""
 
 #: ../states.php:1774
 msgctxt "district"
-msgid "Kosovska Mitrovica"
+msgid "Pomoravlje"
 msgstr ""
 
 #: ../states.php:1775
 msgctxt "district"
-msgid "Kosovo-Pomoravlje"
+msgid "Rasina"
 msgstr ""
 
 #: ../states.php:1776
 msgctxt "district"
-msgid "Kosovo-Metohija"
+msgid "Raška"
 msgstr ""
 
 #: ../states.php:1777
 msgctxt "district"
-msgid "Vojvodina"
+msgid "South Bačka"
+msgstr ""
+
+#: ../states.php:1778
+msgctxt "district"
+msgid "South Banat"
+msgstr ""
+
+#: ../states.php:1779
+msgctxt "district"
+msgid "Srem"
+msgstr ""
+
+#: ../states.php:1780
+msgctxt "district"
+msgid "Šumadija"
 msgstr ""
 
 #: ../states.php:1781
-msgid "Vinnytsia Oblast"
+msgctxt "district"
+msgid "Toplica"
 msgstr ""
 
 #: ../states.php:1782
-msgid "Volyn Oblast"
+msgctxt "district"
+msgid "West Bačka"
 msgstr ""
 
 #: ../states.php:1783
-msgid "Dnipropetrovsk Oblast"
+msgctxt "district"
+msgid "Zaječar"
 msgstr ""
 
 #: ../states.php:1784
-msgid "Donetsk Oblast"
+msgctxt "district"
+msgid "Zlatibor"
 msgstr ""
 
 #: ../states.php:1785
-msgid "Zhytomyr Oblast"
+msgctxt "district"
+msgid "Kosovo"
 msgstr ""
 
 #: ../states.php:1786
-msgid "Zakarpattia Oblast"
+msgctxt "district"
+msgid "Peć"
 msgstr ""
 
 #: ../states.php:1787
-msgid "Zaporizhzhia Oblast"
+msgctxt "district"
+msgid "Prizren"
 msgstr ""
 
 #: ../states.php:1788
-msgid "Ivano-Frankivsk Oblast"
+msgctxt "district"
+msgid "Kosovska Mitrovica"
 msgstr ""
 
 #: ../states.php:1789
-msgid "Kyiv Oblast"
+msgctxt "district"
+msgid "Kosovo-Pomoravlje"
 msgstr ""
 
 #: ../states.php:1790
-msgid "Kirovohrad Oblast"
+msgctxt "district"
+msgid "Kosovo-Metohija"
 msgstr ""
 
 #: ../states.php:1791
-msgid "Luhansk Oblast"
-msgstr ""
-
-#: ../states.php:1792
-msgid "Lviv Oblast"
-msgstr ""
-
-#: ../states.php:1793
-msgid "Mykolaiv Oblast"
-msgstr ""
-
-#: ../states.php:1794
-msgid "Odessa Oblast"
+msgctxt "district"
+msgid "Vojvodina"
 msgstr ""
 
 #: ../states.php:1795
-msgid "Poltava Oblast"
+msgid "Vinnytsia Oblast"
 msgstr ""
 
 #: ../states.php:1796
-msgid "Rivne Oblast"
+msgid "Volyn Oblast"
 msgstr ""
 
 #: ../states.php:1797
-msgid "Sumy Oblast"
+msgid "Dnipropetrovsk Oblast"
 msgstr ""
 
 #: ../states.php:1798
-msgid "Ternopil Oblast"
+msgid "Donetsk Oblast"
 msgstr ""
 
 #: ../states.php:1799
-msgid "Kharkiv Oblast"
+msgid "Zhytomyr Oblast"
 msgstr ""
 
 #: ../states.php:1800
-msgid "Kherson Oblast"
+msgid "Zakarpattia Oblast"
 msgstr ""
 
 #: ../states.php:1801
-msgid "Khmelnytskyi Oblast"
+msgid "Zaporizhzhia Oblast"
 msgstr ""
 
 #: ../states.php:1802
-msgid "Cherkasy Oblast"
+msgid "Ivano-Frankivsk Oblast"
 msgstr ""
 
 #: ../states.php:1803
-msgid "Chernihiv Oblast"
+msgid "Kyiv Oblast"
 msgstr ""
 
 #: ../states.php:1804
-msgid "Chernivtsi Oblast"
+msgid "Kirovohrad Oblast"
+msgstr ""
+
+#: ../states.php:1805
+msgid "Luhansk Oblast"
+msgstr ""
+
+#: ../states.php:1806
+msgid "Lviv Oblast"
 msgstr ""
 
 #: ../states.php:1807
-msgid "Abim"
+msgid "Mykolaiv Oblast"
 msgstr ""
 
 #: ../states.php:1808
-msgid "Adjumani"
+msgid "Odessa Oblast"
 msgstr ""
 
 #: ../states.php:1809
-msgid "Agago"
+msgid "Poltava Oblast"
 msgstr ""
 
 #: ../states.php:1810
-msgid "Alebtong"
+msgid "Rivne Oblast"
 msgstr ""
 
 #: ../states.php:1811
-msgid "Amolatar"
+msgid "Sumy Oblast"
 msgstr ""
 
 #: ../states.php:1812
-msgid "Amudat"
+msgid "Ternopil Oblast"
 msgstr ""
 
 #: ../states.php:1813
-msgid "Amuria"
+msgid "Kharkiv Oblast"
 msgstr ""
 
 #: ../states.php:1814
-msgid "Amuru"
+msgid "Kherson Oblast"
 msgstr ""
 
 #: ../states.php:1815
-msgid "Apac"
+msgid "Khmelnytskyi Oblast"
 msgstr ""
 
 #: ../states.php:1816
-msgid "Arua"
+msgid "Cherkasy Oblast"
 msgstr ""
 
 #: ../states.php:1817
-msgid "Budaka"
+msgid "Chernihiv Oblast"
 msgstr ""
 
 #: ../states.php:1818
-msgid "Bududa"
-msgstr ""
-
-#: ../states.php:1819
-msgid "Bugiri"
-msgstr ""
-
-#: ../states.php:1820
-msgid "Bugweri"
+msgid "Chernivtsi Oblast"
 msgstr ""
 
 #: ../states.php:1821
-msgid "Buhweju"
+msgid "Abim"
 msgstr ""
 
 #: ../states.php:1822
-msgid "Buikwe"
+msgid "Adjumani"
 msgstr ""
 
 #: ../states.php:1823
-msgid "Bukedea"
+msgid "Agago"
 msgstr ""
 
 #: ../states.php:1824
-msgid "Bukomansimbi"
+msgid "Alebtong"
 msgstr ""
 
 #: ../states.php:1825
-msgid "Bukwa"
+msgid "Amolatar"
 msgstr ""
 
 #: ../states.php:1826
-msgid "Bulambuli"
+msgid "Amudat"
 msgstr ""
 
 #: ../states.php:1827
-msgid "Buliisa"
+msgid "Amuria"
 msgstr ""
 
 #: ../states.php:1828
-msgid "Bundibugyo"
+msgid "Amuru"
 msgstr ""
 
 #: ../states.php:1829
-msgid "Bunyangabu"
+msgid "Apac"
 msgstr ""
 
 #: ../states.php:1830
-msgid "Bushenyi"
+msgid "Arua"
+msgstr ""
+
+#: ../states.php:1831
+msgid "Budaka"
 msgstr ""
 
 #: ../states.php:1832
-msgid "Butaleja"
+msgid "Bududa"
 msgstr ""
 
 #: ../states.php:1833
-msgid "Butambala"
+msgid "Bugiri"
 msgstr ""
 
 #: ../states.php:1834
-msgid "Butebo"
+msgid "Bugweri"
 msgstr ""
 
 #: ../states.php:1835
-msgid "Buvuma"
+msgid "Buhweju"
 msgstr ""
 
 #: ../states.php:1836
-msgid "Buyende"
+msgid "Buikwe"
 msgstr ""
 
 #: ../states.php:1837
-msgid "Dokolo"
+msgid "Bukedea"
 msgstr ""
 
 #: ../states.php:1838
-msgid "Gomba"
+msgid "Bukomansimbi"
 msgstr ""
 
 #: ../states.php:1839
-msgid "Gulu"
+msgid "Bukwa"
 msgstr ""
 
 #: ../states.php:1840
-msgid "Hoima"
+msgid "Bulambuli"
 msgstr ""
 
 #: ../states.php:1841
-msgid "Ibanda"
+msgid "Buliisa"
 msgstr ""
 
 #: ../states.php:1842
-msgid "Iganga"
+msgid "Bundibugyo"
 msgstr ""
 
 #: ../states.php:1843
-msgid "Isingiro"
+msgid "Bunyangabu"
 msgstr ""
 
 #: ../states.php:1844
-msgid "Jinja"
-msgstr ""
-
-#: ../states.php:1845
-msgid "Kaabong"
+msgid "Bushenyi"
 msgstr ""
 
 #: ../states.php:1846
-msgid "Kabale"
+msgid "Butaleja"
 msgstr ""
 
 #: ../states.php:1847
-msgid "Kabarole"
+msgid "Butambala"
 msgstr ""
 
 #: ../states.php:1848
-msgid "Kaberamaido"
+msgid "Butebo"
 msgstr ""
 
 #: ../states.php:1849
-msgid "Kagadi"
+msgid "Buvuma"
 msgstr ""
 
 #: ../states.php:1850
-msgid "Kakumiro"
+msgid "Buyende"
 msgstr ""
 
 #: ../states.php:1851
-msgid "Kalangala"
+msgid "Dokolo"
 msgstr ""
 
 #: ../states.php:1852
-msgid "Kaliro"
+msgid "Gomba"
 msgstr ""
 
 #: ../states.php:1853
-msgid "Kalungu"
+msgid "Gulu"
 msgstr ""
 
 #: ../states.php:1854
-msgid "Kampala"
+msgid "Hoima"
 msgstr ""
 
 #: ../states.php:1855
-msgid "Kamuli"
+msgid "Ibanda"
 msgstr ""
 
 #: ../states.php:1856
-msgid "Kamwenge"
+msgid "Iganga"
 msgstr ""
 
 #: ../states.php:1857
-msgid "Kanungu"
+msgid "Isingiro"
 msgstr ""
 
 #: ../states.php:1858
-msgid "Kapchorwa"
+msgid "Jinja"
 msgstr ""
 
 #: ../states.php:1859
-msgid "Kapelebyong"
+msgid "Kaabong"
 msgstr ""
 
 #: ../states.php:1860
-msgid "Kasanda"
+msgid "Kabale"
 msgstr ""
 
 #: ../states.php:1861
-msgid "Kasese"
+msgid "Kabarole"
 msgstr ""
 
 #: ../states.php:1862
-msgid "Katakwi"
+msgid "Kaberamaido"
 msgstr ""
 
 #: ../states.php:1863
-msgid "Kayunga"
+msgid "Kagadi"
 msgstr ""
 
 #: ../states.php:1864
-msgid "Kibaale"
+msgid "Kakumiro"
 msgstr ""
 
 #: ../states.php:1865
-msgid "Kiboga"
+msgid "Kalangala"
 msgstr ""
 
 #: ../states.php:1866
-msgid "Kibuku"
+msgid "Kaliro"
 msgstr ""
 
 #: ../states.php:1867
-msgid "Kikuube"
+msgid "Kalungu"
 msgstr ""
 
 #: ../states.php:1868
-msgid "Kiruhura"
+msgid "Kampala"
 msgstr ""
 
 #: ../states.php:1869
-msgid "Kiryandongo"
+msgid "Kamuli"
 msgstr ""
 
 #: ../states.php:1870
-msgid "Kisoro"
+msgid "Kamwenge"
 msgstr ""
 
 #: ../states.php:1871
-msgid "Kitgum"
+msgid "Kanungu"
 msgstr ""
 
 #: ../states.php:1872
-msgid "Koboko"
+msgid "Kapchorwa"
 msgstr ""
 
 #: ../states.php:1873
-msgid "Kole"
+msgid "Kapelebyong"
 msgstr ""
 
 #: ../states.php:1874
-msgid "Kotido"
+msgid "Kasanda"
 msgstr ""
 
 #: ../states.php:1875
-msgid "Kumi"
+msgid "Kasese"
 msgstr ""
 
 #: ../states.php:1876
-msgid "Kwania"
+msgid "Katakwi"
 msgstr ""
 
 #: ../states.php:1877
-msgid "Kween"
+msgid "Kayunga"
 msgstr ""
 
 #: ../states.php:1878
-msgid "Kyankwanzi"
+msgid "Kibaale"
 msgstr ""
 
 #: ../states.php:1879
-msgid "Kyegegwa"
+msgid "Kiboga"
 msgstr ""
 
 #: ../states.php:1880
-msgid "Kyenjojo"
+msgid "Kibuku"
 msgstr ""
 
 #: ../states.php:1881
-msgid "Kyotera"
+msgid "Kikuube"
 msgstr ""
 
 #: ../states.php:1882
-msgid "Lamwo"
+msgid "Kiruhura"
 msgstr ""
 
 #: ../states.php:1883
-msgid "Lira"
+msgid "Kiryandongo"
 msgstr ""
 
 #: ../states.php:1884
-msgid "Luuka"
+msgid "Kisoro"
 msgstr ""
 
 #: ../states.php:1885
-msgid "Luwero"
+msgid "Kitgum"
 msgstr ""
 
 #: ../states.php:1886
-msgid "Lwengo"
+msgid "Koboko"
 msgstr ""
 
 #: ../states.php:1887
-msgid "Lyantonde"
+msgid "Kole"
 msgstr ""
 
 #: ../states.php:1888
-msgid "Manafwa"
+msgid "Kotido"
 msgstr ""
 
 #: ../states.php:1889
-msgid "Maracha"
+msgid "Kumi"
 msgstr ""
 
 #: ../states.php:1890
-msgid "Masaka"
+msgid "Kwania"
 msgstr ""
 
 #: ../states.php:1891
-msgid "Masindi"
+msgid "Kween"
 msgstr ""
 
 #: ../states.php:1892
-msgid "Mayuge"
+msgid "Kyankwanzi"
 msgstr ""
 
 #: ../states.php:1893
-msgid "Mbale"
+msgid "Kyegegwa"
 msgstr ""
 
 #: ../states.php:1894
-msgid "Mbarara"
+msgid "Kyenjojo"
 msgstr ""
 
 #: ../states.php:1895
-msgid "Mitooma"
+msgid "Kyotera"
 msgstr ""
 
 #: ../states.php:1896
-msgid "Mityana"
+msgid "Lamwo"
 msgstr ""
 
 #: ../states.php:1897
-msgid "Moroto"
+msgid "Lira"
 msgstr ""
 
 #: ../states.php:1898
-msgid "Moyo"
+msgid "Luuka"
 msgstr ""
 
 #: ../states.php:1899
-msgid "Mpigi"
+msgid "Luwero"
 msgstr ""
 
 #: ../states.php:1900
-msgid "Mubende"
+msgid "Lwengo"
 msgstr ""
 
 #: ../states.php:1901
-msgid "Mukono"
+msgid "Lyantonde"
 msgstr ""
 
 #: ../states.php:1902
-msgid "Nabilatuk"
+msgid "Manafwa"
 msgstr ""
 
 #: ../states.php:1903
-msgid "Nakapiripirit"
+msgid "Maracha"
 msgstr ""
 
 #: ../states.php:1904
-msgid "Nakaseke"
+msgid "Masaka"
 msgstr ""
 
 #: ../states.php:1905
-msgid "Nakasongola"
+msgid "Masindi"
 msgstr ""
 
 #: ../states.php:1906
-msgid "Namayingo"
+msgid "Mayuge"
 msgstr ""
 
 #: ../states.php:1907
-msgid "Namisindwa"
+msgid "Mbale"
 msgstr ""
 
 #: ../states.php:1908
-msgid "Namutumba"
+msgid "Mbarara"
 msgstr ""
 
 #: ../states.php:1909
-msgid "Napak"
+msgid "Mitooma"
 msgstr ""
 
 #: ../states.php:1910
-msgid "Nebbi"
+msgid "Mityana"
 msgstr ""
 
 #: ../states.php:1911
-msgid "Ngora"
+msgid "Moroto"
 msgstr ""
 
 #: ../states.php:1912
-msgid "Ntoroko"
+msgid "Moyo"
 msgstr ""
 
 #: ../states.php:1913
-msgid "Ntungamo"
+msgid "Mpigi"
 msgstr ""
 
 #: ../states.php:1914
-msgid "Nwoya"
+msgid "Mubende"
 msgstr ""
 
 #: ../states.php:1915
-msgid "Omoro"
+msgid "Mukono"
 msgstr ""
 
 #: ../states.php:1916
-msgid "Otuke"
+msgid "Nabilatuk"
 msgstr ""
 
 #: ../states.php:1917
-msgid "Oyam"
+msgid "Nakapiripirit"
 msgstr ""
 
 #: ../states.php:1918
-msgid "Pader"
+msgid "Nakaseke"
 msgstr ""
 
 #: ../states.php:1919
-msgid "Pakwach"
+msgid "Nakasongola"
 msgstr ""
 
 #: ../states.php:1920
-msgid "Pallisa"
+msgid "Namayingo"
 msgstr ""
 
 #: ../states.php:1921
-msgid "Rakai"
+msgid "Namisindwa"
 msgstr ""
 
 #: ../states.php:1922
-msgid "Rubanda"
+msgid "Namutumba"
 msgstr ""
 
 #: ../states.php:1923
-msgid "Rubirizi"
+msgid "Napak"
 msgstr ""
 
 #: ../states.php:1924
-msgid "Rukiga"
+msgid "Nebbi"
 msgstr ""
 
 #: ../states.php:1925
-msgid "Rukungiri"
+msgid "Ngora"
 msgstr ""
 
 #: ../states.php:1926
-msgid "Sembabule"
+msgid "Ntoroko"
 msgstr ""
 
 #: ../states.php:1927
-msgid "Serere"
+msgid "Ntungamo"
 msgstr ""
 
 #: ../states.php:1928
-msgid "Sheema"
+msgid "Nwoya"
 msgstr ""
 
 #: ../states.php:1929
-msgid "Sironko"
+msgid "Omoro"
 msgstr ""
 
 #: ../states.php:1930
-msgid "Soroti"
+msgid "Otuke"
 msgstr ""
 
 #: ../states.php:1931
-msgid "Tororo"
+msgid "Oyam"
 msgstr ""
 
 #: ../states.php:1932
-msgid "Wakiso"
+msgid "Pader"
 msgstr ""
 
 #: ../states.php:1933
-msgid "Yumbe"
+msgid "Pakwach"
 msgstr ""
 
 #: ../states.php:1934
-msgid "Zombo"
+msgid "Pallisa"
+msgstr ""
+
+#: ../states.php:1935
+msgid "Rakai"
+msgstr ""
+
+#: ../states.php:1936
+msgid "Rubanda"
 msgstr ""
 
 #: ../states.php:1937
-msgid "Baker Island"
+msgid "Rubirizi"
 msgstr ""
 
 #: ../states.php:1938
-msgid "Howland Island"
+msgid "Rukiga"
 msgstr ""
 
 #: ../states.php:1939
-msgid "Jarvis Island"
+msgid "Rukungiri"
 msgstr ""
 
 #: ../states.php:1940
-msgid "Johnston Atoll"
+msgid "Sembabule"
 msgstr ""
 
 #: ../states.php:1941
-msgid "Kingman Reef"
+msgid "Serere"
 msgstr ""
 
 #: ../states.php:1942
-msgid "Midway Atoll"
+msgid "Sheema"
 msgstr ""
 
 #: ../states.php:1943
-msgid "Navassa Island"
+msgid "Sironko"
 msgstr ""
 
 #: ../states.php:1944
-msgid "Palmyra Atoll"
+msgid "Soroti"
 msgstr ""
 
 #: ../states.php:1945
-msgid "Wake Island"
+msgid "Tororo"
+msgstr ""
+
+#: ../states.php:1946
+msgid "Wakiso"
+msgstr ""
+
+#: ../states.php:1947
+msgid "Yumbe"
 msgstr ""
 
 #: ../states.php:1948
-msgid "Alabama"
-msgstr ""
-
-#: ../states.php:1949
-msgid "Alaska"
-msgstr ""
-
-#: ../states.php:1950
-msgid "Arizona"
+msgid "Zombo"
 msgstr ""
 
 #: ../states.php:1951
-msgid "Arkansas"
+msgid "Baker Island"
 msgstr ""
 
 #: ../states.php:1952
-msgid "California"
+msgid "Howland Island"
 msgstr ""
 
 #: ../states.php:1953
-msgid "Colorado"
+msgid "Jarvis Island"
 msgstr ""
 
 #: ../states.php:1954
-msgid "Connecticut"
+msgid "Johnston Atoll"
 msgstr ""
 
 #: ../states.php:1955
-msgid "Delaware"
+msgid "Kingman Reef"
 msgstr ""
 
 #: ../states.php:1956
-msgid "District Of Columbia"
+msgid "Midway Atoll"
 msgstr ""
 
-#: ../states.php:1957, ../states.php:2010
-msgid "Florida"
+#: ../states.php:1957
+msgid "Navassa Island"
 msgstr ""
 
 #: ../states.php:1958
+msgid "Palmyra Atoll"
+msgstr ""
+
+#: ../states.php:1959
+msgid "Wake Island"
+msgstr ""
+
+#: ../states.php:1962
+msgid "Alabama"
+msgstr ""
+
+#: ../states.php:1963
+msgid "Alaska"
+msgstr ""
+
+#: ../states.php:1964
+msgid "Arizona"
+msgstr ""
+
+#: ../states.php:1965
+msgid "Arkansas"
+msgstr ""
+
+#: ../states.php:1966
+msgid "California"
+msgstr ""
+
+#: ../states.php:1967
+msgid "Colorado"
+msgstr ""
+
+#: ../states.php:1968
+msgid "Connecticut"
+msgstr ""
+
+#: ../states.php:1969
+msgid "Delaware"
+msgstr ""
+
+#: ../states.php:1970
+msgid "District Of Columbia"
+msgstr ""
+
+#: ../states.php:1971, ../states.php:2024
+msgid "Florida"
+msgstr ""
+
+#: ../states.php:1972
 msgctxt "US state of Georgia"
 msgid "Georgia"
 msgstr ""
 
-#: ../states.php:1959
+#: ../states.php:1973
 msgid "Hawaii"
 msgstr ""
 
-#: ../states.php:1960
+#: ../states.php:1974
 msgid "Idaho"
 msgstr ""
 
-#: ../states.php:1961
+#: ../states.php:1975
 msgid "Illinois"
 msgstr ""
 
-#: ../states.php:1962
+#: ../states.php:1976
 msgid "Indiana"
 msgstr ""
 
-#: ../states.php:1963
+#: ../states.php:1977
 msgid "Iowa"
 msgstr ""
 
-#: ../states.php:1964
+#: ../states.php:1978
 msgid "Kansas"
 msgstr ""
 
-#: ../states.php:1965
+#: ../states.php:1979
 msgid "Kentucky"
 msgstr ""
 
-#: ../states.php:1966
+#: ../states.php:1980
 msgid "Louisiana"
 msgstr ""
 
-#: ../states.php:1967
+#: ../states.php:1981
 msgid "Maine"
 msgstr ""
 
-#: ../states.php:1969
+#: ../states.php:1983
 msgid "Massachusetts"
 msgstr ""
 
-#: ../states.php:1970
+#: ../states.php:1984
 msgid "Michigan"
 msgstr ""
 
-#: ../states.php:1971
+#: ../states.php:1985
 msgid "Minnesota"
 msgstr ""
 
-#: ../states.php:1972
+#: ../states.php:1986
 msgid "Mississippi"
 msgstr ""
 
-#: ../states.php:1973
+#: ../states.php:1987
 msgid "Missouri"
 msgstr ""
 
-#: ../states.php:1975
+#: ../states.php:1989
 msgid "Nebraska"
 msgstr ""
 
-#: ../states.php:1976
+#: ../states.php:1990
 msgid "Nevada"
 msgstr ""
 
-#: ../states.php:1977
+#: ../states.php:1991
 msgid "New Hampshire"
 msgstr ""
 
-#: ../states.php:1978
+#: ../states.php:1992
 msgid "New Jersey"
 msgstr ""
 
-#: ../states.php:1979
+#: ../states.php:1993
 msgid "New Mexico"
 msgstr ""
 
-#: ../states.php:1980
+#: ../states.php:1994
 msgid "New York"
 msgstr ""
 
-#: ../states.php:1981
+#: ../states.php:1995
 msgid "North Carolina"
 msgstr ""
 
-#: ../states.php:1982
+#: ../states.php:1996
 msgid "North Dakota"
 msgstr ""
 
-#: ../states.php:1983
+#: ../states.php:1997
 msgid "Ohio"
 msgstr ""
 
-#: ../states.php:1984
+#: ../states.php:1998
 msgid "Oklahoma"
 msgstr ""
 
-#: ../states.php:1985
+#: ../states.php:1999
 msgid "Oregon"
 msgstr ""
 
-#: ../states.php:1986
+#: ../states.php:2000
 msgid "Pennsylvania"
 msgstr ""
 
-#: ../states.php:1987
+#: ../states.php:2001
 msgid "Rhode Island"
 msgstr ""
 
-#: ../states.php:1988
+#: ../states.php:2002
 msgid "South Carolina"
 msgstr ""
 
-#: ../states.php:1989
+#: ../states.php:2003
 msgid "South Dakota"
 msgstr ""
 
-#: ../states.php:1990
+#: ../states.php:2004
 msgid "Tennessee"
 msgstr ""
 
-#: ../states.php:1991
+#: ../states.php:2005
 msgid "Texas"
 msgstr ""
 
-#: ../states.php:1992
+#: ../states.php:2006
 msgid "Utah"
 msgstr ""
 
-#: ../states.php:1993
+#: ../states.php:2007
 msgid "Vermont"
 msgstr ""
 
-#: ../states.php:1994
+#: ../states.php:2008
 msgid "Virginia"
 msgstr ""
 
-#: ../states.php:1995
+#: ../states.php:2009
 msgid "Washington"
 msgstr ""
 
-#: ../states.php:1996
+#: ../states.php:2010
 msgid "West Virginia"
 msgstr ""
 
-#: ../states.php:1997
+#: ../states.php:2011
 msgid "Wisconsin"
 msgstr ""
 
-#: ../states.php:1998
+#: ../states.php:2012
 msgid "Wyoming"
 msgstr ""
 
-#: ../states.php:1999
+#: ../states.php:2013
 msgid "Armed Forces (AA)"
 msgstr ""
 
-#: ../states.php:2000
+#: ../states.php:2014
 msgid "Armed Forces (AE)"
 msgstr ""
 
-#: ../states.php:2001
+#: ../states.php:2015
 msgid "Armed Forces (AP)"
 msgstr ""
 
-#: ../states.php:2004
+#: ../states.php:2018
 msgid "Artigas"
 msgstr ""
 
-#: ../states.php:2005
+#: ../states.php:2019
 msgid "Canelones"
 msgstr ""
 
-#: ../states.php:2006
+#: ../states.php:2020
 msgid "Cerro Largo"
 msgstr ""
 
-#: ../states.php:2007
+#: ../states.php:2021
 msgid "Colonia"
 msgstr ""
 
-#: ../states.php:2008
+#: ../states.php:2022
 msgid "Durazno"
 msgstr ""
 
-#: ../states.php:2009
+#: ../states.php:2023
 msgid "Flores"
 msgstr ""
 
-#: ../states.php:2011
+#: ../states.php:2025
 msgid "Lavalleja"
 msgstr ""
 
-#: ../states.php:2012
+#: ../states.php:2026
 msgid "Maldonado"
 msgstr ""
 
-#: ../states.php:2013
+#: ../states.php:2027
 msgid "Montevideo"
 msgstr ""
 
-#: ../states.php:2014
+#: ../states.php:2028
 msgid "Paysandú"
 msgstr ""
 
-#: ../states.php:2016
+#: ../states.php:2030
 msgid "Rivera"
 msgstr ""
 
-#: ../states.php:2017
+#: ../states.php:2031
 msgid "Rocha"
 msgstr ""
 
-#: ../states.php:2018
+#: ../states.php:2032
 msgid "Salto"
 msgstr ""
 
-#: ../states.php:2020
+#: ../states.php:2034
 msgid "Soriano"
 msgstr ""
 
-#: ../states.php:2021
+#: ../states.php:2035
 msgid "Tacuarembó"
 msgstr ""
 
-#: ../states.php:2022
+#: ../states.php:2036
 msgid "Treinta y Tres"
 msgstr ""
 
-#: ../states.php:2025
+#: ../states.php:2039
 msgid "Capital"
 msgstr ""
 
-#: ../states.php:2026
+#: ../states.php:2040
 msgid "Anzoátegui"
 msgstr ""
 
-#: ../states.php:2027
+#: ../states.php:2041
 msgid "Apure"
 msgstr ""
 
-#: ../states.php:2028
+#: ../states.php:2042
 msgid "Aragua"
 msgstr ""
 
-#: ../states.php:2029
+#: ../states.php:2043
 msgid "Barinas"
 msgstr ""
 
-#: ../states.php:2031
+#: ../states.php:2045
 msgid "Carabobo"
 msgstr ""
 
-#: ../states.php:2032
+#: ../states.php:2046
 msgid "Cojedes"
 msgstr ""
 
-#: ../states.php:2033
+#: ../states.php:2047
 msgid "Falcón"
 msgstr ""
 
-#: ../states.php:2034
+#: ../states.php:2048
 msgid "Guárico"
 msgstr ""
 
-#: ../states.php:2035
+#: ../states.php:2049
 msgid "Lara"
 msgstr ""
 
-#: ../states.php:2036
+#: ../states.php:2050
 msgid "Mérida"
 msgstr ""
 
-#: ../states.php:2037
+#: ../states.php:2051
 msgid "Miranda"
 msgstr ""
 
-#: ../states.php:2038
+#: ../states.php:2052
 msgid "Monagas"
 msgstr ""
 
-#: ../states.php:2039
+#: ../states.php:2053
 msgid "Nueva Esparta"
 msgstr ""
 
-#: ../states.php:2040
+#: ../states.php:2054
 msgid "Portuguesa"
 msgstr ""
 
-#: ../states.php:2042
+#: ../states.php:2056
 msgid "Táchira"
 msgstr ""
 
-#: ../states.php:2043
+#: ../states.php:2057
 msgid "Trujillo"
 msgstr ""
 
-#: ../states.php:2044
+#: ../states.php:2058
 msgid "Yaracuy"
 msgstr ""
 
-#: ../states.php:2045
+#: ../states.php:2059
 msgid "Zulia"
 msgstr ""
 
-#: ../states.php:2046
+#: ../states.php:2060
 msgid "Federal Dependencies"
 msgstr ""
 
-#: ../states.php:2047
+#: ../states.php:2061
 msgid "La Guaira (Vargas)"
 msgstr ""
 
-#: ../states.php:2048
+#: ../states.php:2062
 msgid "Delta Amacuro"
 msgstr ""
 
-#: ../states.php:2054
+#: ../states.php:2068
 msgid "Eastern Cape"
 msgstr ""
 
-#: ../states.php:2055
+#: ../states.php:2069
 msgid "Free State"
 msgstr ""
 
-#: ../states.php:2056
+#: ../states.php:2070
 msgid "Gauteng"
 msgstr ""
 
-#: ../states.php:2057
+#: ../states.php:2071
 msgid "KwaZulu-Natal"
 msgstr ""
 
-#: ../states.php:2058
+#: ../states.php:2072
 msgid "Limpopo"
 msgstr ""
 
-#: ../states.php:2059
+#: ../states.php:2073
 msgid "Mpumalanga"
 msgstr ""
 
-#: ../states.php:2060
+#: ../states.php:2074
 msgid "Northern Cape"
 msgstr ""
 
-#: ../states.php:2061
+#: ../states.php:2075
 msgid "North West"
 msgstr ""
 
-#: ../states.php:2062
+#: ../states.php:2076
 msgid "Western Cape"
 msgstr ""
 
-#: ../states.php:2068
+#: ../states.php:2082
 msgid "Luapula"
 msgstr ""
 
-#: ../states.php:2070
+#: ../states.php:2084
 msgid "North-Western"
 msgstr ""
 
-#: ../states.php:2071
+#: ../states.php:2085
 msgid "Southern"
 msgstr ""
 
-#: ../states.php:2072
+#: ../states.php:2086
 msgid "Copperbelt"
 msgstr ""
 
-#: ../states.php:2073
+#: ../states.php:2087
 msgid "Lusaka"
 msgstr ""
 
-#: ../states.php:2074
+#: ../states.php:2088
 msgid "Muchinga"
+msgstr ""
+
+#: ../states.php:2091
+msgid "Bulawayo Province"
+msgstr ""
+
+#: ../states.php:2092
+msgid "Harare Province"
+msgstr ""
+
+#: ../states.php:2093
+msgid "Manicaland"
+msgstr ""
+
+#: ../states.php:2094
+msgid "Mashonaland Central Province"
+msgstr ""
+
+#: ../states.php:2095
+msgid "Mashonaland East Province"
+msgstr ""
+
+#: ../states.php:2096
+msgid "Mashonaland West Province"
+msgstr ""
+
+#: ../states.php:2097
+msgid "Masvingo Province"
+msgstr ""
+
+#: ../states.php:2098
+msgid "Matabeleland North Province"
+msgstr ""
+
+#: ../states.php:2099
+msgid "Matabeleland South Province"
+msgstr ""
+
+#: ../states.php:2100
+msgid "Midlands Province"
 msgstr ""
 
 #. translators: %s: Category term
@@ -14763,12 +14911,16 @@ msgstr ""
 msgid "Next"
 msgstr ""
 
-#: ../../templates/listing/actions.php:62
+#: ../../templates/listing/actions.php:64
 msgid "Your Complaint"
 msgstr ""
 
-#: ../../templates/listing/actions.php:65
+#: ../../templates/listing/actions.php:67
 msgid "Message... "
+msgstr ""
+
+#: ../../templates/listing/author-listing.php:41
+msgid "All ads from %s"
 msgstr ""
 
 #: ../../templates/listing/business-hours.php:89
@@ -14938,6 +15090,10 @@ msgstr ""
 msgid "Confirm Password"
 msgstr ""
 
+#: ../../templates/myaccount/form-edit-account.php:134, ../../templates/myaccount/form-login.php:123, ../../templates/myaccount/form-registration.php:69
+msgid "Password does not match."
+msgstr ""
+
 #: ../../templates/myaccount/form-edit-account.php:152
 msgid "Whatsapp phone"
 msgstr ""
@@ -14994,6 +15150,10 @@ msgstr ""
 msgid "#"
 msgstr ""
 
+#: ../../templates/myaccount/user-info.php:34
+msgid "Note from Admin"
+msgstr ""
+
 #: ../../templates/block/category-box/style-1.php:34
 msgid "%s Ad"
 msgid_plural "%s Ads"
@@ -15028,6 +15188,13 @@ msgstr ""
 msgid "Submit button"
 msgstr ""
 
+#: ../../templates/block/single-location/style-1.php:4, ../../templates/block/single-location/style-2.php:4, ../../templates/elementor/single-location/grid-style-1.php:11
+msgctxt "Number of Ads"
+msgid "%s Ad"
+msgid_plural "%s Ads"
+msgstr[0] ""
+msgstr[1] ""
+
 #: ../../templates/listing/loop/no-listings-found.php:10
 msgid "No Listings were found matching your selection."
 msgstr ""
@@ -15056,10 +15223,6 @@ msgstr ""
 
 #: ../../templates/widgets/search/inline.php:44, ../../templates/widgets/search/vertical.php:50
 msgid "Radius (%s %s)"
-msgstr ""
-
-#: ../../templates/widgets/search/inline.php:49, ../../templates/widgets/search/vertical.php:52
-msgid "km"
 msgstr ""
 
 #: ../../templates/widgets/search/inline.php:123, ../../templates/widgets/search/vertical.php:119, ../../templates/elementor/search/fields/types-field.php:30
@@ -15117,102 +15280,110 @@ msgid "Hide phone number at registration form"
 msgstr ""
 
 #: ../../views/settings/account-settings.php:31
-msgid "Separate Registration Form"
+msgid "Required phone"
 msgstr ""
 
 #: ../../views/settings/account-settings.php:33
-msgid "Separate registration page from login page"
-msgstr ""
-
-#: ../../views/settings/account-settings.php:36
-msgid "New User Default Role"
-msgstr ""
-
-#: ../../views/settings/account-settings.php:39
-msgid "Default Role as wordpress"
+msgid "Required phone number at registration form"
 msgstr ""
 
 #: ../../views/settings/account-settings.php:44
+msgid "Separate Registration Form"
+msgstr ""
+
+#: ../../views/settings/account-settings.php:46
+msgid "Separate registration page from login page"
+msgstr ""
+
+#: ../../views/settings/account-settings.php:49
+msgid "New User Default Role"
+msgstr ""
+
+#: ../../views/settings/account-settings.php:52
+msgid "Default Role as wordpress"
+msgstr ""
+
+#: ../../views/settings/account-settings.php:57
 msgid "Social Login shortcode"
 msgstr ""
 
-#: ../../views/settings/account-settings.php:47
+#: ../../views/settings/account-settings.php:60
 msgid "Add your social login shortcode, which will run at <em style=\"color:red\">rtcl_login_form</em> hook. <br><strong style=\"color: green;\">We will support shortcode from any third party plugin.</strong><br> <strong>Example: [TheChamp-Login], [miniorange_social_login theme=\"default\"]</strong>"
 msgstr ""
 
-#: ../../views/settings/account-settings.php:58, ../../views/settings/account-settings.php:87
+#: ../../views/settings/account-settings.php:71, ../../views/settings/account-settings.php:100
 msgid "Terms and conditions"
 msgstr ""
 
-#: ../../views/settings/account-settings.php:63
+#: ../../views/settings/account-settings.php:76
 msgid "Enable Listing Terms and conditions"
 msgstr ""
 
-#: ../../views/settings/account-settings.php:65
+#: ../../views/settings/account-settings.php:78
 msgid "Display and require user agreement to Terms and Conditions for Listing form."
 msgstr ""
 
-#: ../../views/settings/account-settings.php:68
+#: ../../views/settings/account-settings.php:81
 msgid "Enable Terms and conditions at checkout page"
 msgstr ""
 
-#: ../../views/settings/account-settings.php:70
+#: ../../views/settings/account-settings.php:83
 msgid "Display and require user agreement to Terms and Conditions at checkout page."
 msgstr ""
 
-#: ../../views/settings/account-settings.php:73
+#: ../../views/settings/account-settings.php:86
 msgid "Enable Terms and conditions at registration"
 msgstr ""
 
-#: ../../views/settings/account-settings.php:75
+#: ../../views/settings/account-settings.php:88
 msgid "Display and require user agreement to Terms and Conditions at registration page."
 msgstr ""
 
-#: ../../views/settings/account-settings.php:78
+#: ../../views/settings/account-settings.php:91
 msgid "Terms and conditions page"
 msgstr ""
 
-#: ../../views/settings/account-settings.php:79
+#: ../../views/settings/account-settings.php:92
 msgid "Choose a page to act as your Terms and conditions."
 msgstr ""
 
-#: ../../views/settings/account-settings.php:82, ../../views/settings/account-settings.php:102, ../../views/settings/advanced-settings.php:49, ../../views/settings/advanced-settings.php:56, ../../views/settings/advanced-settings.php:66, ../../views/settings/advanced-settings.php:76
+#: ../../views/settings/account-settings.php:95, ../../views/settings/account-settings.php:115, ../../views/settings/advanced-settings.php:49, ../../views/settings/advanced-settings.php:56, ../../views/settings/advanced-settings.php:66, ../../views/settings/advanced-settings.php:76
 msgid "Select a page"
 msgstr ""
 
-#: ../../views/settings/account-settings.php:90
+#: ../../views/settings/account-settings.php:103
 msgid "Optionally add some text for the terms checkbox that customers must accept."
 msgstr ""
 
-#: ../../views/settings/account-settings.php:93
+#: ../../views/settings/account-settings.php:106
 msgid "Privacy policy"
 msgstr ""
 
-#: ../../views/settings/account-settings.php:95
+#: ../../views/settings/account-settings.php:108
 msgid "This section controls the display of your website privacy policy. The privacy notices below will not show up unless a privacy page is first set."
 msgstr ""
 
-#: ../../views/settings/account-settings.php:98
+#: ../../views/settings/account-settings.php:111
 msgid "Privacy page"
 msgstr ""
 
-#: ../../views/settings/account-settings.php:99
+#: ../../views/settings/account-settings.php:112
 msgid "Choose a page to act as your privacy policy."
 msgstr ""
 
-#: ../../views/settings/account-settings.php:107
+#: ../../views/settings/account-settings.php:120
 msgid "Registration privacy policy"
 msgstr ""
 
-#: ../../views/settings/account-settings.php:109
+#: ../../views/settings/account-settings.php:122
 msgid "Optionally add some text about your store privacy policy to show on account registration forms."
 msgstr ""
 
-#: ../../views/settings/account-settings.php:113
+#: ../../views/settings/account-settings.php:126
 msgid "Checkout privacy policy"
 msgstr ""
 
-#: ../../views/settings/account-settings.php:115
+#: ../../views/settings/account-settings.php:128
 msgid "Optionally add some text about your store privacy policy to show during checkout."
 msgstr ""
 
@@ -15690,6 +15861,18 @@ msgstr ""
 
 #: ../../views/settings/general-settings.php:164, ../../views/settings/payment-settings.php:63
 msgid "The symbol (usually , or .) to separate decimal points."
+msgstr ""
+
+#: ../../views/settings/general-settings.php:169
+msgid "Information"
+msgstr ""
+
+#: ../../views/settings/general-settings.php:173
+msgid "Admin note to all users"
+msgstr ""
+
+#: ../../views/settings/general-settings.php:176
+msgid "This information will show to all user's dashboard."
 msgstr ""
 
 #: ../../views/settings/import-export.php:7

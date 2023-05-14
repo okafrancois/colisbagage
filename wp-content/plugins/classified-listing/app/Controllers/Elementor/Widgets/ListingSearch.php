@@ -417,7 +417,7 @@ class ListingSearch extends ElementorWidgetBase {
 			array(
 				'mode'  => 'tab_start',
 				'id'    => 'button_normal_tabs_start',
-				'label' => esc_html__( 'Normal', 'elementor' ),
+				'label' => esc_html__( 'Normal', 'classified-listing' ),
 			),
 			array(
 				'type'      => Controls_Manager::COLOR,
@@ -443,7 +443,7 @@ class ListingSearch extends ElementorWidgetBase {
 			array(
 				'mode'  => 'tab_start',
 				'id'    => 'button_hover_tabs_start',
-				'label' => esc_html__( 'Hover', 'elementor' ),
+				'label' => esc_html__( 'Hover', 'classified-listing' ),
 			),
 			array(
 				'type'      => Controls_Manager::COLOR,

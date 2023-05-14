@@ -27,23 +27,23 @@ class FormFieldSettings {
 			'fields_label_style_start'      => [
 				'mode'  => 'section_start',
 				'tab'   => 'style',
-				'label' => esc_html__( 'Form Label', 'shopbuilder' ),
+				'label' => esc_html__( 'Form Label', 'classified-listing' ),
 			],
 			'fields_label_typo'       => [
 				'mode'     => 'group',
 				'type'     => 'typography',
-				'label'    => esc_html__( 'Label Typography', 'shopbuilder' ),
+				'label'    => esc_html__( 'Label Typography', 'classified-listing' ),
 				'selector' => '{{WRAPPER}} .rtcl-widget-search-sortable :is( label )',
 			],
 			'fields_label_color'      => [
-				'label'     => esc_html__( 'Label Color', 'shopbuilder' ),
+				'label'     => esc_html__( 'Label Color', 'classified-listing' ),
 				'type'      => 'color',
 				'selectors' => [
 					'{{WRAPPER}} .rtcl-widget-search-sortable :is( label )' => 'color: {{VALUE}} !important;',
 				],
 			],
 			'fields_label_margin'     => [
-				'label'      => esc_html__( 'Label Margin', 'shopbuilder' ),
+				'label'      => esc_html__( 'Label Margin', 'classified-listing' ),
 				'type'       => 'dimensions',
 				'size_units' => [ 'px' ],
 				'selectors'  => [
@@ -56,16 +56,16 @@ class FormFieldSettings {
 			'fields_style_start'      => [
 				'mode'  => 'section_start',
 				'tab'   => 'style',
-				'label' => esc_html__( 'Form Field\'s', 'shopbuilder' ),
+				'label' => esc_html__( 'Form Field\'s', 'classified-listing' ),
 			],
 			'fields_text_typo'       => [
 				'mode'     => 'group',
 				'type'     => 'typography',
-				'label'    => esc_html__( 'Typography', 'shopbuilder' ),
+				'label'    => esc_html__( 'Typography', 'classified-listing' ),
 				'selector' => '{{WRAPPER}} .rtcl-widget-search-sortable :is(select, input, .rtcl-search-input-button )',
 			],
 			'fields_height'           => [
-				'label'     => esc_html__( 'Field\'s Height', 'shopbuilder' ),
+				'label'     => esc_html__( 'Field\'s Height', 'classified-listing' ),
 				'type'      => 'slider',
 				'separator' => 'default',
 				'range'     => [
@@ -85,7 +85,7 @@ class FormFieldSettings {
 			// Tab For normal view.
 			'fields_normal'           => [
 				'mode'  => 'tab_start',
-				'label' => esc_html__( 'Normal', 'shopbuilder' ),
+				'label' => esc_html__( 'Normal', 'classified-listing' ),
 			],
 			'fields_border'           => [
 				'mode'       => 'group',
@@ -94,7 +94,7 @@ class FormFieldSettings {
 				'size_units' => [ 'px' ],
 			],
 			'fields_text_color'       => [
-				'label'     => esc_html__( 'Text Color', 'shopbuilder' ),
+				'label'     => esc_html__( 'Text Color', 'classified-listing' ),
 				'type'      => 'color',
 
 				'selectors' => [
@@ -102,7 +102,7 @@ class FormFieldSettings {
 				],
 			],
 			'fields_bg_color'         => [
-				'label'     => esc_html__( 'Background Color', 'shopbuilder' ),
+				'label'     => esc_html__( 'Background Color', 'classified-listing' ),
 				'type'      => 'color',
 				'alpha'     => true,
 				'selectors' => [
@@ -114,7 +114,7 @@ class FormFieldSettings {
 			],
 			'fields_hover'            => [
 				'mode'  => 'tab_start',
-				'label' => esc_html__( 'Hover & Focus', 'shopbuilder' ),
+				'label' => esc_html__( 'Hover & Focus', 'classified-listing' ),
 			],
 
 			'fields_hover_border'     => [
@@ -124,14 +124,14 @@ class FormFieldSettings {
 				'size_units' => [ 'px' ],
 			],
 			'fields_hover_text_color' => [
-				'label'     => esc_html__( 'Text Color', 'shopbuilder' ),
+				'label'     => esc_html__( 'Text Color', 'classified-listing' ),
 				'type'      => 'color',
 				'selectors' => [
 					'{{WRAPPER}} .rtcl-widget-search-sortable :is(select, input):hover' => 'color: {{VALUE}};',
 				],
 			],
 			'fields_hover_bg_color'   => [
-				'label'     => esc_html__( 'Background Color', 'shopbuilder' ),
+				'label'     => esc_html__( 'Background Color', 'classified-listing' ),
 				'type'      => 'color',
 				'alpha'     => true,
 				'selectors' => [
@@ -146,7 +146,7 @@ class FormFieldSettings {
 				'mode' => 'tabs_end',
 			],
 			'fields_border_radius'           => [
-				'label'      => esc_html__( 'Border Radius', 'shopbuilder' ),
+				'label'      => esc_html__( 'Border Radius', 'classified-listing' ),
 				'size_units' => [ 'px' ],
 				'type'       => 'dimensions',
 				'selectors'  => [
@@ -154,7 +154,7 @@ class FormFieldSettings {
 				],
 			],
 			'fields_padding'          => [
-				'label'      => esc_html__( 'Fields Padding (px)', 'shopbuilder' ),
+				'label'      => esc_html__( 'Fields Padding (px)', 'classified-listing' ),
 				'type'       => 'dimensions',
 				'size_units' => [ 'px' ],
 				'selectors'  => [

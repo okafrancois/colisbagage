@@ -52,7 +52,7 @@ class Pagination
     /**
      * @param $rtcl_query \WP_Query
      */
-    public static function pagination($rtcl_query = null) {
+    public static function pagination($rtcl_query = null, $is_paginate_dot = false ) {
         $range = 2;
         $showItems = ($range * 2) + 1;
         $paged = self::get_page_number();
@@ -67,9 +67,20 @@ class Pagination
                 $pages = 1;
             }
         }
+		if( ! $is_paginate_dot ){
+             Functions::get_template("global/pagination", compact('paged', 'showItems', 'pages'));
+		}
+	    if( $is_paginate_dot ){
+		    $args = array(
+                'total'   => $pages,
+                'current' => $paged,
+                'format'  => '?listing-page=%#%',
+			    'format' => '',
+		    	'base'   => esc_url_raw( str_replace( 999999999, '%#%', get_pagenum_link( 999999999, false ) ) )
+	        );
 
+		    Functions::get_template( 'listing/loop/pagination', $args );
 
-        Functions::get_template("global/pagination", compact('paged', 'showItems', 'pages'));
-
+	    }
     }
 }

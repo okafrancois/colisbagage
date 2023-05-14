@@ -164,7 +164,17 @@ $options = array(
 		'description' => esc_html__('The symbol (usually , or .) to separate decimal points.',
 			'classified-listing'),
 		'default'     => '.'
-	)
+	),
+	'note_section'             => array(
+		'title'       => esc_html__('Information', 'classified-listing'),
+		'type'        => 'title',
+	),
+	'admin_note_to_users' => array(
+		'title'       => esc_html__('Admin note to all users', 'classified-listing'),
+		'type'        => 'textarea',
+		'css'         => 'width:500px;min-height:100px',
+		'description' => esc_html__("This information will show to all user's dashboard.", 'classified-listing')
+	),
 );
 
 return apply_filters('rtcl_general_settings_options', $options);

@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . './../vendor/autoload.php';
+require_once RTCL_PATH . 'vendor/autoload.php';
 
 use Rtcl\Controllers\Admin\AdminController;
 use Rtcl\Controllers\Admin\LicensingController;
@@ -486,12 +486,6 @@ if ( ! class_exists( Rtcl::class ) ) {
 		}
 
 		private function define_constants() {
-			if ( ! defined( 'RTCL_PATH' ) ) {
-				define( 'RTCL_PATH', plugin_dir_path( RTCL_PLUGIN_FILE ) );
-			}
-			if ( ! defined( 'RTCL_URL' ) ) {
-				define( 'RTCL_URL', plugins_url( '', RTCL_PLUGIN_FILE ) );
-			}
 
 			if ( ! defined( 'RTCL_SLUG' ) ) {
 				define( 'RTCL_SLUG', 'classified-listing' );

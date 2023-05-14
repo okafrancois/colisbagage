@@ -3,8 +3,8 @@ Contributors: techlabpro1
 Donate link:
 Tags: business directory, classifieds, directory plugin, listings, classifieds ads
 Requires at least: 5.0
-Tested up to: 6.1
-Stable tag: 2.3.9
+Tested up to: 6.2
+Stable tag: 2.4.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -346,6 +346,26 @@ Classified Listing is fully translatable. However, it comes with a ready transla
 * Español by [4aiur](https://wordpress.org/support/users/4aiur/)
 
 == Changelog ==
+
+= 2.4.1 ( Apr 28, 2023 ) =
+* Updated: Update states for Zimbabwe & Saint Lucia
+* Added: PHP 8.2 compatibility
+
+= 2.4.0 ( Apr 06, 2023 ) =
+* Fixed: Security Problem Fake Account Setups
+* Updated: Improve sanitization and escaping
+* Added: Add query for escaping Blocked users and listings
+
+= 2.3.11 ( Mar 22, 2023 ) =
+* Added: Claim compatibility
+* Added: Phone required settings for registration form
+* Added: Listing or User block functionality
+
+= 2.3.10 ( Mar 22, 2023 ) =
+* Added: Admin note option for all users
+* Added: Hook to show/hide email in user listing page
+* Fixed: Elementor addon pagination issue
+* Fixed: Custom field (textarea) html entity issue
 
 = 2.3.9 ( Mar 01, 2023 ) =
 * Fixed: Billing email address issue

@@ -33,7 +33,7 @@ use Rtcl\Helpers\Functions;
 					<?php esc_html_e( 'Keyword', 'classified-listing' ); ?></label>
 			<?php } ?>
 			<div class="keywords-field-wrapper">
-				<input type="text" name="q" data-type="listing" class="rtcl-autocomplete form-control" placeholder="<?php esc_html_e( 'Enter your keyword here ...', 'classified-listing' ); ?>" value="<?php echo esc_html( $keywords ); ?>">
+				<input type="text" name="q" data-type="listing" class="rtcl-autocomplete form-control" placeholder="<?php esc_attr_e( 'Enter your keyword here ...', 'classified-listing' ); ?>" value="<?php echo esc_attr( $keywords ); ?>">
 			</div>
 		</div>
 	</div>

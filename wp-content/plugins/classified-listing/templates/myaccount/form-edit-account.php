@@ -131,7 +131,7 @@ do_action( 'rtcl_before_edit_account_form' ); ?>
             <strong>*</strong></label>
         <div class="col-sm-9">
             <input type="password" name="pass2" id="password_confirm" class="form-control" autocomplete="off"
-                   data-rule-equalTo="#password" data-msg-equalTo="<?php esc_attr_e( 'Password does not match.' ); ?>"
+                   data-rule-equalTo="#password" data-msg-equalTo="<?php esc_attr_e( 'Password does not match.', 'classified-listing' ); ?>"
                    required/>
         </div>
     </div>

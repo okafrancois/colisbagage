@@ -15,6 +15,22 @@ class Countries {
 	public $locale = [];
 
 	/**
+	 * Locales list.
+	 *
+	 * @var array
+	 */
+	// Todo: change later
+	//public $countries = false;
+
+	/**
+	 * Locales list.
+	 *
+	 * @var array
+	 */
+	// Todo: change later
+	//public $states = false;
+
+	/**
 	 * List of address formats for locales.
 	 *
 	 * @var array

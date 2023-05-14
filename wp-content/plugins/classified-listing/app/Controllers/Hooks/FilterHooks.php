@@ -2,10 +2,10 @@
 
 namespace Rtcl\Controllers\Hooks;
 
+use Elementor\Controls_Manager;
 use Rtcl\Helpers\Functions;
 use WP_Error;
 use WP_User;
-use Elementor\Controls_Manager;
 
 class FilterHooks {
 	public static function init() {
@@ -21,6 +21,7 @@ class FilterHooks {
 		add_filter( 'rtcl_transient_lang_prefix', [ __CLASS__, 'wpml_transient_lang_prefix' ] );
 		add_filter( 'rtcl_single_listing_data_options', [ __CLASS__, 'add_map_options_data' ] );
 		add_filter( 'wp_get_attachment_image_attributes', [ __CLASS__, 'add_title_attr_img' ], 10, 2 );
+		add_filter( 'rtcl_registration_phone_validation', [ __CLASS__, 'required_phone_validation_at_registration' ] );
 		if ( Functions::is_registration_page_separate() ) {
 			add_filter( 'rtcl_advanced_settings_options', [ __CLASS__, 'add_registration_endpoint_options' ] );
 			add_filter( 'rtcl_my_account_endpoint', [ __CLASS__, 'add_registration_end_points' ], 20 );
@@ -35,11 +36,22 @@ class FilterHooks {
 		return $attr;
 	}
 
-	public static function remove_registration_name_validation() {
-		return false;
+	/**
+	 * @param boolean $validation
+	 * @param string  $source
+	 *
+	 * @return false
+	 */
+	public static function required_phone_validation_at_registration() {
+
+		if ( Functions::get_option_item( 'rtcl_account_settings', 'disable_phone_at_registration', false, 'checkbox' ) ) {
+			return false;
+		}
+
+		return Functions::get_option_item( 'rtcl_account_settings', 'required_phone_at_registration', false, 'checkbox' );
 	}
 
-	public static function remove_registration_phone_validation() {
+	public static function remove_registration_name_validation() {
 		return false;
 	}
 
@@ -88,7 +100,7 @@ class FilterHooks {
 
 	/**
 	 * @param WP_Error $errors
-	 * @param string $password
+	 * @param string   $password
 	 *
 	 * @return WP_Error
 	 */
@@ -100,8 +112,8 @@ class FilterHooks {
 
 	/**
 	 * @param WP_Error $errors
-	 * @param WP_User $user
-	 * @param array $posted_fields
+	 * @param WP_User  $user
+	 * @param array    $posted_fields
 	 *
 	 * @return WP_Error
 	 */
@@ -114,9 +126,9 @@ class FilterHooks {
 
 	/**
 	 * @param WP_Error $errors
-	 * @param string $email
-	 * @param string $username
-	 * @param string $password
+	 * @param string   $email
+	 * @param string   $username
+	 * @param string   $password
 	 */
 	public static function password_validation( $errors, $email, $username, $password ) {
 		self::min_password_validation_message( $errors, $password );
@@ -126,7 +138,7 @@ class FilterHooks {
 
 	/**
 	 * @param WP_Error $errors
-	 * @param string $password
+	 * @param string   $password
 	 */
 	private static function min_password_validation_message( &$errors, $password ) {
 		$length = Functions::password_min_length();

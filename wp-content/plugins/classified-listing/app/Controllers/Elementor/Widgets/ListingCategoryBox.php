@@ -72,7 +72,7 @@ class ListingCategoryBox extends ElementorWidgetBase {
 			array(
 				'type'    => Controls_Manager::SELECT,
 				'id'      => 'rtcl_cats_style',
-				'label'   => __( 'Style', 'classima-core' ),
+				'label'   => __( 'Style', 'classified-listing' ),
 				'options' => $this->cat_box_style(),
 				'default' => 'style-1',
 			),
@@ -304,7 +304,7 @@ class ListingCategoryBox extends ElementorWidgetBase {
 		$style = apply_filters(
 			'rtcl_el_category_box_style',
 			array(
-				'style-1' => __( 'Style 1', 'classima-core' ),
+				'style-1' => __( 'Style 1', 'classified-listing' ),
 			)
 		);
 
@@ -392,7 +392,7 @@ class ListingCategoryBox extends ElementorWidgetBase {
 			array(
 				'mode'  => 'tab_start',
 				'id'    => 'rtcl_box_wrapper_tab_normal',
-				'label' => esc_html__( 'Normal', 'elementor' ),
+				'label' => esc_html__( 'Normal', 'classified-listing' ),
 			),
 
 			array(
@@ -476,7 +476,7 @@ class ListingCategoryBox extends ElementorWidgetBase {
 			array(
 				'mode'  => 'tab_start',
 				'id'    => 'rtcl_box_wrapper_tab_hover',
-				'label' => esc_html__( 'Hover', 'elementor' ),
+				'label' => esc_html__( 'Hover', 'classified-listing' ),
 			),
 
 			array(
@@ -628,7 +628,7 @@ class ListingCategoryBox extends ElementorWidgetBase {
 			array(
 				'mode'  => 'tab_start',
 				'id'    => 'box_icon_tab_normal',
-				'label' => esc_html__( 'Normal', 'elementor' ),
+				'label' => esc_html__( 'Normal', 'classified-listing' ),
 			),
 			array(
 				'type'      => Controls_Manager::COLOR,
@@ -661,7 +661,7 @@ class ListingCategoryBox extends ElementorWidgetBase {
 			array(
 				'mode'  => 'tab_start',
 				'id'    => 'box_image_tab_hover',
-				'label' => esc_html__( 'Hover', 'elementor' ),
+				'label' => esc_html__( 'Hover', 'classified-listing' ),
 			),
 			array(
 				'type'      => Controls_Manager::COLOR,
@@ -712,7 +712,7 @@ class ListingCategoryBox extends ElementorWidgetBase {
 			array(
 				'mode'  => 'tab_start',
 				'id'    => 'rtcl_title_normal',
-				'label' => esc_html__( 'Normal', 'elementor' ),
+				'label' => esc_html__( 'Normal', 'classified-listing' ),
 			),
 			array(
 				'type'      => Controls_Manager::COLOR,
@@ -727,7 +727,7 @@ class ListingCategoryBox extends ElementorWidgetBase {
 			array(
 				'mode'  => 'tab_start',
 				'id'    => 'rtcl_title_hover',
-				'label' => esc_html__( 'Hover', 'elementor' ),
+				'label' => esc_html__( 'Hover', 'classified-listing' ),
 			),
 			array(
 				'type'      => Controls_Manager::COLOR,
@@ -779,7 +779,7 @@ class ListingCategoryBox extends ElementorWidgetBase {
 			array(
 				'mode'  => 'tab_start',
 				'id'    => 'rtcl_counter_normal',
-				'label' => esc_html__( 'Normal', 'elementor' ),
+				'label' => esc_html__( 'Normal', 'classified-listing' ),
 			),
 			array(
 				'type'      => Controls_Manager::COLOR,
@@ -794,7 +794,7 @@ class ListingCategoryBox extends ElementorWidgetBase {
 			array(
 				'mode'  => 'tab_start',
 				'id'    => 'rtcl_counter_hover',
-				'label' => esc_html__( 'Hover', 'elementor' ),
+				'label' => esc_html__( 'Hover', 'classified-listing' ),
 			),
 			array(
 				'type'      => Controls_Manager::COLOR,
@@ -846,7 +846,7 @@ class ListingCategoryBox extends ElementorWidgetBase {
 			array(
 				'mode'  => 'tab_start',
 				'id'    => 'rtcl_content_normal',
-				'label' => esc_html__( 'Normal', 'elementor' ),
+				'label' => esc_html__( 'Normal', 'classified-listing' ),
 			),
 			array(
 				'type'      => Controls_Manager::COLOR,
@@ -861,7 +861,7 @@ class ListingCategoryBox extends ElementorWidgetBase {
 			array(
 				'mode'  => 'tab_start',
 				'id'    => 'rtcl_content_hover',
-				'label' => esc_html__( 'Hover', 'elementor' ),
+				'label' => esc_html__( 'Hover', 'classified-listing' ),
 			),
 			array(
 				'type'      => Controls_Manager::COLOR,

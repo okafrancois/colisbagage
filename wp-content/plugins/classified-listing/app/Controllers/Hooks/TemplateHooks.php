@@ -136,10 +136,6 @@ class TemplateHooks {
 
 		if ( ! Functions::get_option_item( 'rtcl_account_settings', 'disable_phone_at_registration', false, 'checkbox' ) ) {
 			add_action( 'rtcl_register_form_start', [ __CLASS__, 'add_phone_at_registration_form' ], 20 );
-		} else {
-			add_filter( 'rtcl_registration_phone_validation', function () {
-				return false;
-			} );
 		}
 
 
@@ -210,7 +206,7 @@ class TemplateHooks {
 	}
 
 	/**
-	 * @param int $paymentId
+	 * @param int     $paymentId
 	 * @param Payment $payment
 	 */
 	public static function payment_receipt_pricing_info( $paymentId, $payment ) {
@@ -218,7 +214,7 @@ class TemplateHooks {
 	}
 
 	/**
-	 * @param int $paymentId
+	 * @param int     $paymentId
 	 * @param Payment $payment
 	 */
 	public static function payment_receipt_payment_info( $paymentId, $payment ) {
@@ -227,15 +223,15 @@ class TemplateHooks {
 
 	public static function payment_receipt_actions() {
 		?>
-        <div class="action-btn text-center">
-            <a href="<?php echo Link::get_account_endpoint_url( "listings" ); ?>"
-               class="btn btn-success"><?php esc_html_e( 'View all my listings', 'classified-listing' ); ?></a>
-        </div>
+		<div class="action-btn text-center">
+			<a href="<?php echo Link::get_account_endpoint_url( "listings" ); ?>"
+			   class="btn btn-success"><?php esc_html_e( 'View all my listings', 'classified-listing' ); ?></a>
+		</div>
 		<?php
 	}
 
 	/**
-	 * @param int $paymentId
+	 * @param int     $paymentId
 	 * @param Payment $payment
 	 */
 	public static function offline_payment_instruction( $paymentId, $payment ) {
@@ -250,12 +246,12 @@ class TemplateHooks {
 	public static function seller_website( $listing ) {
 		if ( is_a( $listing, Listing::class ) && $website = get_post_meta( $listing->get_id(), 'website', true ) ) {
 			?>
-            <div class='rtcl-website list-group-item'>
-                <a class="rtcl-website-link btn btn-primary" href="<?php echo esc_url( $website ); ?>"
-                   target="_blank"<?php echo Functions::is_external( $website ) ? ' rel="nofollow"' : ''; ?>><span
-                            class='rtcl-icon rtcl-icon-globe text-white'></span><?php esc_html_e( "Visit Website", "classified-listing" ) ?>
-                </a>
-            </div>
+			<div class='rtcl-website list-group-item'>
+				<a class="rtcl-website-link btn btn-primary" href="<?php echo esc_url( $website ); ?>"
+				   target="_blank"<?php echo Functions::is_external( $website ) ? ' rel="nofollow"' : ''; ?>><span
+						class='rtcl-icon rtcl-icon-globe text-white'></span><?php esc_html_e( "Visit Website", "classified-listing" ) ?>
+				</a>
+			</div>
 			<?php
 		}
 	}
@@ -266,17 +262,17 @@ class TemplateHooks {
 	public static function seller_email( $listing ) {
 		if ( is_a( $listing, Listing::class ) && Functions::get_option_item( 'rtcl_moderation_settings', 'has_contact_form', false, 'checkbox' ) && $email = get_post_meta( $listing->get_id(), 'email', true ) ) {
 			?>
-            <div class='rtcl-do-email list-group-item'>
-                <div class='media'>
-                    <span class='rtcl-icon rtcl-icon-mail mr-2'></span>
-                    <div class='media-body'>
-                        <a class="rtcl-do-email-link" href='#'>
-                            <span><?php echo Text::get_single_listing_email_button_text(); ?></span>
-                        </a>
-                    </div>
-                </div>
+			<div class='rtcl-do-email list-group-item'>
+				<div class='media'>
+					<span class='rtcl-icon rtcl-icon-mail mr-2'></span>
+					<div class='media-body'>
+						<a class="rtcl-do-email-link" href='#'>
+							<span><?php echo Text::get_single_listing_email_button_text(); ?></span>
+						</a>
+					</div>
+				</div>
 				<?php $listing->email_to_seller_form(); ?>
-            </div>
+			</div>
 			<?php
 		}
 	}
@@ -306,27 +302,27 @@ class TemplateHooks {
 					'whatsapp_number' => $whatsapp_number
 				] )
 				?>
-                <div class='list-group-item reveal-phone<?php echo esc_attr( $mobileClass ); ?>'
-                     data-options="<?php echo htmlspecialchars( wp_json_encode( $phone_options ) ); ?>">
-                    <div class='media'>
-                        <span class='rtcl-icon rtcl-icon-phone mr-2'></span>
-                        <div class='media-body'><span><?php esc_html_e(
+				<div class='list-group-item reveal-phone<?php echo esc_attr( $mobileClass ); ?>'
+					 data-options="<?php echo htmlspecialchars( wp_json_encode( $phone_options ) ); ?>">
+					<div class='media'>
+						<span class='rtcl-icon rtcl-icon-phone mr-2'></span>
+						<div class='media-body'><span><?php esc_html_e(
 									"Contact Number",
 									"classified-listing"
 								); ?></span>
-                            <div class='numbers'><?php
+							<div class='numbers'><?php
 								if ( $phone ) {
 									echo esc_html( $phone_options['safe_phone'] );
 								} elseif ( $whatsapp_number ) {
 									echo esc_html( $phone_options['safe_whatsapp_number'] );
 								} ?></div>
-                            <small class='text-muted'><?php esc_html_e(
+							<small class='text-muted'><?php esc_html_e(
 									"Click to reveal phone number",
 									"classified-listing"
 								) ?></small>
-                        </div>
-                    </div>
-                </div>
+						</div>
+					</div>
+				</div>
 				<?php
 			}
 		}
@@ -338,17 +334,17 @@ class TemplateHooks {
 	public static function seller_location( $listing ) {
 		if ( is_a( $listing, Listing::class ) && $location = $listing->user_contact_location_at_single() ) {
 			?>
-            <div class='list-group-item'>
-                <div class='media'>
-                    <span class='rtcl-icon rtcl-icon-location mr-2'></span>
-                    <div class='media-body'><span><?php esc_html_e( "Location", "classified-listing" ) ?></span>
-                        <div class='locations'><?php echo implode(
+			<div class='list-group-item'>
+				<div class='media'>
+					<span class='rtcl-icon rtcl-icon-location mr-2'></span>
+					<div class='media-body'><span><?php esc_html_e( "Location", "classified-listing" ) ?></span>
+						<div class='locations'><?php echo implode(
 								'<span class="rtcl-delimiter">,</span> ',
 								$location
 							) ?></div>
-                    </div>
-                </div>
-            </div>
+					</div>
+				</div>
+			</div>
 			<?php
 		}
 	}
@@ -359,10 +355,10 @@ class TemplateHooks {
 	public static function my_listing_promotion_button( $listing ) {
 		if ( is_a( $listing, Listing::class ) && ! Functions::is_payment_disabled() ) {
 			?>
-            <a href="<?php echo esc_url( Link::get_checkout_endpoint_url( "submission", $listing->get_id() ) ); ?>"
-               class="btn btn-primary btn-sm rtcl-promote-btn">
+			<a href="<?php echo esc_url( Link::get_checkout_endpoint_url( "submission", $listing->get_id() ) ); ?>"
+			   class="btn btn-primary btn-sm rtcl-promote-btn">
 				<?php esc_html_e( 'Promote', 'classified-listing' ) ?>
-            </a>
+			</a>
 			<?php
 		}
 	}
@@ -381,10 +377,10 @@ class TemplateHooks {
 		}
 
 		?>
-        <a href="#" data-id="<?php echo absint( $listing->get_id() ) ?>"
-           class="btn btn-primary btn-sm rtcl-renew-btn">
+		<a href="#" data-id="<?php echo absint( $listing->get_id() ) ?>"
+		   class="btn btn-primary btn-sm rtcl-renew-btn">
 			<?php esc_html_e( 'Renew', 'classified-listing' ); ?>
-        </a>
+		</a>
 		<?php
 
 	}
@@ -395,11 +391,11 @@ class TemplateHooks {
 	public static function my_listing_edit_button( $listing ) {
 		if ( is_a( $listing, Listing::class ) && Functions::current_user_can( 'edit_' . rtcl()->post_type, $listing->get_id() ) ) {
 			?>
-            <a href="<?php echo esc_url( Link::get_listing_edit_page_link( $listing->get_id() ) ); ?>"
-               class="btn btn-info btn-sm rtcl-edit-listing"
-               data-id="<?php echo esc_attr( $listing->get_id() ) ?>">
+			<a href="<?php echo esc_url( Link::get_listing_edit_page_link( $listing->get_id() ) ); ?>"
+			   class="btn btn-info btn-sm rtcl-edit-listing"
+			   data-id="<?php echo esc_attr( $listing->get_id() ) ?>">
 				<?php esc_html_e( 'Edit', 'classified-listing' ) ?>
-            </a>
+			</a>
 			<?php
 		}
 	}
@@ -410,10 +406,10 @@ class TemplateHooks {
 	public static function my_listing_delete_button( $listing ) {
 		if ( is_a( $listing, Listing::class ) && Functions::current_user_can( 'delete_' . rtcl()->post_type, $listing->get_id() ) ) {
 			?>
-            <a href="#" class="btn btn-danger btn-sm rtcl-delete-listing"
-               data-id="<?php echo esc_attr( $listing->get_id() ) ?>">
+			<a href="#" class="btn btn-danger btn-sm rtcl-delete-listing"
+			   data-id="<?php echo esc_attr( $listing->get_id() ) ?>">
 				<?php esc_html_e( 'Delete', 'classified-listing' ) ?>
-            </a>
+			</a>
 			<?php
 		}
 	}
@@ -423,11 +419,11 @@ class TemplateHooks {
 	 */
 	public static function add_favourite_button( $listing ) {
 		if ( Functions::is_enable_favourite() ) { ?>
-            <div class="rtcl-btn"
-                 data-tooltip="<?php esc_html_e( "Add to favourite", "classified-listing" ) ?>"
-                 data-listing_id="<?php echo absint( $listing->get_id() ) ?>">
+			<div class="rtcl-btn"
+				 data-tooltip="<?php esc_attr_e( "Add to favourite", "classified-listing" ) ?>"
+				 data-listing_id="<?php echo absint( $listing->get_id() ) ?>">
 				<?php echo Functions::get_favourites_link( $listing->get_id() ) ?>
-            </div>
+			</div>
 		<?php }
 	}
 
@@ -468,22 +464,22 @@ class TemplateHooks {
 
 	public static function edit_account_form_submit_button() {
 		?>
-        <div class="form-group row">
-            <div class="col-sm-offset-3 col-sm-9">
-                <input type="submit" name="submit" class="btn btn-primary"
-                       value="<?php esc_html_e( 'Update Account', 'classified-listing' ); ?>"/>
-            </div>
-        </div>
+		<div class="form-group row">
+			<div class="col-sm-offset-3 col-sm-9">
+				<input type="submit" name="submit" class="btn btn-primary"
+					   value="<?php esc_attr_e( 'Update Account', 'classified-listing' ); ?>"/>
+			</div>
+		</div>
 		<?php
 	}
 
 	public static function edit_account_form_social_profile_field() {
 		?>
-        <div class="form-group rtcl-social-wrap-row row">
-            <label for="rtcl-social" class="col-sm-3 control-label">
+		<div class="form-group rtcl-social-wrap-row row">
+			<label for="rtcl-social" class="col-sm-3 control-label">
 				<?php esc_html_e( 'Social Profile', 'classified-listing' ); ?>
-            </label>
-            <div class="col-sm-9">
+			</label>
+			<div class="col-sm-9">
 				<?php
 				$social_options = Options::get_social_profiles_list();
 				$social_media   = get_current_user_id() ? Functions::get_user_social_profile( get_current_user_id() ) : [];
@@ -495,8 +491,8 @@ class TemplateHooks {
 						$social_option
 					);
 				} ?>
-            </div>
-        </div>
+			</div>
+		</div>
 		<?php
 	}
 
@@ -509,15 +505,15 @@ class TemplateHooks {
 		$state_text     = Text::location_level_first();
 		$city_text      = Text::location_level_second();
 		$town_text      = Text::location_level_third(); ?>
-        <div class="form-group row">
-            <label class="col-sm-3 control-label"><?php esc_html_e( 'Location', 'classified-listing' ); ?></label>
-            <div class="col-sm-9">
-                <div class="form-group" id="rtcl-location-row">
-                    <label for='rtcl-location'><?php echo esc_html( $state_text ); ?><span
-                                class="require-star">*</span></label>
-                    <select id="rtcl-location" name="location"
-                            class="rtcl-select2 rtcl-select form-control rtcl-map-field" required>
-                        <option value="">--<?php esc_html_e( 'Select state', 'classified-listing' ) ?>--</option>
+		<div class="form-group row">
+			<label class="col-sm-3 control-label"><?php esc_html_e( 'Location', 'classified-listing' ); ?></label>
+			<div class="col-sm-9">
+				<div class="form-group" id="rtcl-location-row">
+					<label for='rtcl-location'><?php echo esc_html( $state_text ); ?><span
+							class="require-star">*</span></label>
+					<select id="rtcl-location" name="location"
+							class="rtcl-select2 rtcl-select form-control rtcl-map-field" required>
+						<option value="">--<?php esc_html_e( 'Select state', 'classified-listing' ) ?>--</option>
 						<?php
 						$locations = Functions::get_one_level_locations();
 						if ( ! empty( $locations ) ) {
@@ -530,20 +526,20 @@ class TemplateHooks {
 								echo "<option value='{$location->term_id}'{$slt}>{$location->name}</option>";
 							}
 						} ?>
-                    </select>
-                </div>
+					</select>
+				</div>
 				<?php
 				$sub_locations = [];
 				if ( $location_id ) {
 					$sub_locations = Functions::get_one_level_locations( $location_id );
 				} ?>
-                <div class="form-group<?php echo empty( $sub_locations ) ? ' rtcl-hide' : ''; ?>"
-                     id="sub-location-row">
-                    <label for='rtcl-sub-location'><?php echo esc_html( $city_text ); ?><span
-                                class="require-star">*</span></label>
-                    <select id="rtcl-sub-location" name="sub_location"
-                            class="rtcl-select2 rtcl-select form-control rtcl-map-field" required>
-                        <option value="">--<?php esc_html_e( 'Select location', 'classified-listing' ) ?>--</option>
+				<div class="form-group<?php echo empty( $sub_locations ) ? ' rtcl-hide' : ''; ?>"
+					 id="sub-location-row">
+					<label for='rtcl-sub-location'><?php echo esc_html( $city_text ); ?><span
+							class="require-star">*</span></label>
+					<select id="rtcl-sub-location" name="sub_location"
+							class="rtcl-select2 rtcl-select form-control rtcl-map-field" required>
+						<option value="">--<?php esc_html_e( 'Select location', 'classified-listing' ) ?>--</option>
 						<?php
 						if ( ! empty( $sub_locations ) ) {
 							foreach ( $sub_locations as $location ) {
@@ -555,20 +551,20 @@ class TemplateHooks {
 								echo "<option value='{$location->term_id}'{$slt}>{$location->name}</option>";
 							}
 						} ?>
-                    </select>
-                </div>
+					</select>
+				</div>
 				<?php
 				$sub_sub_locations = [];
 				if ( $sub_location_id ) {
 					$sub_sub_locations = Functions::get_one_level_locations( $sub_location_id );
 				} ?>
-                <div class="form-group<?php echo empty( $sub_sub_locations ) ? ' rtcl-hide' : ''; ?>"
-                     id="sub-sub-location-row">
-                    <label for='rtcl-sub-sub-location'><?php echo esc_html( $town_text ); ?>
-                        <span class="require-star">*</span></label>
-                    <select id="rtcl-sub-sub-location" name="sub_sub_location"
-                            class="rtcl-select2 rtcl-select form-control rtcl-map-field" required>
-                        <option value="">--<?php esc_html_e( 'Select location', 'classified-listing' ) ?>--</option>
+				<div class="form-group<?php echo empty( $sub_sub_locations ) ? ' rtcl-hide' : ''; ?>"
+					 id="sub-sub-location-row">
+					<label for='rtcl-sub-sub-location'><?php echo esc_html( $town_text ); ?>
+						<span class="require-star">*</span></label>
+					<select id="rtcl-sub-sub-location" name="sub_sub_location"
+							class="rtcl-select2 rtcl-select form-control rtcl-map-field" required>
+						<option value="">--<?php esc_html_e( 'Select location', 'classified-listing' ) ?>--</option>
 						<?php
 						if ( ! empty( $sub_sub_locations ) ) {
 							foreach ( $sub_sub_locations as $location ) {
@@ -579,20 +575,20 @@ class TemplateHooks {
 								echo "<option value='{$location->term_id}'{$slt}>{$location->name}</option>";
 							}
 						} ?>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="rtcl-zipcode"><?php esc_html_e( "Zip Code", "classified-listing" ) ?></label>
-                    <input type="text" name="zipcode" value="<?php echo esc_attr( $zipcode ); ?>"
-                           class="rtcl-map-field form-control" id="rtcl-zipcode"/>
-                </div>
-                <div class="form-group">
-                    <label for="rtcl-address"><?php esc_html_e( "Address", "classified-listing" ) ?></label>
-                    <textarea name="address" rows="2" class="rtcl-map-field form-control"
-                              id="rtcl-address"><?php echo esc_textarea( $address ); ?></textarea>
-                </div>
-            </div>
-        </div>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="rtcl-zipcode"><?php esc_html_e( "Zip Code", "classified-listing" ) ?></label>
+					<input type="text" name="zipcode" value="<?php echo esc_attr( $zipcode ); ?>"
+						   class="rtcl-map-field form-control" id="rtcl-zipcode"/>
+				</div>
+				<div class="form-group">
+					<label for="rtcl-address"><?php esc_html_e( "Address", "classified-listing" ) ?></label>
+					<textarea name="address" rows="2" class="rtcl-map-field form-control"
+							  id="rtcl-address"><?php echo esc_textarea( $address ); ?></textarea>
+				</div>
+			</div>
+		</div>
 		<?php
 	}
 
@@ -600,20 +596,20 @@ class TemplateHooks {
 	public static function edit_account_form_geo_location() {
 		$user_id     = get_current_user_id();
 		$geo_address = get_user_meta( $user_id, '_rtcl_geo_address', true ); ?>
-        <div class="form-group row">
-            <label class="col-sm-3"
-                   for="rtcl-geo-address"><?php esc_html_e( "Location", "classified-listing" ) ?></label>
-            <div class="col-sm-9">
-                <div class="rtcl-geo-address-field">
-                    <input type="text" name="rtcl_geo_address" autocomplete="off"
-                           value="<?php echo esc_attr( $geo_address ) ?>"
-                           id="rtcl-geo-address"
-                           placeholder="<?php esc_html_e( "Select a location", "classified-listing" ) ?>"
-                           class="form-control rtcl-geo-address-input rtcl_geo_address_input"/>
-                    <i class="rtcl-get-location rtcl-icon rtcl-icon-target" id="rtcl-geo-loc-form"></i>
-                </div>
-            </div>
-        </div>
+		<div class="form-group row">
+			<label class="col-sm-3"
+				   for="rtcl-geo-address"><?php esc_html_e( "Location", "classified-listing" ) ?></label>
+			<div class="col-sm-9">
+				<div class="rtcl-geo-address-field">
+					<input type="text" name="rtcl_geo_address" autocomplete="off"
+						   value="<?php echo esc_attr( $geo_address ) ?>"
+						   id="rtcl-geo-address"
+						   placeholder="<?php esc_attr_e( "Select a location", "classified-listing" ) ?>"
+						   class="form-control rtcl-geo-address-input rtcl_geo_address_input"/>
+					<i class="rtcl-get-location rtcl-icon rtcl-icon-target" id="rtcl-geo-loc-form"></i>
+				</div>
+			</div>
+		</div>
 		<?php
 	}
 
@@ -622,22 +618,22 @@ class TemplateHooks {
 		$address   = get_user_meta( $user_id, '_rtcl_address', true );
 		$latitude  = get_user_meta( $user_id, '_rtcl_latitude', true );
 		$longitude = get_user_meta( $user_id, '_rtcl_longitude', true ); ?>
-        <div class="form-group row">
-            <label for="rtcl-map"
-                   class="col-sm-3 control-label"><?php esc_html_e( 'Map', 'classified-listing' ); ?></label>
-            <div class="col-sm-9">
-                <div class="rtcl-map-wrap">
-                    <div class="rtcl-map" data-type="input">
-                        <div class="marker" data-latitude="<?php echo esc_attr( $latitude ); ?>"
-                             data-longitude="<?php echo esc_attr( $longitude ); ?>"
-                             data-address="<?php echo esc_attr( $address ); ?>"><?php echo esc_html( $address ); ?></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Map Hidden field-->
-        <input type="hidden" name="latitude" value="<?php echo esc_attr( $latitude ); ?>" id="rtcl-latitude"/>
-        <input type="hidden" name="longitude" value="<?php echo esc_attr( $longitude ); ?>" id="rtcl-longitude"/>
+		<div class="form-group row">
+			<label for="rtcl-map"
+				   class="col-sm-3 control-label"><?php esc_html_e( 'Map', 'classified-listing' ); ?></label>
+			<div class="col-sm-9">
+				<div class="rtcl-map-wrap">
+					<div class="rtcl-map" data-type="input">
+						<div class="marker" data-latitude="<?php echo esc_attr( $latitude ); ?>"
+							 data-longitude="<?php echo esc_attr( $longitude ); ?>"
+							 data-address="<?php echo esc_attr( $address ); ?>"><?php echo esc_html( $address ); ?></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Map Hidden field-->
+		<input type="hidden" name="latitude" value="<?php echo esc_attr( $latitude ); ?>" id="rtcl-latitude"/>
+		<input type="hidden" name="longitude" value="<?php echo esc_attr( $longitude ); ?>" id="rtcl-longitude"/>
 		<?php
 	}
 
@@ -835,30 +831,30 @@ class TemplateHooks {
 
 	public static function add_apply_filter_button() {
 		?>
-        <div class="ui-buttons has-expanded">
-            <button class="btn btn-primary rtcl-filter-btn">
+		<div class="ui-buttons has-expanded">
+			<button class="btn btn-primary rtcl-filter-btn">
 				<?php echo esc_html__( "Apply filters", 'classified-listing' ); ?>
-            </button>
+			</button>
 			<?php if ( isset( $_GET['filters'] ) ): ?>
-                <a class="btn btn-primary rtcl-filter-clear-btn"
-                   href="<?php echo esc_url( Link::get_listings_page_link() ) ?>">
+				<a class="btn btn-primary rtcl-filter-clear-btn"
+				   href="<?php echo esc_url( Link::get_listings_page_link() ) ?>">
 					<?php echo esc_html__( "Clear filters", 'classified-listing' ); ?>
-                </a>
+				</a>
 			<?php endif; ?>
-        </div>
+		</div>
 		<?php
 	}
 
 	public static function listing_form_submit_button( $post_id ) {
 		?>
-        <button type="submit" class="btn btn-primary rtcl-submit-btn">
+		<button type="submit" class="btn btn-primary rtcl-submit-btn">
 			<?php
 			if ( $post_id > 0 ) {
 				echo apply_filters( 'rtcl_listing_form_update_btn_text', esc_html__( 'Update', 'classified-listing' ) );
 			} else {
 				echo apply_filters( 'rtcl_listing_form_submit_btn_text', esc_html__( 'Submit', 'classified-listing' ) );
 			} ?>
-        </button>
+		</button>
 		<?php
 	}
 
@@ -881,48 +877,51 @@ class TemplateHooks {
 
 	public static function add_name_fields_at_registration_form() {
 		?>
-        <div class="form-group row">
-            <div class="col-md-6">
-                <label for="rtcl-reg-first-name" class="control-label">
+		<div class="form-group row">
+			<div class="col-md-6">
+				<label for="rtcl-reg-first-name" class="control-label">
 					<?php esc_html_e( 'First Name', 'classified-listing' ); ?>
-                    <strong class="rtcl-required">*</strong>
-                </label>
-                <input type="text" name="first_name" id="rtcl-reg-first-name"
-                       value="<?php if ( ! empty( $_POST['first_name'] ) ) {
-					       esc_attr_e( $_POST['first_name'] );
-				       } ?>"
-                       class="form-control" required/>
-            </div>
-            <div class="col-md-6">
-                <label for="rtcl-reg-last-name" class="control-label">
+					<strong class="rtcl-required">*</strong>
+				</label>
+				<input type="text" name="first_name" id="rtcl-reg-first-name"
+					   value="<?php if ( ! empty( $_POST['first_name'] ) ) {
+						   echo esc_attr( $_POST['first_name'] );
+					   } ?>"
+					   class="form-control" required/>
+			</div>
+			<div class="col-md-6">
+				<label for="rtcl-reg-last-name" class="control-label">
 					<?php esc_html_e( 'Last Name', 'classified-listing' ); ?>
-                    <strong class="rtcl-required">*</strong>
-                </label>
-                <input type="text" name="last_name"
-                       value="<?php if ( ! empty( $_POST['last_name'] ) ) {
-					       esc_attr_e( $_POST['last_name'] );
-				       } ?>"
-                       id="rtcl-reg-last-name" class="form-control" required/>
-            </div>
-        </div>
+					<strong class="rtcl-required">*</strong>
+				</label>
+				<input type="text" name="last_name"
+					   value="<?php if ( ! empty( $_POST['last_name'] ) ) {
+						   echo esc_attr( $_POST['last_name'] );
+					   } ?>"
+					   id="rtcl-reg-last-name" class="form-control" required/>
+			</div>
+		</div>
 		<?php
 	}
 
 	public static function add_phone_at_registration_form() {
+		$is_required = (boolean) apply_filters( 'rtcl_registration_phone_validation', false, '' );
 		?>
-        <div class="form-group phone-row">
+		<div class="form-group phone-row">
 			<?php do_action( 'rtcl_register_form_phone_start' ); ?>
-            <label for="rtcl-reg-phone" class="control-label phone-label">
+			<label for="rtcl-reg-phone" class="control-label phone-label">
 				<?php esc_html_e( 'Phone Number', 'classified-listing' ); ?>
-                <strong class="rtcl-required">*</strong>
-            </label>
-            <input type="text" name="phone"
-                   value="<?php if ( ! empty( $_POST['phone'] ) ) {
-				       esc_attr_e( $_POST['phone'] );
-			       } ?>"
-                   id="rtcl-reg-phone" class="form-control" required/>
+				<?php if ( $is_required ): ?>
+					<strong class="rtcl-required">*</strong>
+				<?php endif; ?>
+			</label>
+			<input type="text" name="phone"
+				   value="<?php if ( ! empty( $_POST['phone'] ) ) {
+					   echo esc_attr( $_POST['phone'] );
+				   } ?>"
+				   id="rtcl-reg-phone" class="form-control"<?php echo $is_required ? ' required' : '' ?>/>
 			<?php do_action( 'rtcl_register_form_phone_end' ); ?>
-        </div>
+		</div>
 		<?php
 	}
 
@@ -995,17 +994,17 @@ class TemplateHooks {
 
 	public static function add_single_listing_meta() {
 		global $listing; ?>
-        <!-- Meta data -->
-        <div class="rtcl-listing-meta">
+		<!-- Meta data -->
+		<div class="rtcl-listing-meta">
 			<?php $listing->the_badges(); ?>
 			<?php $listing->the_meta(); ?>
-        </div>
+		</div>
 		<?php
 	}
 
 	public static function add_single_listing_title() {
 		global $listing; ?>
-        <div class="rtcl-listing-title"><h2 class="entry-title"><?php $listing->the_title(); ?></h2></div>
+		<div class="rtcl-listing-title"><h2 class="entry-title"><?php $listing->the_title(); ?></h2></div>
 		<?php
 	}
 
@@ -1085,7 +1084,7 @@ class TemplateHooks {
 		global $listing;
 		if ( $listing->can_show_excerpt() ) {
 			?>
-            <p class="rtcl-excerpt"><?php $listing->the_excerpt(); ?></p>
+			<p class="rtcl-excerpt"><?php $listing->the_excerpt(); ?></p>
 			<?php
 		}
 	}
@@ -1268,9 +1267,9 @@ class TemplateHooks {
 	 *
 	 * Note: For performance reasons we instead recommend using listing_class/get_listing_class instead.
 	 *
-	 * @param array $classes Current classes.
-	 * @param string|array $class Additional class.
-	 * @param int $post_id Post ID.
+	 * @param array        $classes Current classes.
+	 * @param string|array $class   Additional class.
+	 * @param int          $post_id Post ID.
 	 *
 	 * @return array
 	 * @since 1.5.4
@@ -1300,16 +1299,17 @@ class TemplateHooks {
 	 */
 	public static function no_js() {
 		?>
-        <script type="text/javascript">
-            var c = document.body.className;
-            c = c.replace(/rtcl-no-js/, 'rtcl-js');
-            document.body.className = c;
-        </script>
+		<script type="text/javascript">
+			var c = document.body.className;
+			c = c.replace(/rtcl-no-js/, 'rtcl-js');
+			document.body.className = c;
+		</script>
 		<?php
 	}
 
 	public static function user_information( $current_user ) {
-		Functions::get_template( 'myaccount/user-info', compact( 'current_user' ) );
+		$note = Functions::get_option_item( 'rtcl_general_settings', 'admin_note_to_users' );
+		Functions::get_template( 'myaccount/user-info', compact( 'current_user', 'note' ) );
 	}
 
 	public static function account_navigation() {
@@ -1426,7 +1426,7 @@ class TemplateHooks {
 
 	public static function add_checkout_form_instruction() {
 		?>
-        <p><?php esc_html_e( 'Please review your order, and click Purchase once you are ready to proceed.', 'classified-listing' ); ?></p>
+		<p><?php esc_html_e( 'Please review your order, and click Purchase once you are ready to proceed.', 'classified-listing' ); ?></p>
 		<?php
 	}
 
@@ -1468,26 +1468,26 @@ class TemplateHooks {
 
 	public static function checkout_form_submit_button() {
 		?>
-        <div class="rtcl-submit-btn-wrap">
-            <a class="btn btn-primary"
-               href="<?php echo esc_url( Link::get_my_account_page_link() ) ?>"><?php echo apply_filters( 'rtcl_checkout_myaccount_btn_text', __( 'Go to My Account', 'classified-listing' ) ); ?></a>
-            <button type="submit" id="rtcl-checkout-submit-btn" name="rtcl-checkout" class="btn btn-primary"
-                    value="1"><?php echo apply_filters( 'rtcl_checkout_payment_btn_text', __( 'Proceed to payment', 'classified-listing' ) ); ?></button>
-        </div>
+		<div class="rtcl-submit-btn-wrap">
+			<a class="btn btn-primary"
+			   href="<?php echo esc_url( Link::get_my_account_page_link() ) ?>"><?php echo apply_filters( 'rtcl_checkout_myaccount_btn_text', __( 'Go to My Account', 'classified-listing' ) ); ?></a>
+			<button type="submit" id="rtcl-checkout-submit-btn" name="rtcl-checkout" class="btn btn-primary"
+					value="1"><?php echo apply_filters( 'rtcl_checkout_payment_btn_text', __( 'Proceed to payment', 'classified-listing' ) ); ?></button>
+		</div>
 		<?php
 	}
 
 
 	public static function edit_account_form_hidden_field() {
 		wp_nonce_field( 'rtcl_update_user_account', 'rtcl_user_account_nonce' ); ?>
-        <div class="rtcl-response"></div><?php
+		<div class="rtcl-response"></div><?php
 	}
 
 	public static function add_checkout_hidden_field( $type ) {
 		wp_nonce_field( 'rtcl_checkout', 'rtcl_checkout_nonce' );
 		printf( '<input type="hidden" name="type" value="%s"/>', esc_attr( $type ) ); ?><input type="hidden"
-                                                                                               name="action"
-                                                                                               value="rtcl_ajax_checkout_action"/><?php
+																							   name="action"
+																							   value="rtcl_ajax_checkout_action"/><?php
 	}
 
 
@@ -1528,8 +1528,8 @@ class TemplateHooks {
 		$args             = $object->get_instance();
 		$current_category = ! empty( $args['current_taxonomy'][ rtcl()->category ] ) ? $args['current_taxonomy'][ rtcl()->category ]->slug : '';
 		$current_location = ! empty( $args['current_taxonomy'][ rtcl()->location ] ) ? $args['current_taxonomy'][ rtcl()->location ]->slug : ''; ?>
-        <input type="hidden" name="rtcl_category" value="<?php echo esc_attr( $current_category ) ?>">
-        <input type="hidden" name="rtcl_location" value="<?php echo esc_attr( $current_location ) ?>">
+		<input type="hidden" name="rtcl_category" value="<?php echo esc_attr( $current_category ) ?>">
+		<input type="hidden" name="rtcl_location" value="<?php echo esc_attr( $current_location ) ?>">
 		<?php
 	}
 }

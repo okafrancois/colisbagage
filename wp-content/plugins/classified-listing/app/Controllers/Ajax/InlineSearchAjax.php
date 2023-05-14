@@ -49,11 +49,11 @@ class InlineSearchAjax
 	public static function rtcl_json_search_users() {
 		$suggestions = [];
 		if (!Functions::verify_nonce()) {
-			wp_send_json_error(esc_html__("Session error !!", "Classified-listing"));
+			wp_send_json_error(esc_html__("Session error !!", "classified-listing"));
 		}
 		$search_term = isset($_REQUEST['term']) ? (string)Functions::clean(wp_unslash($_REQUEST['term'])) : '';
 		if (!$search_term) {
-			wp_send_json_error(esc_html__("Please provide all field!!", "Classified-listing"));
+			wp_send_json_error(esc_html__("Please provide all field!!", "classified-listing"));
 		}
 
 		$args = [
@@ -108,7 +108,7 @@ class InlineSearchAjax
 		$q = isset($_REQUEST['term']) ? (string)Functions::clean(wp_unslash($_REQUEST['term'])) : '';
 		$type = isset($_REQUEST['type']) ? (string)Functions::clean(wp_unslash($_REQUEST['type'])) : '';
 		if (!$type || !$q) {
-			wp_send_json_error(esc_html__("Please provide all field!!", "Classified-listing"));
+			wp_send_json_error(esc_html__("Please provide all field!!", "classified-listing"));
 		}
 		if ($type === 'listing') {
 			// Query for suggestions

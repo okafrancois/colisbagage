@@ -37,21 +37,18 @@ $currency_symbol = Functions::get_currency_symbol($currency);
 			?>
 			<tr>
 				<td class="rtcl-pricing-option form-check"
-					data-label="<?php esc_html_e("Pricing Option:", "classified-listing"); ?>">
+					data-label="<?php esc_attr_e("Pricing Option:", "classified-listing"); ?>">
 					<?php
 					printf('<label><input type="radio" name="%s" value="%s" class="rtcl-checkout-pricing" required data-price="%s"/> %s</label>',
 						'pricing_id', esc_attr($pricing->ID), esc_attr($price), esc_html($pricing->post_title));
 					?>
 				</td>
 				<td class="rtcl-pricing-features"
-					data-label="<?php esc_html_e("Description:", "classified-listing"); ?>">
+					data-label="<?php esc_attr_e("Description:", "classified-listing"); ?>">
 					<?php Functions::print_html($description, true); ?>
 				</td>
-				<td class="rtcl-pricing-price text-right">
-					<?php echo Functions::get_payment_formatted_price($price); echo $currency_symbol?>
-				</td>
 				<td class="rtcl-pricing-visibility"
-					data-label="<?php esc_html_e("Visibility:", "classified-listing"); ?>">
+					data-label="<?php esc_attr_e("Visibility:", "classified-listing"); ?>">
 					<?php
 					printf('<span>%s</span>', sprintf(_n('%s Day', '%s Days', absint($visible), 'classified-listing'), number_format_i18n(absint($visible))));
 					$promotions = Options::get_listing_promotions();
@@ -62,6 +59,10 @@ $currency_symbol = Functions::get_currency_symbol($currency);
 					}
 					?>
 				</td>
+				<td class="rtcl-pricing-price text-right"
+					data-label="<?php printf(__('Price [%s %s]:', 'classified-listing'),
+						$currency,
+						$currency_symbol); ?>"><?php echo Functions::get_payment_formatted_price($price); ?> </td>
 			</tr>
 		<?php endforeach;
 	else: ?>

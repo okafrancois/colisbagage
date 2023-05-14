@@ -1,7 +1,7 @@
 <?php
 $count_html = '';
 if (!empty($term['count'])) {
-	$count_html = sprintf(_nx('%s Ad', '%s Ads', $term['count'], 'Number of Ads', 'classima-core'), number_format_i18n($term['count']));
+	$count_html = sprintf(_nx('%s Ad', '%s Ads', $term['count'], 'Number of Ads', 'classified-listing'), number_format_i18n($term['count']));
 }
 
 $location_box = $settings['col_style']['style'] ? $settings['col_style']['style'] : '1';

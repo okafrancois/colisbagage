@@ -3729,6 +3729,13 @@ li.rtcl-conversation-item .item-detail-container .rtcl-con-last-message .last-me
   font-size: 12px;
   font-weight: 800;
 }
+.rtcl-chat-container a.rtcl-chat-card-link .rtcl-cc-content .rtcl-cc-listing-amount .rtcl-price {
+  font-size: inherit;
+}
+.rtcl-chat-container a.rtcl-chat-card-link .rtcl-cc-content .rtcl-cc-listing-amount .rtcl-price-meta {
+  font-size: inherit;
+  margin-top: 0;
+}
 
 /* RTCL GALLERY */
 #rtcl-gallery-upload-ui-wrapper .moxie-shim.moxie-shim-html5 {
@@ -6514,6 +6521,17 @@ body.modal-open .rtcl-bs-modal {
   font-weight: 600;
 }
 .rtcl-MyAccount-wrap .rtcl-MyAccount-content .rtcl-user-info .media-body p {
+  font-size: 16px;
+}
+.rtcl-MyAccount-wrap .rtcl-MyAccount-content .rtcl-user-note {
+  margin-top: 1.5rem;
+}
+.rtcl-MyAccount-wrap .rtcl-MyAccount-content .rtcl-user-note h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.rtcl-MyAccount-wrap .rtcl-MyAccount-content .rtcl-user-note p {
   font-size: 16px;
 }
 .rtcl-MyAccount-wrap .rtcl-MyAccount-content .rtcl-payment-history-wrap {

@@ -433,7 +433,7 @@ class HeaderButton extends ElementorWidgetBase {
 			array(
 				'mode'  => 'tab_start',
 				'id'    => 'icon_color_tab',
-				'label' => esc_html__( 'Normal', 'elementor' ),
+				'label' => esc_html__( 'Normal', 'classified-listing' ),
 			),
 			array(
 				'type'      => Controls_Manager::COLOR,
@@ -497,7 +497,7 @@ class HeaderButton extends ElementorWidgetBase {
 			array(
 				'mode'  => 'tab_start',
 				'id'    => 'icon_color_tab_hover',
-				'label' => esc_html__( 'Hover', 'elementor' ),
+				'label' => esc_html__( 'Hover', 'classified-listing' ),
 			),
 			array(
 				'type'      => Controls_Manager::COLOR,
@@ -572,7 +572,7 @@ class HeaderButton extends ElementorWidgetBase {
 			array(
 				'mode'  => 'tab_start',
 				'id'    => 'icon_listing_color_tab',
-				'label' => esc_html__( 'Normal', 'elementor' ),
+				'label' => esc_html__( 'Normal', 'classified-listing' ),
 			),
 			array(
 				'type'      => Controls_Manager::COLOR,
@@ -606,7 +606,7 @@ class HeaderButton extends ElementorWidgetBase {
 			array(
 				'mode'  => 'tab_start',
 				'id'    => 'icon_listing_color_tab_hover',
-				'label' => esc_html__( 'Hover', 'elementor' ),
+				'label' => esc_html__( 'Hover', 'classified-listing' ),
 			),
 
 			array(

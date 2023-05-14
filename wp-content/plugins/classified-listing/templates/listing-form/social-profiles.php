@@ -31,7 +31,7 @@ if (!Functions::is_enable_social_profiles() || empty($social_list = Options::get
             ?>
             <div class="form-group row">
                 <label for="rtcl-social-<?php echo esc_attr($item_key) ?>"
-                       class="col-md-2 col-form-label"><?php esc_html_e($item); ?></label>
+                       class="col-md-2 col-form-label"><?php echo esc_html($item); ?></label>
                 <div class="col-md-10">
                     <input type="url" class="form-control" id="rtcl-social-<?php echo esc_attr($item_key) ?>"
                            name="rtcl_social_profiles[<?php echo esc_attr($item_key) ?>]"

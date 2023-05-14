@@ -120,7 +120,7 @@ Functions::print_notices();
                         <input type="password" name="pass2" id="rtcl-reg-confirm-password" class="form-control"
                                autocomplete="off"
                                data-rule-equalTo="#rtcl-reg-password"
-                               data-msg-equalTo="<?php esc_attr_e( 'Password does not match.' ); ?>" required/>
+                               data-msg-equalTo="<?php esc_attr_e( 'Password does not match.', 'classified-listing' ); ?>" required/>
                         <span class="rtcl-checkmark"></span>
                     </div>
                 </div>
@@ -131,7 +131,7 @@ Functions::print_notices();
                     <div id="rtcl-registration-g-recaptcha" class="mb-2"></div>
                     <div id="rtcl-registration-g-recaptcha-message"></div>
                     <input type="submit" name="rtcl-register" class="btn btn-primary"
-                           value="<?php esc_html_e( 'Register', 'classified-listing' ); ?>"/>
+                           value="<?php esc_attr_e( 'Register', 'classified-listing' ); ?>"/>
                 </div>
 				<?php do_action( 'rtcl_register_form_end' ); ?>
             </form>

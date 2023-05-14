@@ -8,7 +8,7 @@
 
 namespace radiustheme\Classima_Core;
 
-$count_html = sprintf( _nx( '%s Ad', '%s Ads', $count, 'Number of Ads', 'classima-core' ), number_format_i18n( $count ) );
+$count_html = sprintf( _nx( '%s Ad', '%s Ads', $count, 'Number of Ads', 'classified-listing' ), number_format_i18n( $count ) );
 
 $link_start   = $settings['enable_link'] ? '<a href="' . $permalink . '">' : '';
 $link_end     = $settings['enable_link'] ? '</a>' : '';

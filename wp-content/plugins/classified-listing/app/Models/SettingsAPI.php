@@ -1032,7 +1032,7 @@ abstract class SettingsAPI
 								   id="<?php echo esc_attr($id . '-' . $option_key); ?>"
 								   value="<?php echo esc_attr($option_key); ?>"
 								<?php checked(in_array($option_key, $values)); ?> />
-							<?php echo esc_attr($option_value); ?>
+							<?php echo esc_html($option_value); ?>
 						</label><br/>
 					<?php endforeach; ?>
 					<?php echo $this->get_description_html($data); ?>
@@ -1079,13 +1079,13 @@ abstract class SettingsAPI
 					); ?> <?php echo $this->get_custom_attribute_html($data); ?>>
 						<?php if (!empty($data['blank'])): ?>
 							<option
-								value="<?php echo esc_attr($data['blank_value']); ?>"><?php echo esc_attr($data['blank_text']); ?></option>
+								value="<?php echo esc_attr($data['blank_value']); ?>"><?php echo esc_html($data['blank_text']); ?></option>
 						<?php endif; ?>
 						<?php foreach ((array)$data['options'] as $option_key => $option_value) : ?>
 							<option value="<?php echo esc_attr($option_key); ?>" <?php selected(
 								$option_key,
 								esc_attr($this->get_option($key))
-							); ?>><?php echo esc_attr($option_value); ?></option>
+							); ?>><?php echo esc_html($option_value); ?></option>
 						<?php endforeach; ?>
 					</select>
 					<?php echo $this->get_description_html($data); ?>
@@ -1183,7 +1183,7 @@ abstract class SettingsAPI
 							<option value="<?php echo esc_attr($option_key); ?>" <?php selected(in_array(
 								$option_key,
 								$value
-							), true); ?>><?php echo esc_attr($option_value); ?></option>
+							), true); ?>><?php echo esc_html($option_value); ?></option>
 						<?php endforeach; ?>
 					</select>
 					<?php echo $this->get_description_html($data); ?>

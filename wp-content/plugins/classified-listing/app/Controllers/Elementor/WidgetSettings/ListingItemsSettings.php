@@ -111,7 +111,7 @@ class ListingItemsSettings extends ElementorWidgetBase {
 			[
 				'mode'  => 'tab_start',
 				'id'    => 'rtcl_title_normal',
-				'label' => esc_html__( 'Normal', 'elementor' ),
+				'label' => esc_html__( 'Normal', 'classified-listing' ),
 			],
 			[
 				'type'      => Controls_Manager::COLOR,
@@ -126,7 +126,7 @@ class ListingItemsSettings extends ElementorWidgetBase {
 			[
 				'mode'  => 'tab_start',
 				'id'    => 'rtcl_title_hover',
-				'label' => esc_html__( 'Hover', 'elementor' ),
+				'label' => esc_html__( 'Hover', 'classified-listing' ),
 			],
 			[
 				'type'      => Controls_Manager::COLOR,
@@ -177,7 +177,7 @@ class ListingItemsSettings extends ElementorWidgetBase {
 			[
 				'mode'  => 'tab_start',
 				'id'    => 'rtcl_meta_normal',
-				'label' => esc_html__( 'Normal', 'elementor' ),
+				'label' => esc_html__( 'Normal', 'classified-listing' ),
 			],
 			[
 				'type'      => Controls_Manager::COLOR,
@@ -207,7 +207,7 @@ class ListingItemsSettings extends ElementorWidgetBase {
 			[
 				'mode'  => 'tab_start',
 				'id'    => 'rtcl_meta_hover',
-				'label' => esc_html__( 'Hover', 'elementor' ),
+				'label' => esc_html__( 'Hover', 'classified-listing' ),
 			],
 			[
 				'type'      => Controls_Manager::COLOR,
@@ -867,7 +867,7 @@ class ListingItemsSettings extends ElementorWidgetBase {
 			[
 				'mode'  => 'tab_start',
 				'id'    => 'rtcl_button_normal',
-				'label' => esc_html__( 'Normal', 'elementor' ),
+				'label' => esc_html__( 'Normal', 'classified-listing' ),
 			],
 			[
 				'type'       => Controls_Manager::COLOR,
@@ -1117,7 +1117,7 @@ class ListingItemsSettings extends ElementorWidgetBase {
 			[
 				'mode'  => 'tab_start',
 				'id'    => 'rtcl_button_hover',
-				'label' => esc_html__( 'Hover', 'elementor' ),
+				'label' => esc_html__( 'Hover', 'classified-listing' ),
 			],
 			[
 				'type'       => Controls_Manager::COLOR,

@@ -69,7 +69,7 @@ $login_icon_title = is_user_logged_in() ? esc_html__( ' My Account', '' ) : esc_
 		<?php endif; ?>
 		<?php if ( rtcl()->has_pro() && Fns::is_enable_chat() && $settings['rtcl_show_chat_option'] ) : ?>
 			<li class="rtcl-el-header-chat-icon" style="order:<?php echo absint( $settings['rtcl_show_chat_icon_order'] ); ?>">
-				<a class="header-chat-icon" title="<?php esc_html_e( 'Chat', 'classified-listing' ); ?>" href="<?php echo esc_url( Link::get_my_account_page_link( 'chat' ) ); ?>">
+				<a class="header-chat-icon" title="<?php esc_attr_e( 'Chat', 'classified-listing' ); ?>" href="<?php echo esc_url( Link::get_my_account_page_link( 'chat' ) ); ?>">
 					<?php
 						Icons_Manager::render_icon( $settings['sec_chat_option_icon'], array( 'aria-hidden' => 'true' ) );
 					?>
@@ -99,7 +99,7 @@ $login_icon_title = is_user_logged_in() ? esc_html__( ' My Account', '' ) : esc_
 					?>
 				</span> 
 				<?php if ( $settings['add_listing_button_text'] ) { ?>
-					<div class="rtcl-el-btn-text"> <?php esc_html_e( $settings['add_listing_button_text'] ); ?> </div>
+					<div class="rtcl-el-btn-text"> <?php echo esc_html( $settings['add_listing_button_text'] ); ?> </div>
 				<?php } ?>
 			</a>
 		</li>

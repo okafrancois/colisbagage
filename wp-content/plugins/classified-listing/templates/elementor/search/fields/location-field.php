@@ -33,7 +33,7 @@ if ( $geo_location ) :
 			<label for="rtc-geo-search"><?php esc_html_e( 'Location', 'classified-listing' ); ?></label>
 		<?php } ?>
 		<div class="rtc-geo-search-wrapper">
-			<input id='rtc-geo-search' type="text" name="geo_address" autocomplete="off" value="<?php echo ! empty( $_GET['geo_address'] ) ? esc_attr( $_GET['geo_address'] ) : ''; ?>" placeholder="<?php esc_html_e( 'Select a location', 'classified-listing' ); ?>" class="form-control rtcl-geo-address-input"/>
+			<input id='rtc-geo-search' type="text" name="geo_address" autocomplete="off" value="<?php echo ! empty( $_GET['geo_address'] ) ? esc_attr( $_GET['geo_address'] ) : ''; ?>" placeholder="<?php esc_attr_e( 'Select a location', 'classified-listing' ); ?>" class="form-control rtcl-geo-address-input"/>
 			<i class="rtcl-get-location rtcl-icon rtcl-icon-target"></i>
 			<input type="hidden" class="latitude" name="center_lat" value="<?php echo ! empty( $_GET['center_lat'] ) ? esc_attr( $_GET['center_lat'] ) : ''; ?>">
 			<input type="hidden" class="longitude" name="center_lng" value="<?php echo ! empty( $_GET['center_lng'] ) ? esc_attr( $_GET['center_lng'] ) : ''; ?>">

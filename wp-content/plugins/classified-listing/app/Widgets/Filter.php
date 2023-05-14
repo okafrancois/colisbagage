@@ -317,7 +317,7 @@ class Filter extends WP_Widget {
 				in_array( $rs_data['units'], [
 					'km',
 					'kilometers'
-				] ) ? esc_html__( "km", "classified-listing-pro" ) : esc_html__( "Miles", "classified-listing" ),
+				] ) ? esc_html__( "km", "classified-listing" ) : esc_html__( "Miles", "classified-listing" ),
 				$rs_data['max_distance'],
 				absint( ! empty( $_GET['distance'] ) ? absint( $_GET['distance'] ) : $rs_data['default_distance'] ),
 				esc_html__( "Select a location", "classified-listing" ),

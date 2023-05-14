@@ -130,7 +130,7 @@ if (!Functions::is_enable_business_hours())
                                 <div class="rtcl-special-bh-actions rtcl-day-actions">
                                     <div class="action-item form-check open">
                                         <label class="form-check-label"
-                                               for="shs-open-<?php echo esc_attr($count) ?>"><?php esc_html_e("Open", "classified-listingß"); ?></label>
+                                               for="shs-open-<?php echo esc_attr($count) ?>"><?php esc_html_e("Open", "classified-listing"); ?></label>
                                     </div>
                                     <input type="checkbox"
                                            name="_rtcl_special_bhs[<?php echo esc_attr($count) ?>][open]"

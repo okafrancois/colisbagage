@@ -38,6 +38,14 @@ abstract class ElementorWidgetBase extends Widget_Base {
 	 * @var String
 	 */
 	public $rtcl_category;
+
+	/**
+	 * Widget translate.
+	 *
+	 * @var String
+	 */
+	// Todo: fix issue 
+	//public $rtcl_translate;
 	/**
 	 * Widget icon class
 	 *

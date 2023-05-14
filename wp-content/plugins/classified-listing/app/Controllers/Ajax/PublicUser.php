@@ -67,7 +67,7 @@ class PublicUser {
 
 	public static function renew_listing() {
 		if ( ! Functions::verify_nonce() ) {
-			wp_send_json_error( esc_html__( "Authentication error!!", "classified-listing-store" ) );
+			wp_send_json_error( esc_html__( "Authentication error!!", "classified-listing" ) );
 		}
 
 		$listingId = absint( Functions::clean( $_POST['listingId'] ) );
@@ -206,21 +206,27 @@ class PublicUser {
 	}
 
 	public static function rtcl_registration_request_handler() {
+
+		if(! Functions::is_registration_enabled()){
+			wp_send_json_error( esc_html__( "User registration is disabled", "classified-listing" ) );
+		}
+
 		if ( ! Functions::verify_nonce() ) {
 			wp_send_json_error( esc_html__( "Session Expired!!", "classified-listing" ) );
 		}
+
 		$username = isset( $_POST['username'] ) ? trim( $_POST['username'] ) : '';
 		$password = isset( $_POST['password'] ) ? trim( $_POST['password'] ) : '';
 		$email    = isset( $_POST['email'] ) ? trim( $_POST['email'] ) : '';
 		$args     = [];
 		if ( ! empty( $_POST['first_name'] ) ) {
-			$args['first_name'] = $_POST['first_name'];
+			$args['first_name'] = sanitize_text_field($_POST['first_name']);
 		}
 		if ( ! empty( $_POST['last_name'] ) ) {
-			$args['last_name'] = $_POST['last_name'];
+			$args['last_name'] = sanitize_text_field($_POST['last_name']);
 		}
 		if ( ! empty( $_POST['phone'] ) ) {
-			$args['phone'] = $_POST['phone'];
+			$args['phone'] = sanitize_text_field($_POST['phone']);
 		}
 
 		try {

@@ -180,7 +180,7 @@ class RtclLicense {
 								$message = esc_html__( 'Your license is not active for this URL.', 'classified-listing' );
 								break;
 							case 'item_name_mismatch':
-								$message = esc_html__( 'This appears to be an invalid license key for ' . $this->settings['title'] . '.', 'classified-listing' );
+								$message = esc_html__( "This appears to be an invalid license key for {$this->settings['title']}.", 'classified-listing' );
 								break;
 							case 'no_activations_left':
 								$message = esc_html__( 'Your license key has reached its activation limit.', 'classified-listing' );
@@ -253,7 +253,7 @@ class RtclLicense {
 							$message = esc_html__( 'Your license is not active for this URL.', 'classified-listing' );
 							break;
 						case 'item_name_mismatch':
-							$message = esc_html__( 'This appears to be an invalid license key for ' . $this->settings['title'] . '.', 'classified-listing' );
+							$message = esc_html__( "This appears to be an invalid license key for {$this->settings['title']}.", 'classified-listing' );
 							break;
 						case 'no_activations_left':
 							$message = esc_html__( 'Your license key has reached its activation limit.', 'classified-listing' );

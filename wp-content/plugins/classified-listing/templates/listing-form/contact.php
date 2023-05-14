@@ -136,7 +136,7 @@ use Rtcl\Helpers\Functions;
                         <input type="text" name="rtcl_geo_address" autocomplete="off"
                                value="<?php echo esc_attr( $geo_address ) ?>"
                                id="rtcl-geo-address"
-                               placeholder="<?php esc_html_e( "Select a location", "classified-listing" ) ?>"
+                               placeholder="<?php esc_attr_e( "Select a location", "classified-listing" ) ?>"
                                class="form-control rtcl-geo-address-input rtcl_geo_address_input"/>
                         <i class="rtcl-get-location rtcl-icon rtcl-icon-target" id="rtcl-geo-loc-form"></i>
                     </div>

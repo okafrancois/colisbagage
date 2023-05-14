@@ -39,7 +39,7 @@ class Categories extends WP_Widget
             'imm_child_only' => !empty($instance['imm_child_only']) ? 1 : 0,
             'active_term_id' => 0,
             'ancestors'      => [],
-            'pad_counts'     => false
+            'pad_counts'     => true
         );
 
         $term_slug = get_query_var('rtcl_category');

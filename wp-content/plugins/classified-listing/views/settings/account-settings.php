@@ -27,6 +27,19 @@ $options = [
 		'type'        => 'checkbox',
 		'description' => esc_html__( 'Hide phone number at registration form', 'classified-listing' ),
 	],
+	'required_phone_at_registration'       => [
+		'title'       => esc_html__( 'Required phone', 'classified-listing' ),
+		'type'        => 'checkbox',
+		'description' => esc_html__( 'Required phone number at registration form', 'classified-listing' ),
+		'dependency'  => [
+			'rules' => [
+				'#rtcl_account_settings-disable_phone_at_registration' => [
+					'type'  => '!=',
+					'value' => 'yes'
+				]
+			]
+		]
+	],
 	'separate_registration_form'           => [
 		'title'       => esc_html__( 'Separate Registration Form', 'classified-listing' ),
 		'type'        => 'checkbox',

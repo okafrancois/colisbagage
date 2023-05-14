@@ -1736,7 +1736,7 @@ class Functions {
 						absint( $field->getRows() ),
 						esc_attr( $field->getPlaceholder() ),
 						$required_attr,
-						esc_textarea( $value )
+						esc_textarea( html_entity_decode( $value ) )
 					);
 					break;
 				case 'select':
@@ -1746,7 +1746,7 @@ class Functions {
 					if ( true ) {
 						$options_html .= sprintf(
 							'<option value="">%s</option>',
-							'- ' . esc_html__( $field->getLabel(), 'classified-listing' ) . ' -'
+							'- ' . esc_html__( 'Select an Option', 'classified-listing' ) . ' -'
 						);
 					}
 					if ( ! empty( $choices ) ) {
@@ -2602,15 +2602,11 @@ class Functions {
 	}
 
 	public static function is_registration_enabled() {
-		$enable = Functions::get_option_item( 'rtcl_account_settings', 'enable_myaccount_registration', false, 'checkbox' );
-
-		return ! empty( $enable );
+		return Functions::get_option_item( 'rtcl_account_settings', 'enable_myaccount_registration', false, 'checkbox' );
 	}
 
 	public static function is_registration_page_separate() {
-		$enable = Functions::get_option_item( 'rtcl_account_settings', 'separate_registration_form', false, 'checkbox' );
-
-		return ! empty( $enable );
+		return Functions::get_option_item( 'rtcl_account_settings', 'separate_registration_form', false, 'checkbox' );
 	}
 
 	/**
@@ -3156,18 +3152,10 @@ class Functions {
 				FilterHooks::class,
 				'remove_registration_name_validation'
 			] );
-			add_filter( 'rtcl_registration_phone_validation', [
-				FilterHooks::class,
-				'remove_registration_phone_validation'
-			] );
 			$new_user_id = Functions::create_new_user( sanitize_email( $email ) );
 			remove_filter( 'rtcl_registration_name_validation', [
 				FilterHooks::class,
 				'remove_registration_name_validation'
-			] );
-			remove_filter( 'rtcl_registration_phone_validation', [
-				FilterHooks::class,
-				'remove_registration_phone_validation'
 			] );
 
 			if ( is_wp_error( $new_user_id ) ) {
@@ -3260,7 +3248,7 @@ class Functions {
 				return new WP_Error( 'registration-error-invalid-last_name', esc_html__( 'Please enter your last name.', 'classified-listing' ) );
 			}
 		}
-		if ( apply_filters( 'rtcl_registration_phone_validation', true, $source ) ) {
+		if ( apply_filters( 'rtcl_registration_phone_validation', false, $source ) ) {
 			if ( empty( $args['phone'] ) ) {
 				return new WP_Error( 'registration-error-invalid-last_name', esc_html__( 'Please enter your phone.', 'classified-listing' ) );
 			}
@@ -4586,5 +4574,120 @@ class Functions {
 			// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 			echo $field;
 		}
+	}
+
+
+	/**
+	 * @param int $user_id
+	 * @param array $blockedUserIds
+	 *
+	 * @return array
+	 */
+	public static function updateBlockedUserIds( $user_id, $blockedUserIds ) {
+		$user_id        = empty( $user_id ) ? get_current_user_id() : $user_id;
+		$blockedUserIds = empty( $blockedUserIds ) || ! is_array( $blockedUserIds ) ? [] : $blockedUserIds;
+		if ( ! empty( $blockedUserIds ) ) {
+			$blockedUserIds = array_map( 'absint', array_unique( $blockedUserIds ) );
+			update_user_meta( $user_id, '_rtcl_blocked_user_ids', $blockedUserIds );
+		} else {
+			delete_user_meta( $user_id, '_rtcl_blocked_user_ids' );
+		}
+
+		return $blockedUserIds;
+	}
+
+
+	/**
+	 * @param $user_id
+	 *
+	 * @return array
+	 */
+	public static function getBlockedUserIds( $user_id ) {
+		$user_id        = empty( $user_id ) ? get_current_user_id() : $user_id;
+		$blockedUserIds = get_user_meta( $user_id, '_rtcl_blocked_user_ids', true );
+
+		return empty( $blockedUserIds ) || ! is_array( $blockedUserIds ) ? [] : $blockedUserIds;
+	}
+
+	/**
+	 * @param int $user_id
+	 *
+	 * @return array
+	 */
+	public static function getBlockedUserList( $user_id ) {
+		$blockedUserIds = self::getBlockedUserIds( $user_id );
+		if ( empty( $blockedUserIds ) ) {
+			return [];
+		}
+
+		$users = [];
+		foreach ( $blockedUserIds as $block_user_id ) {
+			$user = get_user_by( 'id', $block_user_id );
+			if ( $user ) {
+				$users[] = [
+					'id'    => $user->ID,
+					'name'  => $user->user_login,
+					'email' => $user->user_email,
+				];
+			}
+		}
+
+		return $users;
+	}
+
+	/**
+	 * @param int $user_id
+	 * @param array $blockedListingIds
+	 *
+	 * @return array
+	 */
+	public static function updateBlockedListingIds( $user_id, $blockedListingIds ) {
+		$user_id           = empty( $user_id ) ? get_current_user_id() : $user_id;
+		$blockedListingIds = empty( $blockedListingIds ) || ! is_array( $blockedListingIds ) ? [] : $blockedListingIds;
+		if ( ! empty( $blockedListingIds ) ) {
+			$blockedListingIds = array_map( 'absint', array_unique( $blockedListingIds ) );
+			update_user_meta( $user_id, '_rtcl_blocked_listing_ids', $blockedListingIds );
+		} else {
+			delete_user_meta( $user_id, '_rtcl_blocked_listing_ids' );
+		}
+
+		return $blockedListingIds;
+	}
+
+	/**
+	 * @param $user_id
+	 *
+	 * @return array
+	 */
+	public static function getBlockedListingIds( $user_id ) {
+		$user_id           = empty( $user_id ) ? get_current_user_id() : $user_id;
+		$blockedListingIds = get_user_meta( $user_id, '_rtcl_blocked_listing_ids', true );
+
+		return empty( $blockedListingIds ) || ! is_array( $blockedListingIds ) ? [] : $blockedListingIds;
+	}
+
+	/**
+	 * @param int $user_id
+	 *
+	 * @return array
+	 */
+	public static function getBlockedListingList( $user_id ) {
+		$blockedListingIds = self::getBlockedListingIds( $user_id );
+		if ( empty( $blockedListingIds ) ) {
+			return [];
+		}
+
+		$listings = [];
+		foreach ( $blockedListingIds as $block_listing_id ) {
+			$listing = rtcl()->factory->get_listing( $block_listing_id );
+			if ( $listing ) {
+				$listings[] = [
+					'id'    => $listing->get_id(),
+					'title' => $listing->get_the_title(),
+				];
+			}
+		}
+
+		return $listings;
 	}
 }

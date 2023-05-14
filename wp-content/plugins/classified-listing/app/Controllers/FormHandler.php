@@ -41,11 +41,11 @@ class FormHandler {
 			$redirect  = isset( $_GET['redirect'] ) ? wp_unslash( $_GET['redirect'] ) : '';
 
 			if ( $order && get_current_user_id() === $order->get_customer_id() ) {
-				$order_can_cancel = $order->has_status( apply_filters( 'rtcl_valid_order_statuses_for_cancel', array(
+				$order_can_cancel = $order->has_status( apply_filters( 'rtcl_valid_order_statuses_for_cancel', [
 					'rtcl-created',
 					'rtcl-pending',
 					'rtcl-failed'
-				), $order ) );
+				], $order ) );
 				if ( $order_can_cancel && hash_equals( $order->get_order_key(), $order_key ) ) {
 
 					// Cancel the order + restore stock.
@@ -120,7 +120,7 @@ class FormHandler {
 				}
 			} else {
 				$gateway          = Functions::get_payment_gateway( 'offline' );
-				$new_payment_args = array(
+				$new_payment_args = [
 					'post_title'  => __( 'Order on', 'classified-listing' ) . ' ' . current_time( "l jS F Y h:i:s A" ),
 					'post_status' => 'rtcl-created',
 					'post_parent' => '0',
@@ -136,7 +136,7 @@ class FormHandler {
 						'_payment_method'       => $gateway->id,
 						'_payment_method_title' => $gateway->method_title,
 					]
-				);
+				];
 				$order_id         = wp_insert_post( apply_filters( 'rtcl_checkout_process_new_order_args', $new_payment_args, $pricing, $gateway, $checkout_data ) );
 				if ( $order_id ) {
 					$payment_process_data = [];
@@ -195,11 +195,11 @@ class FormHandler {
 					throw new \Exception( '<strong>' . __( 'Error:', 'classified-listing' ) . '</strong> ' . __( 'Invalid Captcha: Please try again.', 'classified-listing' ) );
 				}
 
-				$creds            = array(
+				$creds            = [
 					'user_login'    => trim( wp_unslash( $_POST['username'] ) ),
 					'user_password' => $_POST['password'],
 					'remember'      => isset( $_POST['rememberme'] ),
-				);
+				];
 				$validation_error = new \WP_Error();
 				$validation_error = apply_filters( 'rtcl_process_login_errors', $validation_error, $_POST['username'], $_POST['password'] );
 
@@ -254,10 +254,16 @@ class FormHandler {
 		if ( wp_doing_ajax() ) {
 			return false;
 		}
+
 		$nonce_value = isset( $_POST['rtcl-register-nonce'] ) ? $_POST['rtcl-register-nonce'] : null;
 
 		if ( ! empty( $_POST['rtcl-register'] ) && wp_verify_nonce( $nonce_value, 'rtcl-register' ) ) {
 
+			if ( ! Functions::is_registration_enabled() ) {
+				Functions::add_notice( esc_html__( "User registration is disabled", "classified-listing" ), 'error' );
+
+				return false;
+			}
 			$username         = isset( $_POST['username'] ) ? trim( $_POST['username'] ) : '';
 			$password         = isset( $_POST['password'] ) ? trim( $_POST['password'] ) : '';
 			$confirm_password = isset( $_POST['pass2'] ) ? trim( $_POST['pass2'] ) : '';
@@ -344,14 +350,14 @@ class FormHandler {
 	 * Handle reset password form.
 	 */
 	public static function process_reset_password() {
-		$posted_fields = array(
+		$posted_fields = [
 			'rtcl-reset-password',
 			'password_1',
 			'password_2',
 			'reset_key',
 			'reset_login',
 			'_wpnonce'
-		);
+		];
 		foreach ( $posted_fields as $field ) {
 			if ( ! isset( $_POST[ $field ] ) ) {
 				return;

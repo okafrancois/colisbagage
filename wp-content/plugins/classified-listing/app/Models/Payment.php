@@ -462,7 +462,7 @@ class Payment {
 	 */
 	public function set_billing_email( $value ) {
 		if ( $value && ! is_email( $value ) ) {
-			throw new Exception( 'order_invalid_billing_email', __( 'Invalid billing email address', 'classified-listing-pro' ) );
+			throw new Exception( 'order_invalid_billing_email', __( 'Invalid billing email address', 'classified-listing' ) );
 		}
 		$this->set_address_prop( 'email', 'billing', sanitize_email( $value ) );
 	}

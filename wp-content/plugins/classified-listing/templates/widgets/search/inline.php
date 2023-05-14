@@ -29,7 +29,7 @@ $order   = strtoupper( Functions::get_option_item( 'rtcl_general_settings', 'tax
 				<div class="rtcl-geo-address-field">
 					<input type="text" name="geo_address" autocomplete="off"
 						   value="<?php echo ! empty( $_GET['geo_address'] ) ? esc_attr( $_GET['geo_address'] ) : '' ?>"
-						   placeholder="<?php esc_html_e( 'Select a location', 'classified-listing-pro' ) ?>"
+						   placeholder="<?php esc_attr_e( 'Select a location', 'classified-listing' ) ?>"
 						   class="form-control rtcl-geo-address-input"/>
 					<i class="rtcl-get-location rtcl-icon rtcl-icon-target"></i>
 					<input type="hidden" class="latitude" name="center_lat"
@@ -141,14 +141,14 @@ $order   = strtoupper( Functions::get_option_item( 'rtcl_general_settings', 'tax
 				<div class="row">
 					<div class="col-md-6 col-xs-6">
 						<input type="text" name="filters[price][min]" class="form-control"
-							   placeholder="<?php esc_html_e( 'min', 'classified-listing' ); ?>"
+							   placeholder="<?php esc_attr_e( 'min', 'classified-listing' ); ?>"
 							   value="<?php if ( isset( $_GET['filters']['price'] ) ) {
 								   echo esc_attr( $_GET['filters']['price']['min'] );
 							   } ?>">
 					</div>
 					<div class="col-md-6 col-xs-6">
 						<input type="text" name="filters[price][max]" class="form-control"
-							   placeholder="<?php esc_html_e( 'max', 'classified-listing' ); ?>"
+							   placeholder="<?php esc_attr_e( 'max', 'classified-listing' ); ?>"
 							   value="<?php if ( isset( $_GET['filters']['price'] ) ) {
 								   echo esc_attr( $_GET['filters']['price']['max'] );
 							   } ?>">
@@ -160,7 +160,7 @@ $order   = strtoupper( Functions::get_option_item( 'rtcl_general_settings', 'tax
 		<div class="form-group ws-item ws-text col-sm-6">
 			<div class="rt-autocomplete-wrapper">
 				<input type="text" name="q" class="rtcl-autocomplete form-control"
-					   placeholder="<?php esc_html_e( 'Enter your keyword here ...', 'classified-listing' ); ?>"
+					   placeholder="<?php esc_attr_e( 'Enter your keyword here ...', 'classified-listing' ); ?>"
 					   value="<?php if ( isset( $_GET['q'] ) ) {
 						   echo esc_attr( Functions::clean( wp_unslash( $_GET['q'] ) ) );
 					   } ?>">

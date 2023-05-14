@@ -166,7 +166,7 @@ class SingleLocation extends ElementorWidgetBase {
 			array(
 				'mode'  => 'tab_start',
 				'id'    => 'rtcl_location_overlay_tab_normal',
-				'label' => esc_html__( 'Normal', 'elementor' ),
+				'label' => esc_html__( 'Normal', 'classified-listing' ),
 			),
 
 			array(
@@ -184,7 +184,7 @@ class SingleLocation extends ElementorWidgetBase {
 			array(
 				'mode'  => 'tab_start',
 				'id'    => 'rtcl_location_overlay_tab_hover',
-				'label' => esc_html__( 'Hover', 'elementor' ),
+				'label' => esc_html__( 'Hover', 'classified-listing' ),
 			),
 
 			array(
@@ -287,7 +287,7 @@ class SingleLocation extends ElementorWidgetBase {
 			array(
 				'mode'  => 'tab_start',
 				'id'    => 'rtcl_location_icon_normal',
-				'label' => esc_html__( 'Normal', 'elementor' ),
+				'label' => esc_html__( 'Normal', 'classified-listing' ),
 			),
 
 			array(
@@ -311,7 +311,7 @@ class SingleLocation extends ElementorWidgetBase {
 
 			array(
 				'id'         => 'icon_rotation',
-				'label'      => esc_html__( 'Icon Rotate', 'elementor' ),
+				'label'      => esc_html__( 'Icon Rotate', 'classified-listing' ),
 				'type'       => Controls_Manager::SLIDER,
 				'size_units' => array( 'deg' ),
 				'range'      => array(
@@ -336,7 +336,7 @@ class SingleLocation extends ElementorWidgetBase {
 			array(
 				'mode'  => 'tab_start',
 				'id'    => 'rtcl_location_icon_hover',
-				'label' => esc_html__( 'Hover', 'elementor' ),
+				'label' => esc_html__( 'Hover', 'classified-listing' ),
 			),
 
 			array(
@@ -359,7 +359,7 @@ class SingleLocation extends ElementorWidgetBase {
 			),
 			array(
 				'id'         => 'icon_rotation_hover',
-				'label'      => esc_html__( 'Icon Rotate', 'elementor' ),
+				'label'      => esc_html__( 'Icon Rotate', 'classified-listing' ),
 				'type'       => Controls_Manager::SLIDER,
 				'size_units' => array( 'deg' ),
 				'range'      => array(
