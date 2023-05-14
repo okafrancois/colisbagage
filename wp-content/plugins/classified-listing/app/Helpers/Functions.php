@@ -1746,7 +1746,7 @@ class Functions {
 					if ( true ) {
 						$options_html .= sprintf(
 							'<option value="">%s</option>',
-							'- ' . esc_html__( 'Select an Option', 'classified-listing' ) . ' -'
+							'- ' . esc_html__( $field->getLabel(), 'classified-listing' ) . ' -'
 						);
 					}
 					if ( ! empty( $choices ) ) {
