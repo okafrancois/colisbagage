@@ -23,3 +23,6 @@ if ( ! defined( 'ABSPATH' ) ) {
     }
     ?>
 </div>
+<div class="rtcl-result-ad-block">
+
+</div>
