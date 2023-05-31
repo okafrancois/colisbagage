@@ -9,10 +9,11 @@
  * @var int    $post_id
  */
 
-?>
+use Rtcl\Helpers\Functions;
 
-<div class="rtcl rtcl-user rtcl-post-form-wrap">
-    <?php do_action("rtcl_listing_form_before", $post_id); ?>
+?>
+<?php $type = get_post_meta( $post_id, 'ad_type', true ); ?>
+<div class="rtcl rtcl-user rtcl-post-form-wrap post-type-<?php echo $type ?>">
     <form action="" method="post" id="rtcl-post-form" class="form-vertical">
         <?php do_action("rtcl_listing_form_start", $post_id); ?>
         <div class="rtcl-post">
